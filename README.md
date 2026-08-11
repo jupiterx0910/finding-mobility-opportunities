@@ -4,7 +4,7 @@
 
 An evidence-driven opportunity discovery system for people moving from **employment to ownership**: B2B salespeople, cross-border operators, industrial technicians, procurement and supply-chain professionals, domain operators using AI, growth operators, creators, merchants, engineers and small teams.
 
-**Latest: v8.0** · [简体中文](README.zh-CN.md)
+**Latest: v8.1** · [简体中文](README.zh-CN.md)
 
 ```text
 Human Capital → Cash Flow → Owned Capital
@@ -16,7 +16,7 @@ Most opportunity analysis asks:
 
 Opportunity Radar asks:
 
-> **What changed? Who is closest to that change? Who will actually pay? Where will the profit pool settle? Can this specific operator enter cheaply, prove recurrence, and convert personal capability into an owned asset?**
+> **What changed? Who is closest to that change? Who will actually pay? Where will the profit pool settle? How strong is the evidence? Is the entry window still open? Can this operator test cheaply and convert personal capability into an owned asset?**
 
 ---
 
@@ -26,7 +26,7 @@ Opportunity Radar asks:
 npx skills add https://github.com/jupiterx0910/finding-mobility-opportunities
 ```
 
-The repository follows the Agent Skills structure: `SKILL.md` contains the operating procedure; deeper logic, cases, scorecards and examples live in `references/`, `cases/` and `examples/`.
+The repository follows the Agent Skills structure: `SKILL.md` contains the operating procedure; deeper logic, cases, scorecards and examples live in `references/`, `docs/`, `cases/`, `examples/` and `radar/`.
 
 ---
 
@@ -40,6 +40,7 @@ A modest market can be life-changing when:
 - a structural change opens a new entry window;
 - your existing skill, customer access, supplier access, geography or tacit knowledge is suddenly repriced upward;
 - a clear payer already has budget;
+- the evidence is strong enough for the size of the bet;
 - the first commercial test is cheap and reversible;
 - repeated work can become systems, data, software, product, brand, channel, network or equity.
 
@@ -72,13 +73,19 @@ Person × Change × Evidence × Payer × Power × Ownership × Timing
         ↓
 9. Operator-Specific Fit
         ↓
-10. 30–60 Day Paid Pilot
+10. Evidence Coverage + Confidence
         ↓
-11. Recurrence
+11. Why-Not-Yet + Opportunity Window
         ↓
-12. Assetization
+12. 30–60 Day Paid Pilot
         ↓
-13. Real Option: Add / Hold / Kill
+13. Recurrence
+        ↓
+14. Assetization
+        ↓
+15. Real Option: Add / Hold / Kill
+        ↓
+16. Decision Ledger: did reality agree later?
 ```
 
 The order matters because each step eliminates a different false positive.
@@ -94,10 +101,13 @@ The order matters because each step eliminates a different false positive.
 | Economic Quality | Does the story survive margin, retention, CAC, cash-flow and concentration scrutiny? | Removes growth that is bought, rented or subsidized. |
 | Power Pool | Who can keep the profit after competition arrives? | Value creation and value capture are different. |
 | Operator Fit | Why can this person enter better than an average outsider? | A 95/100 industry can still be a 30/100 personal opportunity. |
+| Evidence Confidence | How much of the important evidence has actually been observed, and how trustworthy is it? | Stops a precise score from creating fake certainty. |
+| Why-Not-Yet / Window | If this is so attractive, why is it still open — and how fast is that advantage disappearing? | Kills obvious-looking ideas with hidden structural blockers or closing windows. |
 | Paid Pilot | Can reality be tested in 30–60 days without betting the company? | Replaces conviction with a reversible experiment. |
 | Recurrence | Why will the same payer pay again? | One sale is not a durable business. |
 | Assetization | What remains valuable if the founder stops working for 30 days? | Separates self-employment from ownership. |
 | Real Option | What evidence earns the right to invest more, and what kills the thesis? | Prevents both endless analysis and premature all-in bets. |
+| Decision Ledger | Did the original thesis survive later evidence? | Prevents hindsight rewriting. |
 
 Read [The Reasoning Chain](references/reasoning-chain.md) for the full causal explanation.
 
@@ -136,6 +146,14 @@ High-potential transition archetypes often include:
 
 Read [Career-to-Founder Transition Lens](references/career-to-founder-transition.md).
 
+## Career → Founder Transition Map 2026
+
+v8.1 turns that lens into a broader occupational map. It compares generic career archetypes on payer proximity, transaction frequency, tacit knowledge, supplier/channel access, legal portability, low-cost testability, recurrence and assetization potential.
+
+The map is intentionally **not** a startup-success probability ranking. It asks a narrower question: which occupations have lower friction to first independent revenue?
+
+See **[Career → Founder Transition Map 2026](docs/career-to-founder-map-2026.md)**.
+
 ---
 
 # Why This Goes Beyond a Typical Opportunity Analysis
@@ -153,13 +171,13 @@ The difference is the end-to-end decision chain.
 | Lean Startup | experiment and learning loops | does not by itself choose which structural opening deserves the experiment |
 | JTBD | understanding customer progress | does not by itself locate timing, founder access or durable value capture |
 | Business Model Canvas | describing a business model | a weak opportunity can still produce a beautiful canvas |
-| **Opportunity Radar** | linking **change → evidence → career edge → payer → power → pilot → recurrence → ownership** | intentionally broad; specialist tools remain useful inside each layer |
+| **Opportunity Radar** | linking **change → evidence → career edge → payer → power → confidence → timing → pilot → recurrence → ownership** | intentionally broad; specialist tools remain useful inside each layer |
 
 The claim is therefore not “one framework replaces everything.”
 
 It is:
 
-> **Most frameworks analyze one layer. Opportunity Radar links the layers into a falsifiable ownership decision.**
+> **Most frameworks analyze one layer. Opportunity Radar links the layers into a falsifiable ownership decision — and keeps a ledger so the decision can be judged later.**
 
 Read [Framework Comparison](references/framework-comparison.md).
 
@@ -219,23 +237,80 @@ Backtests are not proof that the framework predicts winners. They test whether t
 
 ---
 
-# Monthly Opportunity Radar
+# Score ≠ Confidence
+
+v8.1 adds a separate evidence layer.
+
+A thesis can look attractive and still be weakly evidenced.
+
+Prefer this readout:
+
+```text
+Signal Confirmation Score   76/100
+Mobility Opportunity Score  84/100
+Evidence Coverage           61%
+Confidence                  Medium
+Weakest Link                repeat purchase not observed
+Key Unknown                 whether budget survives after pilot
+```
+
+The important distinction is:
+
+```text
+Opportunity Score
+≠ Evidence Coverage
+≠ Evidence Quality
+≠ Confidence
+```
+
+If the score is high but coverage is low, the correct action is usually **BUY A SMALL REAL OPTION**, not START.
+
+Read [Evidence Coverage & Confidence](references/evidence-confidence.md).
+
+---
+
+# Why-Not-Yet + Opportunity Window
+
+A good idea must survive two timing questions:
+
+> **If this is so good, why has it not already been solved?**
+
+and:
+
+> **How long will the unusual entry advantage remain open?**
+
+Opportunity Radar classifies the window as:
+
+```text
+Opening → Expanding → Crowding → Consolidating → Closed to generalists
+```
+
+The framework actively searches for the strongest hostile explanation: weak willingness to pay, expensive integration, long sales cycles, liability, platform bundling, supply elasticity or an inaccessible Power Pool.
+
+Read [Opportunity Window & Why-Not-Yet Test](references/window-and-why-not-yet.md).
+
+---
+
+# Monthly Opportunity Radar + Decision Ledger
 
 The [August 2026 Radar](radar/2026-08.md) is a dated watchlist, not a “hot sector” ranking.
 
-Every entry must include:
+Every entry must include geography, structural change, payer hypothesis, founder archetypes, Power Pool, leading indicators, confirmation indicators, kill criteria, unknowns and confidence.
 
-- geography and as-of date;
-- the structural change;
-- payer hypothesis;
-- best-fit founder archetypes;
-- Power Pool hypothesis;
-- leading indicators;
-- confirmation indicators;
-- kill criteria;
-- unknowns and confidence.
+v8.1 adds an **append-only [Opportunity Decision Ledger](radar/decision-ledger.md)**. Old judgments are not silently rewritten when reality changes.
 
-The purpose is to create a public decision log that later editions can **confirm, downgrade or kill**.
+```text
+Original thesis
+→ dated evidence
+→ OPEN
+→ UPGRADED / DOWNGRADED / CONFIRMED / KILLED
+```
+
+A machine-readable snapshot is available in [`radar/opportunities.json`](radar/opportunities.json).
+
+The goal is to create a public record that can later answer:
+
+> **What did we believe before the outcome was known — and did we update when reality disagreed?**
 
 ---
 
@@ -256,6 +331,8 @@ Looks at founder edge, payer access, affordable entry, time to cash, leverage, a
 ```text
 Good industry ≠ Good company ≠ Good investment ≠ Good startup for this person
 ```
+
+Read [Scorecards](references/scorecards.md).
 
 ---
 
@@ -287,13 +364,15 @@ A substantive run should produce:
 6. 3–7 concrete businesses, not vague sectors;
 7. user / beneficiary / buyer / payer architecture;
 8. Signal Confirmation Score + Mobility Opportunity Score;
-9. Power Pool and surplus-capture analysis;
-10. unit economics + first-sale plan;
-11. recurrence mechanism;
-12. assetization path;
-13. leading / confirmation / kill criteria;
-14. weakest-link analysis;
-15. final verdict: **START / BUY A REAL OPTION / WATCH / REJECT**.
+9. Evidence Coverage + Confidence + Key Unknowns;
+10. Power Pool and surplus-capture analysis;
+11. Why-Not-Yet Test + Opportunity Window;
+12. unit economics + first-sale plan;
+13. recurrence mechanism;
+14. assetization path;
+15. leading / confirmation / kill criteria;
+16. weakest-link analysis;
+17. final verdict: **START / BUY A REAL OPTION / WATCH / REJECT**.
 
 ---
 
@@ -306,10 +385,17 @@ A substantive run should produce:
 ├── SKILL.md
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
+├── docs/
+│   └── career-to-founder-map-2026.md
 ├── references/
+│   ├── evidence-confidence.md
+│   └── window-and-why-not-yet.md
 ├── examples/
 ├── cases/
 ├── radar/
+│   ├── 2026-08.md
+│   ├── decision-ledger.md
+│   └── opportunities.json
 ├── scripts/
 ├── tests/
 └── .github/workflows/
@@ -322,16 +408,19 @@ A substantive run should produce:
 - **Evidence before narrative.** A good story is not a signal.
 - **Payment before popularity.** Users and payers may be different people.
 - **Career edge before prestige.** Founder-market fit comes from real access, not title.
+- **Score before certainty? Never.** A number is not a probability; coverage and confidence must travel with it.
 - **Power before TAM worship.** Large value pools do not guarantee accessible profit pools.
+- **Window before urgency theater.** A closing window cannot rescue a bad position.
 - **Pilot before product.** Buy information cheaply before committing capital.
 - **Recurrence before scale.** One sale is not a business model.
 - **Assetization before vanity growth.** The goal is ownership, not merely a busier job.
 - **Kill criteria before conviction.** A thesis should be able to die.
 - **Backtest before boasting.** Do not rewrite history around winners.
+- **Ledger before hindsight.** Preserve old judgments and show updates.
 - **Synthetic public examples only.** Never turn private user context into public repository content.
 
 ---
 
 ## One Sentence
 
-> **Opportunity Radar finds structural change, identifies the careers and operators closest to it, verifies real payment and value capture, and converts the thesis into the cheapest paid test that can eventually become owned capital.**
+> **Opportunity Radar finds structural change, identifies the careers and operators closest to it, measures evidence and timing, verifies real payment and value capture, then converts the thesis into the cheapest paid test that can eventually become owned capital — while keeping a public record of whether the thesis survived reality.**
