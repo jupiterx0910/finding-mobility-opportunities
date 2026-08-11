@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-08-11",
+  "notes": [
+    "This dataset records Opportunity Radar judgments, not investment advice or statistical success probabilities.",
+    "Null evidence_coverage values mean the metric has not yet been systematically calculated. Do not backfill fake precision.",
+    "Historical reviews should be appended rather than silently rewriting prior decisions."
+  ],
+  "opportunities": [
+    {
+      "id": "OR-2026-08-01",
+      "slug": "enterprise-agent-production-governance-evaluation",
+      "first_seen": "2026-08-11",
+      "geography": "global-enterprise",
+      "stage": "S2-S3",
+      "initial_verdict": "BUY_A_REAL_OPTION",
+      "current_verdict": "BUY_A_REAL_OPTION",
+      "status": "OPEN",
+      "confidence": "medium-high",
+      "evidence_coverage": null,
+      "best_fit_archetypes": [
+        "domain-operator-plus-ai",
+        "enterprise-integrator",
+        "security-compliance-operator"
+      ],
+      "payer_hypotheses": [
+        "CIO or IT transformation budget",
+        "business-function owner",
+        "security or governance budget",
+        "customer-operations budget"
+      ],
+      "main_power_hypotheses": [
+        "deep workflow integration",
+        "proprietary evaluation data",
+        "domain-specific guardrails",
+        "trusted deployment history",
+        "accumulated business context and outcome data"
+      ],
+      "source_file": "radar/2026-08.md"
+    },
+    {
+      "id": "OR-2026-08-02",
+      "slug": "lightweight-ai-services-manufacturing-smes",
+      "first_seen": "2026-08-11",
+      "geography": "china",
+      "stage": "S2-S3",
+      "initial_verdict": "BUY_A_REAL_OPTION",
+      "current_verdict": "BUY_A_REAL_OPTION",
+      "status": "OPEN",
+      "confidence": "medium-high",
+      "evidence_coverage": null,
+      "best_fit_archetypes": [
+        "manufacturing-domain-operator-plus-ai",
+        "industrial-software-automation",
+        "integrator"
+      ],
+      "payer_hypotheses": [
+        "factory owner or general manager",
+        "operations budget",
+        "digital-transformation budget",
+        "department budget replacing manual labor or service"
+      ],
+      "main_power_hypotheses": [
+        "deep vertical workflow knowledge",
+        "proprietary process or evaluation data",
+        "integration into factory systems",
+        "trusted local delivery",
+        "repeatable small-fast-light-precise packages"
+      ],
+      "source_file": "radar/2026-08.md"
+    },
+    {
+      "id": "OR-2026-08-03",
+      "slug": "embodied-ai-field-deployment-data-integration",
+      "first_seen": "2026-08-11",
+      "geography": "china-global-robotics",
+      "stage": "S2-S3",
+      "initial_verdict": "BUY_A_REAL_OPTION",
+      "current_verdict": "BUY_A_REAL_OPTION",
+      "status": "OPEN",
+      "confidence": "medium",
+      "evidence_coverage": null,
+      "best_fit_archetypes": [
+        "industrial-technician",
+        "automation-integrator",
+        "data-simulation-operator"
+      ],
+      "payer_hypotheses": [
+        "industrial user unit",
+        "robot manufacturer or integrator",
+        "application-validation budget",
+        "deployment or operations budget"
+      ],
+      "main_power_hypotheses": [
+        "hard-to-replicate field data",
+        "high-value scenario know-how",
+        "deployment reliability history",
+        "production-process integration",
+        "maintenance and safety service network"
+      ],
+      "source_file": "radar/2026-08.md"
+    },
+    {
+      "id": "OR-2026-08-04",
+      "slug": "cross-border-compliance-localization-managed-operations",
+      "first_seen": "2026-08-11",
+      "geography": "china-outbound-global",
+      "stage": "S3",
+      "initial_verdict": "BUY_A_REAL_OPTION",
+      "current_verdict": "BUY_A_REAL_OPTION",
+      "status": "OPEN",
+      "confidence": "medium-high",
+      "evidence_coverage": null,
+      "best_fit_archetypes": [
+        "cross-border-operator",
+        "trade-compliance-operator",
+        "sourcing-logistics-operator"
+      ],
+      "payer_hypotheses": [
+        "exporter or brand owner",
+        "cross-border merchant",
+        "overseas operating entity",
+        "trade or market-entry budget"
+      ],
+      "main_power_hypotheses": [
+        "trusted local execution",
+        "country and category specialization",
+        "recurring compliance workflow",
+        "supplier or customer network",
+        "performance data",
+        "integrated fulfillment and after-sales capability"
+      ],
+      "source_file": "radar/2026-08.md"
+    }
+  ]
+}
