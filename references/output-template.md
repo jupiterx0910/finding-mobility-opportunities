@@ -45,12 +45,11 @@
 - **As of:** YYYY-MM-DD
 - **Geography:**
 - **Stage:** S0 / S1 / S2 / S3 / S4 / S5 / S6
-- **Confidence:** High / Medium / Low
 - **Why:**
 
 ## 5. Signal Radar
 
-| Lens | Evidence | Leading / Confirming / Counter | Why it matters | Direction | Confidence |
+| Lens | Evidence | Grade A/B/C/D | Leading / Confirming / Counter | Why it matters | Direction |
 |---|---|---|---|---|---|
 | Desire | | | | | |
 | Power Redistribution | | | | | |
@@ -76,13 +75,22 @@
 | User | Beneficiary | Buyer | Payer | Existing alternative | Offer | Price hypothesis | ROI hypothesis |
 |---|---|---|---|---|---|---|---|
 
-## 8. Scores
+## 8. Scores & Evidence Confidence
 
 - **Signal Confirmation Score:** X/100
 - **Mobility Opportunity Score:** X/100
+- **Evidence Coverage:** X%
+- **Evidence Quality:** mostly A / B / C / D
+- **Confidence:** High / Medium / Low
 - **Hard veto triggered:** Yes / No
 - **Weakest link:**
 - **Stage effect / uncertainty caveat:**
+
+### Key Unknowns
+
+| Unknown | Why it matters | Cheapest evidence | Trigger / deadline |
+|---|---|---|---|
+| | | | |
 
 ## 9. Power Pool
 
@@ -92,7 +100,22 @@
 - **Who controls scarce supply / standards / data / workflow:**
 - **Can this operator reach the Power Pool? How?**
 
-## 10. Unit Economics
+## 10. Why-Not-Yet Test
+
+- **Why has this not already been fully solved?**
+- **Best benign explanation:**
+- **Best hostile explanation:**
+- **Evidence that distinguishes them:**
+
+## 11. Opportunity Window
+
+- **Window stage:** Opening / Expanding / Crowding / Consolidating / Closed to generalists
+- **Estimated half-life / range, only if evidence supports it:**
+- **Confidence:**
+- **Main closing mechanism:**
+- **What must be built before the window closes:**
+
+## 12. Unit Economics
 
 - `T` target owner income:
 - `F` fixed operating cost:
@@ -100,7 +123,7 @@
 - `CM` contribution margin:
 - `Required customers = ceil((T + F) / (P × CM))`
 
-## 11. First Sale
+## 13. First Sale
 
 - 10 reachable prospects:
 - 30–60 day paid pilot / first order:
@@ -110,11 +133,11 @@
 - Payment amount / condition:
 - Conversion / reorder condition:
 
-## 12. Recurrence
+## 14. Recurrence
 
 Why does the same payer pay again?
 
-## 13. Assetization
+## 15. Assetization
 
 `expertise → service → SOP → automation/agent → proprietary data → software/product/network/brand/channel/equity`
 
@@ -122,7 +145,7 @@ Why does the same payer pay again?
 - **Next asset:**
 - **Proof it compounds:**
 
-## 14. Evidence Thresholds
+## 16. Evidence Thresholds
 
 ### Leading Indicators
 - 
@@ -133,7 +156,7 @@ Why does the same payer pay again?
 ### Kill Criteria
 - 
 
-## 15. Verdict
+## 17. Verdict
 
 **START / BUY A REAL OPTION / WATCH / REJECT**
 
@@ -142,3 +165,5 @@ Why does the same payer pay again?
 **Cheapest useful next test:**
 
 **Next irreversible commitment, if any:**
+
+**What evidence would change the verdict:**
