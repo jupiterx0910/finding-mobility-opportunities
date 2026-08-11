@@ -3,7 +3,7 @@ name: finding-mobility-opportunities
 description: Use when evaluating startup ideas, emerging industries, career-to-founder transitions, founder-market fit, side businesses, small-business opportunities, or whether a specific person or team has a realistic path to build an owned business from existing skills, customer access, supplier access, geography, audience, relationships, capital, or unusual exposure.
 metadata:
   author: jupiterx0910
-  version: "8.0.0"
+  version: "8.1.0"
 ---
 
 # Finding Mobility Opportunities — Opportunity Radar
@@ -36,7 +36,7 @@ Private context may help answer the current user privately, but it is not public
 
 The sequence is causal, not decorative:
 
-`Need → Change → Career-to-Founder Fit → Early Signals → Payment → Industry Formation → Power → Operator Fit → Pilot → Recurrence → Assetization → Real Option`
+`Need → Change → Career-to-Founder Fit → Early Signals → Payment → Industry Formation → Power → Operator Fit → Evidence Confidence → Window → Pilot → Recurrence → Assetization → Real Option`
 
 Each step removes a different false positive:
 
@@ -48,6 +48,8 @@ Each step removes a different false positive:
 - **Industry formation** removes isolated products that are not becoming ecosystems.
 - **Power** removes attractive markets where someone else captures the surplus.
 - **Operator fit** removes great industries the operator cannot realistically enter.
+- **Evidence Confidence** stops precise scores from hiding sparse or weak evidence.
+- **Window** distinguishes a good business from a still-open entry window.
 - **Pilot** removes ideas that cannot be tested cheaply.
 - **Recurrence** removes one-off consulting or novelty purchases.
 - **Assetization** removes businesses that only sell the founder's hours.
@@ -58,7 +60,7 @@ Read `references/reasoning-chain.md` when explaining the logic to a human or def
 ## Workflow
 
 1. **Map the operator before the market.** Identify transaction proximity, tacit knowledge, payer access, supplier access, selling ability, trust, existing assets, geography, affordable loss and likely entrepreneur archetype. Read `references/operator-archetypes.md`.
-2. **Run the Career-to-Founder Transition Lens.** Read `references/career-to-founder-transition.md`. Ask whether the operator's current role has accumulated portable customers, recurring pain knowledge, suppliers, channels, credibility, workflow knowledge, data or distribution.
+2. **Run the Career-to-Founder Transition Lens.** Read `references/career-to-founder-transition.md`. Ask whether the operator's current role has accumulated portable customers, recurring pain knowledge, suppliers, channels, credibility, workflow knowledge, data or distribution. For broad occupational comparison, use `docs/career-to-founder-map-2026.md`.
 3. **Identify the structural need.** Ask whether the underlying human/economic need would remain if the current technology or platform disappeared.
 4. **Find the change that opens a window.** Look for cost collapse, capability downshift, power redistribution, new distribution, new regulation/payment rails, adjacent-skill repricing, new infrastructure or a new bottleneck.
 5. **Stage the industry.** Use `S0 idea → S1 product → S2 talent build → S3 payer/revenue → S4 private scale → S5 IPO pipeline → S6 public validation`.
@@ -67,12 +69,15 @@ Read `references/reasoning-chain.md` when explaining the logic to a human or def
 8. **Separate User / Beneficiary / Buyer / Payer.** Payment evidence outranks attention, search volume, downloads and funding.
 9. **Generate concrete businesses, not sectors.** Every candidate must name customer, pain, offer, why-now, why-this-operator and first-sale route.
 10. **Score twice.** Read `references/scorecards.md`: Signal Confirmation Score measures external reality; Mobility Opportunity Score measures operator-specific fit.
-11. **Locate the Power Pool.** Identify who controls price, distribution, standards, scarce resources, customer relationship, switching cost, data or another source of surplus capture.
-12. **Apply hard vetoes.** Reject unaffordable capital/licensing, inaccessible Power Pools, weak payer validation, destructive regulatory/externality debt, hyper-elastic supply, or businesses with no credible ownership transition.
-13. **Sell before building.** Read `references/business-design.md`: start with a 30–60 day paid pilot, prove measurable value and recurrence, then standardize.
-14. **Design assetization.** Target `expertise → service → SOP → automation/agent → proprietary data → software/product/network/brand/channel/equity`.
-15. **Use Real Options.** Pre-write affordable loss, Leading Indicators, Confirmation Indicators and Kill Criteria. Increase exposure only when evidence improves.
-16. **Return one verdict:** **START / BUY A REAL OPTION / WATCH / REJECT**.
+11. **Measure evidence confidence separately.** Read `references/evidence-confidence.md`. Report Evidence Coverage, evidence quality, Confidence, Key Unknowns and Weakest Link. Never turn an 82/100 score into “82% chance of success.”
+12. **Locate the Power Pool.** Identify who controls price, distribution, standards, scarce resources, customer relationship, switching cost, data or another source of surplus capture.
+13. **Run Why-Not-Yet + Window tests.** Read `references/window-and-why-not-yet.md`. Ask why the opportunity is still open, identify the strongest hostile explanation, and classify the window as Opening / Expanding / Crowding / Consolidating / Closed to generalists.
+14. **Apply hard vetoes.** Reject unaffordable capital/licensing, inaccessible Power Pools, weak payer validation, destructive regulatory/externality debt, hyper-elastic supply, structural Why-Not-Yet blockers, or businesses with no credible ownership transition.
+15. **Sell before building.** Read `references/business-design.md`: start with a 30–60 day paid pilot, prove measurable value and recurrence, then standardize.
+16. **Design assetization.** Target `expertise → service → SOP → automation/agent → proprietary data → software/product/network/brand/channel/equity`.
+17. **Use Real Options.** Pre-write affordable loss, Leading Indicators, Confirmation Indicators and Kill Criteria. Increase exposure only when evidence improves.
+18. **Return one verdict:** **START / BUY A REAL OPTION / WATCH / REJECT**.
+19. **If maintaining a public Radar, append rather than rewrite.** Use `radar/decision-ledger.md` and `radar/opportunities.json`; preserve old judgments and add dated review events.
 
 ## Career-to-Founder Transition Heuristics
 
@@ -102,13 +107,17 @@ For current-market analysis:
 - never convert missing evidence into a precise score without marking uncertainty;
 - explain **why each signal matters**, not only what the signal says;
 - explicitly state the weakest link in the chain;
-- show what evidence would change the conclusion.
+- list decision-relevant unknowns and the cheapest evidence that could resolve them;
+- show what evidence would change the conclusion;
+- actively search for the strongest reason the opportunity may **not** work.
 
 If current evidence cannot be verified, say so explicitly.
 
 ## Critical Distinctions
 
 - good industry ≠ good company ≠ good investment ≠ good opportunity for this person
+- score ≠ probability
+- opportunity score ≠ evidence coverage ≠ confidence
 - entrepreneur ≠ corporate executive
 - career prestige ≠ founder transition quality
 - attention ≠ payment
@@ -117,6 +126,7 @@ If current evidence cannot be verified, say so explicitly.
 - GMV ≠ revenue quality
 - funding ≠ customer value
 - regulatory latency ≠ moat
+- urgent window ≠ good opportunity
 - profitable self-employment ≠ owned capital
 - big success ≠ only valid success
 - prediction ≠ commitment; use Real Options
@@ -133,13 +143,15 @@ Use `references/output-template.md` and return, in order:
 6. 3–7 concrete business candidates
 7. User / beneficiary / buyer / payer architecture
 8. Signal Confirmation Score + Mobility Opportunity Score
-9. Power Pool and surplus-capture logic
-10. Unit economics and first-sale plan
-11. Recurrence mechanism
-12. Assetization path
-13. Leading / confirmation / kill criteria
-14. Weakest-link analysis
-15. Final verdict: **START / BUY A REAL OPTION / WATCH / REJECT**
+9. Evidence Coverage + Confidence + Key Unknowns
+10. Power Pool and surplus-capture logic
+11. Why-Not-Yet Test + Opportunity Window
+12. Unit economics and first-sale plan
+13. Recurrence mechanism
+14. Assetization path
+15. Leading / confirmation / kill criteria
+16. Weakest-link analysis
+17. Final verdict: **START / BUY A REAL OPTION / WATCH / REJECT**
 
 ## References
 
@@ -149,9 +161,12 @@ Read only what the task needs:
 - `references/framework-comparison.md` — comparison with common strategy/startup frameworks
 - `references/operator-archetypes.md` — entrepreneur origins and operator edge
 - `references/career-to-founder-transition.md` — which careers are closest to ownership transition and why
+- `docs/career-to-founder-map-2026.md` — 2026 occupational transition-readiness map
 - `references/signal-lenses.md` — evidence stack
 - `references/youth-campus-lens.md` — early youth/campus signals
 - `references/scorecards.md` — dual scoring and hard vetoes
+- `references/evidence-confidence.md` — coverage, quality, confidence and unknowns
+- `references/window-and-why-not-yet.md` — timing, half-life and hostile explanation tests
 - `references/business-design.md` — pilot, recurrence and assetization
 - `references/output-template.md` — standard deliverable
 - `references/recommended-reading.md` — three-book startup reading path
