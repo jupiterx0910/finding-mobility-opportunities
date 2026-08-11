@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from pathlib import Path
 import sys
 
@@ -11,6 +12,7 @@ REQUIRED_FILES = [
     "SKILL.md",
     "CONTRIBUTING.md",
     "CHANGELOG.md",
+    "docs/career-to-founder-map-2026.md",
     "references/reasoning-chain.md",
     "references/framework-comparison.md",
     "references/operator-archetypes.md",
@@ -18,11 +20,15 @@ REQUIRED_FILES = [
     "references/signal-lenses.md",
     "references/youth-campus-lens.md",
     "references/scorecards.md",
+    "references/evidence-confidence.md",
+    "references/window-and-why-not-yet.md",
     "references/business-design.md",
     "references/output-template.md",
     "references/recommended-reading.md",
     "radar/README.md",
     "radar/2026-08.md",
+    "radar/decision-ledger.md",
+    "radar/opportunities.json",
 ]
 
 REQUIRED_EXAMPLES = [
@@ -58,9 +64,11 @@ def main() -> int:
         errors.append("SKILL.md must start with YAML frontmatter")
     for token in [
         "name: finding-mobility-opportunities",
-        'version: "8.0.0"',
+        'version: "8.1.0"',
         "Public-Example Safety Rule",
         "Career-to-Founder Transition",
+        "Evidence Coverage",
+        "Why-Not-Yet",
         "START / BUY A REAL OPTION / WATCH / REJECT",
     ]:
         if token not in skill:
@@ -76,6 +84,8 @@ def main() -> int:
         "Human Capital → Cash Flow → Owned Capital",
         "Career-to-Founder Transition Lens",
         "Public Example Policy",
+        "Score ≠ Confidence",
+        "Opportunity Decision Ledger",
         "Synthetic public examples only",
     ]:
         if token not in readme:
@@ -91,6 +101,48 @@ def main() -> int:
     ]:
         if token not in transition:
             errors.append(f"career-to-founder lens missing section: {token}")
+
+    confidence = read("references/evidence-confidence.md")
+    for token in [
+        "Opportunity Score",
+        "Evidence Coverage",
+        "Evidence Quality",
+        "Confidence",
+        "Key Unknown",
+    ]:
+        if token not in confidence:
+            errors.append(f"evidence-confidence missing token: {token}")
+
+    window = read("references/window-and-why-not-yet.md")
+    for token in [
+        "Why-Not-Yet Test",
+        "Opening",
+        "Crowding",
+        "Consolidating",
+        "Opportunity Half-Life",
+    ]:
+        if token not in window:
+            errors.append(f"window logic missing token: {token}")
+
+    ledger = read("radar/decision-ledger.md")
+    for token in ["OPEN", "UPGRADED", "DOWNGRADED", "KILLED"]:
+        if token not in ledger:
+            errors.append(f"decision ledger missing status: {token}")
+
+    try:
+        dataset = json.loads(read("radar/opportunities.json"))
+        opportunities = dataset.get("opportunities", [])
+        if len(opportunities) < 1:
+            errors.append("radar/opportunities.json must contain at least one opportunity")
+        ids = [item.get("id") for item in opportunities]
+        if None in ids or len(ids) != len(set(ids)):
+            errors.append("opportunity IDs must be present and unique")
+        for item in opportunities:
+            for key in ["first_seen", "stage", "current_verdict", "status", "confidence"]:
+                if key not in item:
+                    errors.append(f"opportunity {item.get('id')} missing key: {key}")
+    except json.JSONDecodeError as exc:
+        errors.append(f"invalid radar/opportunities.json: {exc}")
 
     if errors:
         for error in errors:
