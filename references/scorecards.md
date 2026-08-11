@@ -2,6 +2,8 @@
 
 Use two separate 100-point scores. Never collapse external evidence and personal fit into one number.
 
+Also never confuse a score with confidence. Read `evidence-confidence.md` and report **Evidence Coverage + Confidence** next to the scores.
+
 # 1. Signal Confirmation Score — 100
 
 | Factor | Weight |
@@ -68,16 +70,64 @@ When useful, score each 0–5:
 - recurrence;
 - assetization potential.
 
+For broader occupational comparison, use `docs/career-to-founder-map-2026.md` and its weighted Transition Readiness rubric.
+
 Do not interpret this as a statistical probability of startup success. The purpose is to locate friction and the weakest link.
+
+# Evidence Coverage & Confidence
+
+Always distinguish:
+
+```text
+Score ≠ Coverage ≠ Quality ≠ Confidence
+```
+
+Preferred readout:
+
+```text
+Signal Confirmation Score   76/100
+Mobility Opportunity Score  84/100
+Evidence Coverage           61%
+Confidence                  Medium
+Weakest Link                repeat purchase not observed
+Key Unknown                 whether budget survives after pilot
+```
+
+Coverage is calculated from how much of the applicable evidence stack has actually been observed. Confidence is a judgment about how much the current conclusion deserves trust.
+
+Rules:
+
+- a high score with low coverage does **not** justify START;
+- do not convert `82/100` into “82% probability of success”;
+- payer, recurrence, legal portability and Power Pool assumptions deserve extra scrutiny;
+- one fatal unknown can override an otherwise broad evidence base;
+- when evidence is weak, reduce position size and buy information cheaply.
+
+Read `references/evidence-confidence.md` for the full method.
 
 # Decision Matrix
 
-| Signal Confirmation | Mobility Opportunity | Default |
-|---|---|---|
-| High | High | START / SCALE |
-| High | Low | work there, invest, or sell picks-and-shovels rather than start the core business |
-| Low | High | BUY A SMALL REAL OPTION / paid pilot |
-| Low | Low | REJECT |
+| Signal Confirmation | Mobility Opportunity | Evidence | Default |
+|---|---|---|---|
+| High | High | High | START / SCALE cautiously |
+| High | High | Low/Medium | BUY A REAL OPTION before heavy commitment |
+| High | Low | Any | work there, invest, or sell picks-and-shovels rather than start the core business |
+| Low | High | Low | BUY A SMALL REAL OPTION / paid pilot |
+| Low | Low | Any | REJECT |
+
+# Opportunity Window Adjustment
+
+A good score can still arrive too late.
+
+Use `references/window-and-why-not-yet.md` to classify the entry window:
+
+- **Opening** — capability is newly possible; few specialized competitors;
+- **Expanding** — demand and industry formation are becoming repeatable;
+- **Crowding** — generic offers commoditize and CAC/competition rise;
+- **Consolidating** — standards, capital, data or incumbents dominate;
+- **Closed to generalists** — no meaningful edge for an undifferentiated entrant.
+
+Urgency never rescues a bad thesis. It only changes how quickly a good thesis should be tested.
 
 # Hard Vetoes
 
@@ -91,6 +141,7 @@ Reject or redesign when any of these dominates:
 6. Supply can expand so quickly that excess returns are unlikely to persist.
 7. The thesis depends on taking employer-confidential data, trade secrets, restricted customer lists, code or other non-portable assets.
 8. The “customer” likes the idea but no payer, budget or paid commitment can be identified.
+9. The Why-Not-Yet Test reveals a structural blocker — such as customer economics, liability or sales-cycle cost — with no credible way around it.
 
 # Weakest-Link Override
 
@@ -101,7 +152,8 @@ Examples:
 - market score 90 + no payer → do not START;
 - founder fit 90 + legally non-portable edge → redesign;
 - strong payment + no recurrence → project, not yet a durable business;
-- recurring demand + inaccessible Power Pool → treat as weak ownership opportunity.
+- recurring demand + inaccessible Power Pool → treat as weak ownership opportunity;
+- opportunity score 88 + evidence coverage 35% → buy information, not conviction.
 
 Always state the weakest link next to the score.
 
