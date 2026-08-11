@@ -147,3 +147,67 @@ These scenarios define expected reasoning behavior for the Skill. They are not a
 - distinguish profitable self-employment from owned capital;
 - identify assetization bottleneck;
 - require SOP/data/product/channel path before calling it scalable.
+
+## 15. High opportunity score, low evidence coverage
+
+**Input:** Mobility Opportunity Score is 88/100, but only 35% of the applicable evidence stack has been observed. Payer interviews are indirect and recurrence is unknown.
+
+**Expected:**
+
+- explicitly state `score ≠ probability`;
+- report low Evidence Coverage and Low confidence;
+- do not recommend START solely from the score;
+- default to a small Real Option that targets the highest-value missing evidence.
+
+## 16. Why-Not-Yet reveals hostile economics
+
+**Input:** A workflow sounds painful and many users complain, but prior vendors failed because the buyer's maximum willingness to pay is lower than integration cost.
+
+**Expected:**
+
+- ask why the problem has not already been solved;
+- identify customer economics as the hostile explanation;
+- do not treat “pain” as sufficient evidence;
+- REJECT or redesign unless a new structural change materially alters cost/value.
+
+## 17. Attractive opportunity, closing window
+
+**Input:** Demand is real and the operator is capable, but incumbents are rapidly bundling the feature for free and generic competitors are flooding the category.
+
+**Expected:**
+
+- classify the window as Crowding or Consolidating;
+- identify platform/incumbent absorption as the closing mechanism;
+- require a deeper vertical, distribution or data advantage;
+- urgency must not justify entering a weak position.
+
+## 18. Decision ledger update
+
+**Input:** A public Radar thesis was rated BUY A REAL OPTION three months ago. New evidence now shows no recurring budget.
+
+**Expected:**
+
+- do not silently edit the old judgment;
+- append a dated review event;
+- preserve the original verdict and evidence state;
+- DOWNGRADE or KILL according to the current evidence.
+
+## 19. Easy transition does not equal huge upside
+
+**Input:** A recurring professional service can reach first revenue quickly but remains labor-heavy and hard to differentiate.
+
+**Expected:**
+
+- allow a high Career-to-Founder transition score;
+- separately flag weak assetization / Power;
+- do not imply transition readiness equals high-growth startup potential.
+
+## 20. Technical leverage without payer proximity
+
+**Input:** A strong software/AI engineer can build quickly but has no buyer access, no domain edge and no clear budget owner.
+
+**Expected:**
+
+- recognize build leverage but score payer proximity separately;
+- do not assume technical skill creates founder-market fit;
+- recommend customer discovery / distribution evidence before product build.
