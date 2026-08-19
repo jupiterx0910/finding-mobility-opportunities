@@ -1,9 +1,9 @@
 ---
 name: finding-mobility-opportunities
-description: Use when evaluating startup ideas, emerging industries, career-to-founder transitions, founder-market fit, side businesses, small-business opportunities, or whether a specific person or team has a realistic path to build an owned business from existing skills, customer access, supplier access, geography, audience, relationships, capital, or unusual exposure.
+description: Evidence-driven opportunity discovery for startup ideas, emerging industries, career-to-founder transitions, side businesses, founder-market fit and small-team ownership paths. Use when deciding what a specific operator can realistically enter, validate, survive and turn into owned capital.
 metadata:
   author: jupiterx0910
-  version: "8.1.0"
+  version: "8.2.0"
 ---
 
 # Finding Mobility Opportunities — Opportunity Radar
@@ -16,120 +16,122 @@ Find businesses a specific operator can **actually enter, validate, survive, and
 
 Optimize for:
 
-`structural change × evidence × career edge × payer × Power Pool × leverage × assetization × timing`
+`structural change × evidence × career edge × payer × capital heat × Power Pool × leverage × timing × assetization`
 
-Do not optimize for the biggest market, hottest narrative, most prestigious founder profile, or most fashionable technology.
+Do not optimize for the biggest TAM, hottest narrative, most prestigious founder profile, or most fashionable technology.
 
 ## Public-Example Safety Rule
 
-When writing public repository examples, documentation, demos, benchmark cases or datasets:
+Public repository examples, benchmarks, datasets and demos must use **synthetic / fictional operator archetypes only**. Never publish a real user's private conversation, profile, remembered history, inferred background or unverified personal detail without explicit permission for that exact publication. Never create a fictional profile obviously modeled on the current user.
 
-- use **synthetic / fictional operator archetypes only**;
-- never use a real user's private conversation, private profile, remembered personal history, inferred background or unverified personal details;
-- never convert private user context into a public example without explicit, specific permission for that exact publication;
-- label synthetic examples clearly;
-- do not create a fictional profile that is obviously modeled on the current user.
+## Causal Reasoning Chain
 
-Private context may help answer the current user privately, but it is not public-source material.
+Use this order because each step removes a different false positive:
 
-## Why This Workflow Is Ordered This Way
+`Need → Change → Career-to-Founder Fit → Early Signals → Payment → Industry Formation → Capital Heat → Economic Quality → Power → Operator Fit → Evidence Confidence → Why-Not-Yet → Window → Pilot → Recurrence → Assetization → Real Option → Decision Ledger`
 
-The sequence is causal, not decorative:
+Plain-language rationale:
 
-`Need → Change → Career-to-Founder Fit → Early Signals → Payment → Industry Formation → Power → Operator Fit → Evidence Confidence → Window → Pilot → Recurrence → Assetization → Real Option`
+- **Need:** removes technology looking for a problem.
+- **Change:** a durable need is not automatically a new opportunity.
+- **Career-to-Founder Fit:** asks which occupations already accumulate portable customers, transactions, suppliers, tacit knowledge or distribution.
+- **Early Signals:** finds shifts before financial statements make them obvious.
+- **Payment:** attention, downloads and funding can exist without a business.
+- **Industry Formation:** separates a novelty from an ecosystem.
+- **Capital Heat:** detects investor/angel belief, competition and resource allocation, but never treats funding as proof of demand.
+- **Economic Quality:** checks margin, retention, CAC, cash conversion and concentration.
+- **Power:** asks who captures the surplus after competition arrives.
+- **Operator Fit:** a 95/100 industry can still be a 30/100 personal opportunity.
+- **Evidence Confidence:** prevents precise scores from hiding sparse or weak evidence.
+- **Why-Not-Yet:** forces the strongest hostile explanation for why the opportunity has not already been solved.
+- **Window:** distinguishes a good business from a still-open entry window.
+- **Pilot:** replaces conviction with a cheap reversible experiment.
+- **Recurrence:** one sale is not a durable business.
+- **Assetization:** separates ownership from selling founder hours.
+- **Real Option:** prevents premature all-in bets and forces kill criteria.
+- **Decision Ledger:** preserves the original judgment so later reality can falsify it.
 
-Each step removes a different false positive:
-
-- **Need** removes technology-without-demand.
-- **Change** removes old markets with no new opening.
-- **Career-to-Founder Fit** removes generic startup lists by asking which occupations already accumulate transferable business ingredients.
-- **Early signals** catch shifts before financial statements make them obvious.
-- **Payment** removes attention, hype and usage without willingness to pay.
-- **Industry formation** removes isolated products that are not becoming ecosystems.
-- **Power** removes attractive markets where someone else captures the surplus.
-- **Operator fit** removes great industries the operator cannot realistically enter.
-- **Evidence Confidence** stops precise scores from hiding sparse or weak evidence.
-- **Window** distinguishes a good business from a still-open entry window.
-- **Pilot** removes ideas that cannot be tested cheaply.
-- **Recurrence** removes one-off consulting or novelty purchases.
-- **Assetization** removes businesses that only sell the founder's hours.
-- **Real Option** prevents premature all-in bets and forces explicit kill criteria.
-
-Read `references/reasoning-chain.md` when explaining the logic to a human or defending why a step is necessary.
+Read `references/reasoning-chain.md` for the full causal explanation.
 
 ## Workflow
 
-1. **Map the operator before the market.** Identify transaction proximity, tacit knowledge, payer access, supplier access, selling ability, trust, existing assets, geography, affordable loss and likely entrepreneur archetype. Read `references/operator-archetypes.md`.
-2. **Run the Career-to-Founder Transition Lens.** Read `references/career-to-founder-transition.md`. Ask whether the operator's current role has accumulated portable customers, recurring pain knowledge, suppliers, channels, credibility, workflow knowledge, data or distribution. For broad occupational comparison, use `docs/career-to-founder-map-2026.md`.
-3. **Identify the structural need.** Ask whether the underlying human/economic need would remain if the current technology or platform disappeared.
-4. **Find the change that opens a window.** Look for cost collapse, capability downshift, power redistribution, new distribution, new regulation/payment rails, adjacent-skill repricing, new infrastructure or a new bottleneck.
-5. **Stage the industry.** Use `S0 idea → S1 product → S2 talent build → S3 payer/revenue → S4 private scale → S5 IPO pipeline → S6 public validation`.
-6. **Triangulate evidence.** Read `references/signal-lenses.md`. Use independent evidence from payment, hiring, youth/campus movement when relevant, capital, supply chain, formalization, standards, public-market economics and Power Pool shifts.
-7. **Use youth/campus only as early warning.** For consumer/culture/platform categories, read `references/youth-campus-lens.md`. `campus popularity ≠ commercial adoption`.
-8. **Separate User / Beneficiary / Buyer / Payer.** Payment evidence outranks attention, search volume, downloads and funding.
-9. **Generate concrete businesses, not sectors.** Every candidate must name customer, pain, offer, why-now, why-this-operator and first-sale route.
-10. **Score twice.** Read `references/scorecards.md`: Signal Confirmation Score measures external reality; Mobility Opportunity Score measures operator-specific fit.
-11. **Measure evidence confidence separately.** Read `references/evidence-confidence.md`. Report Evidence Coverage, evidence quality, Confidence, Key Unknowns and Weakest Link. Never turn an 82/100 score into “82% chance of success.”
-12. **Locate the Power Pool.** Identify who controls price, distribution, standards, scarce resources, customer relationship, switching cost, data or another source of surplus capture.
-13. **Run Why-Not-Yet + Window tests.** Read `references/window-and-why-not-yet.md`. Ask why the opportunity is still open, identify the strongest hostile explanation, and classify the window as Opening / Expanding / Crowding / Consolidating / Closed to generalists.
-14. **Apply hard vetoes.** Reject unaffordable capital/licensing, inaccessible Power Pools, weak payer validation, destructive regulatory/externality debt, hyper-elastic supply, structural Why-Not-Yet blockers, or businesses with no credible ownership transition.
-15. **Sell before building.** Read `references/business-design.md`: start with a 30–60 day paid pilot, prove measurable value and recurrence, then standardize.
-16. **Design assetization.** Target `expertise → service → SOP → automation/agent → proprietary data → software/product/network/brand/channel/equity`.
-17. **Use Real Options.** Pre-write affordable loss, Leading Indicators, Confirmation Indicators and Kill Criteria. Increase exposure only when evidence improves.
-18. **Return one verdict:** **START / BUY A REAL OPTION / WATCH / REJECT**.
-19. **If maintaining a public Radar, append rather than rewrite.** Use `radar/decision-ledger.md` and `radar/opportunities.json`; preserve old judgments and add dated review events.
+1. **Map the operator before the market.** Identify payer proximity, tacit knowledge, supplier/channel access, selling ability, trust, assets, geography, affordable loss and entrepreneur archetype.
+2. **Run Career-to-Founder Transition.** Read `references/career-to-founder-transition.md` and, for occupational comparison, `docs/career-to-founder-map-2026.md`.
+3. **Identify structural need and opening change.** Look for cost collapse, capability downshift, new distribution, regulation/payment rails, adjacent-skill repricing, new infrastructure or a new bottleneck.
+4. **Stage the industry.** `S0 idea → S1 product → S2 talent build → S3 payer/revenue → S4 private scale → S5 IPO pipeline → S6 public validation`.
+5. **Triangulate signals.** Read `references/signal-lenses.md`. Use payment, hiring, supply chain, formalization, public-market economics, youth/campus when relevant, and capital signals.
+6. **Add Capital Heat separately.** Read `references/capital-heat-lens.md`. Report `C0–C5`, trend, investor breadth, capital destination, commercial confirmation and overheating risk. **Capital Heat ≠ Customer Pull ≠ Founder Opportunity.** Ask whether customers still pay if funding stops.
+7. **Separate User / Beneficiary / Buyer / Payer.** Payment and renewal outrank attention, search, downloads, social discussion and funding.
+8. **Generate concrete businesses, not sectors.** Name customer, pain, offer, why-now, why-this-operator and first-sale route.
+9. **Score twice.** Signal Confirmation Score = external reality. Mobility Opportunity Score = operator-specific fit. Read `references/scorecards.md`.
+10. **Measure evidence separately.** Read `references/evidence-confidence.md`. Report Evidence Coverage, evidence quality, Confidence, Key Unknowns and Weakest Link. Never turn an 82/100 score into an 82% success probability.
+11. **Locate the Power Pool.** Identify who controls price, distribution, standards, scarce resources, customer relationship, switching costs, data or other surplus.
+12. **Run Why-Not-Yet + Window.** Read `references/window-and-why-not-yet.md`. Classify `Opening / Expanding / Crowding / Consolidating / Closed to generalists` and state the strongest hostile explanation.
+13. **Apply hard vetoes.** Reject inaccessible Power Pools, weak payer validation, unaffordable capital/licensing, destructive regulatory/externality debt, structural Why-Not-Yet blockers, or no credible ownership transition.
+14. **Sell before building.** Start with a 30–60 day paid pilot; prove measurable value and recurrence before standardizing.
+15. **Design assetization.** Target `expertise → service → SOP → automation/agent → proprietary data → software/product/network/brand/channel/equity`.
+16. **Use Real Options.** Pre-write affordable loss, leading indicators, confirmation indicators and kill criteria. Increase exposure only when evidence improves.
+17. **Return one verdict:** `START / BUY A REAL OPTION / WATCH / REJECT`.
+18. **If maintaining the public Radar, append rather than rewrite.** Preserve old judgments in `radar/decision-ledger.md` and snapshots in `radar/opportunities.json`.
 
-## Career-to-Founder Transition Heuristics
+## Capital Heat Discipline
 
-A role is a strong startup launchpad when several of these are true:
+Capital is a **belief / competition / resource-allocation signal**, not customer proof.
 
-- the person talks to real payers every week;
-- the person sees recurring, expensive pain rather than one-off requests;
-- the person knows why buyers reject existing solutions;
-- the person controls or can reach supplier/channel relationships;
-- the role builds tacit knowledge that is hard to learn from public information;
-- the first paid offer can be delivered before building software, hiring a team or holding heavy inventory;
-- customers can follow the service because of the operator's capability, not because of employer-owned confidential assets;
+Measure:
+
+- financing velocity;
+- investor breadth;
+- follow-on persistence;
+- capital quality (seed, strategic, growth, distressed);
+- destination (technology, product, infrastructure, distribution, compliance, service, manufacturing);
+- valuation/terms heat when reliable;
+- M&A, IPO, shutdown and failed-fundraising evidence.
+
+Use qualitative bands:
+
+`C0 Cold → C1 Emerging → C2 Building → C3 Hot → C4 Euphoric → C5 Unwinding`
+
+Always cross-check capital against:
+
+`payment → retention → recurring revenue → margin / power`
+
+Special warning:
+
+> If VC/angel funding stopped tomorrow, would customers still pay?
+
+A hot category with weak payment is a classic false-positive candidate. A cool category with strong payment and an unresolved bottleneck can be an overlooked small-operator opportunity.
+
+## Career-to-Founder Heuristics
+
+A role is a strong launchpad when several are true:
+
+- talks to real payers frequently;
+- sees recurring expensive pain;
+- knows why buyers reject existing solutions;
+- has supplier/channel relationships;
+- has tacit knowledge hard to learn publicly;
+- can deliver a first paid offer before heavy fixed investment;
+- customers can follow the capability without taking employer-confidential assets;
 - repeated service can become a process, dataset, product, distribution advantage, brand or software layer.
 
-Do **not** assume that seniority, title, education, age or executive status automatically improves transition quality.
+Do not assume seniority, title, education, age or executive status improves transition quality.
 
-## Reasoning Discipline
+## Failure / False-Positive Backtests
 
-For current-market analysis:
+A strong framework must attack itself. Read `cases/failure-backtests/README.md` and at least one relevant case when making a historical or hype-sensitive judgment.
 
-- state geography and as-of date;
-- distinguish fact, inference and hypothesis;
-- prefer primary or authoritative evidence where possible;
-- compare short-term movement with 6–12 month persistence when data allows;
-- deduplicate companies, roles, products and repeated reports;
-- distinguish leading signal, confirmation signal and counter-signal;
-- never convert missing evidence into a precise score without marking uncertainty;
-- explain **why each signal matters**, not only what the signal says;
-- explicitly state the weakest link in the chain;
-- list decision-relevant unknowns and the cheapest evidence that could resolve them;
-- show what evidence would change the conclusion;
-- actively search for the strongest reason the opportunity may **not** work.
+For each backtest record:
 
-If current evidence cannot be verified, say so explicitly.
+`Contemporaneous thesis → Capital heat → Payment evidence → Industry formation → Operator opportunity → Power Pool → Window → Counter-signals → Earliest kill signal → What remained unknowable → Verdict`
 
-## Critical Distinctions
+Rules:
 
-- good industry ≠ good company ≠ good investment ≠ good opportunity for this person
-- score ≠ probability
-- opportunity score ≠ evidence coverage ≠ confidence
-- entrepreneur ≠ corporate executive
-- career prestige ≠ founder transition quality
-- attention ≠ payment
-- user ≠ payer
-- traffic ≠ customer ownership
-- GMV ≠ revenue quality
-- funding ≠ customer value
-- regulatory latency ≠ moat
-- urgent window ≠ good opportunity
-- profitable self-employment ≠ owned capital
-- big success ≠ only valid success
-- prediction ≠ commitment; use Real Options
+- use only reasonably observable signals at the time;
+- separate category failure from company failure;
+- record capital heat separately from customer pull;
+- identify the earliest counter-signal;
+- state what hindsight cannot legitimately prove.
 
 ## Required Output
 
@@ -140,33 +142,48 @@ Use `references/output-template.md` and return, in order:
 3. Structural need + opening change
 4. Industry stage + as-of-date evidence
 5. Signal radar with **why each signal matters**
-6. 3–7 concrete business candidates
-7. User / beneficiary / buyer / payer architecture
-8. Signal Confirmation Score + Mobility Opportunity Score
-9. Evidence Coverage + Confidence + Key Unknowns
-10. Power Pool and surplus-capture logic
-11. Why-Not-Yet Test + Opportunity Window
-12. Unit economics and first-sale plan
-13. Recurrence mechanism
-14. Assetization path
-15. Leading / confirmation / kill criteria
-16. Weakest-link analysis
-17. Final verdict: **START / BUY A REAL OPTION / WATCH / REJECT**
+6. Capital Heat `C0–C5` + trend + investor breadth + destination + overheating risk
+7. 3–7 concrete business candidates
+8. User / beneficiary / buyer / payer architecture
+9. Signal Confirmation Score + Mobility Opportunity Score
+10. Evidence Coverage + Confidence + Key Unknowns
+11. Power Pool and surplus-capture logic
+12. Why-Not-Yet Test + Opportunity Window / Half-Life
+13. Unit economics + first-sale plan
+14. Recurrence mechanism
+15. Assetization path
+16. Leading / confirmation / kill criteria
+17. Weakest-link analysis
+18. Final verdict: **START / BUY A REAL OPTION / WATCH / REJECT**
 
 ## References
 
-Read only what the task needs:
-
-- `references/reasoning-chain.md` — full causal logic and plain-language rationale
-- `references/framework-comparison.md` — comparison with common strategy/startup frameworks
+- `references/reasoning-chain.md` — causal logic and plain-language rationale
+- `references/framework-comparison.md` — comparison with common frameworks
 - `references/operator-archetypes.md` — entrepreneur origins and operator edge
-- `references/career-to-founder-transition.md` — which careers are closest to ownership transition and why
-- `docs/career-to-founder-map-2026.md` — 2026 occupational transition-readiness map
+- `references/career-to-founder-transition.md` — career transition logic
+- `docs/career-to-founder-map-2026.md` — occupational transition map
 - `references/signal-lenses.md` — evidence stack
+- `references/capital-heat-lens.md` — VC / angel / strategic capital analysis
 - `references/youth-campus-lens.md` — early youth/campus signals
-- `references/scorecards.md` — dual scoring and hard vetoes
+- `references/scorecards.md` — dual scoring and vetoes
 - `references/evidence-confidence.md` — coverage, quality, confidence and unknowns
-- `references/window-and-why-not-yet.md` — timing, half-life and hostile explanation tests
+- `references/window-and-why-not-yet.md` — timing, half-life and hostile explanation
 - `references/business-design.md` — pilot, recurrence and assetization
 - `references/output-template.md` — standard deliverable
-- `references/recommended-reading.md` — three-book startup reading path
+- `references/recommended-reading.md` — three-book reading path
+- `cases/failure-backtests/` — failure and false-positive backtests
+
+## Agent Skill Installation
+
+This repository is designed to be installed as an **Agent Skill**. The root `SKILL.md` is the canonical skill entrypoint; supporting reasoning and evidence modules remain in the repository so an agent can load them when needed.
+
+Recommended installation:
+
+```bash
+npx skills add https://github.com/jupiterx0910/finding-mobility-opportunities
+```
+
+If an agent environment uses a local skills directory, copy this repository's `SKILL.md` as `finding-mobility-opportunities/SKILL.md` and keep the repository available as the skill's reference library.
+
+The skill must preserve the Public-Example Safety Rule above when generating public artifacts.
