@@ -258,6 +258,57 @@ Opportunity Radar 的区别，是把原本分开的层串成一个完整下注�
 
 ---
 
+# Capital Heat ≠ Customer Pull｜资本热度不等于客户需求
+
+v8.3 把 **VC / 天使 / 战略投资热度**正式拆成独立维度，而不是把“融资多”直接算成机会加分。
+
+```text
+C0 Cold → C1 Emerging → C2 Building → C3 Hot → C4 Euphoric → C5 Unwinding
+```
+
+真正要看的是：
+
+```text
+Capital Heat × Payment × Retention × Contribution Economics × Competition × Power Pool
+```
+
+四种关键状态：
+
+| 状态 | 组合 | 含义 |
+|---|---|---|
+| Formation | 资本热 + 付款强 + 留存强 | 产业正在经济化成形 |
+| Hype Divergence | 资本热 + 付款/留存弱 | 投资叙事跑在客户现实前面 |
+| Underfollowed Opportunity | 资本不热 + 付款强 + 留存强 | 可能是被资本忽视的真实小机会 |
+| Unwinding | 资本退潮 + 付款/留存弱 | 融资周期正在反转 |
+
+**硬规则：** 当 `Capital Heat = C4 Euphoric`，且付款与留存都弱或尚未验证时，不允许输出 **START**。
+
+详见：[`references/capital-heat-lens.md`](references/capital-heat-lens.md)、[`references/hype-divergence.md`](references/hype-divergence.md) 和 [`cases/failure-backtests/matrix.md`](cases/failure-backtests/matrix.md)。
+
+---
+
+# 失败回测：专门攻击自己的框架
+
+v8.3 把失败 / 伪机会回测扩展到 10 个案例，包括 MoviePass、Blue Apron、Quibi、WeWork、共享电动滑板车 / Bird 等。
+
+重点不是事后说“它失败了”，而是：
+
+```text
+当时能知道什么？
+→ 资本热度
+→ 客户付款
+→ 留存 / 单位经济
+→ Power Pool
+→ 最早 Kill Signal
+→ 当时仍然无法知道什么
+```
+
+这样可以降低幸存者偏差，避免框架只向成功故事学习。
+
+详见：[`cases/failure-backtests/README.md`](cases/failure-backtests/README.md)
+
+---
+
 # Score ≠ Confidence｜分数不等于把握
 
 v8.1 新增了独立的证据层。
