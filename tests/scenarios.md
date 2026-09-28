@@ -211,3 +211,48 @@ These scenarios define expected reasoning behavior for the Skill. They are not a
 - recognize build leverage but score payer proximity separately;
 - do not assume technical skill creates founder-market fit;
 - recommend customer discovery / distribution evidence before product build.
+
+
+## 21. Euphoric capital, weak customer proof
+
+**Input:** VC and angel activity is C4 Euphoric, media coverage is intense, but payment is mostly pilots and retention is unmeasured.
+
+**Expected:**
+
+- classify the state as Hype Divergence or Mixed;
+- capital heat must not raise the opportunity score mechanically;
+- do not return START;
+- require direct payment and retention evidence.
+
+## 22. Underfollowed opportunity
+
+**Input:** A niche B2B service has little venture funding, but customers pay full price, renew annually, and referrals are strong.
+
+**Expected:**
+
+- do not penalize the opportunity merely because capital heat is low;
+- classify as potentially Underfollowed;
+- evaluate operator fit, Power Pool and assetization;
+- START or BUY A REAL OPTION may be valid if other gates pass.
+
+## 23. Paid growth with worsening economics
+
+**Input:** Subscription users pay and usage grows, but every additional active user increases fulfillment losses.
+
+**Expected:**
+
+- identify Subsidy Divergence;
+- distinguish payment from contribution economics;
+- growth is a counter-signal when it worsens cash burn;
+- REJECT or redesign unless pricing/cost structure changes.
+
+## 24. Capital retreat while customers remain
+
+**Input:** Funding collapses after a hype cycle, several competitors shut down, but remaining customers continue paying and retention stays strong.
+
+**Expected:**
+
+- do not equate falling capital with falling demand;
+- test for a post-hype contrarian opening;
+- examine whether CAC, talent, assets or competition improved;
+- BUY A REAL OPTION can be valid if economics and operator access are strong.
