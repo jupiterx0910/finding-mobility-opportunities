@@ -2,6 +2,8 @@
 
 Use two separate 100-point scores. Never collapse external evidence and personal fit into one number.
 
+Keep **Capital Heat** separate from both scores. Read `capital-heat-lens.md` and `hype-divergence.md`; capital is an environment/competition signal, not a bonus for attractiveness.
+
 Also never confuse a score with confidence. Read `evidence-confidence.md` and report **Evidence Coverage + Confidence** next to the scores.
 
 # 1. Signal Confirmation Score — 100
@@ -128,6 +130,19 @@ Use `references/window-and-why-not-yet.md` to classify the entry window:
 - **Closed to generalists** — no meaningful edge for an undifferentiated entrant.
 
 Urgency never rescues a bad thesis. It only changes how quickly a good thesis should be tested.
+
+# Capital Heat Override
+
+Before applying the final action, classify the capital/customer state:
+
+- high capital + strong payment + strong retention → Formation;
+- high capital + weak payment/retention → Hype Divergence;
+- low/moderate capital + strong payment + strong retention → Underfollowed Opportunity;
+- falling capital + weak payment + weak retention → Unwinding.
+
+**Guardrail:** `C4 Euphoric + weak or materially unverified payment + weak or materially unverified retention` cannot receive **START**, regardless of weighted scores.
+
+Read `cases/failure-backtests/matrix.md` for historical patterns.
 
 # Hard Vetoes
 
