@@ -1,5 +1,23 @@
 # Changelog
 
+## v8.4 — Interactive Opportunity Radar
+
+### Added
+
+- Static no-backend `demo/` application for operator-specific opportunity screening.
+- Career archetype, payer access, supplier/channel access, affordable-loss, time and paid-pilot inputs.
+- Capital Heat × Payment × Retention × Contribution Economics interaction in the UI.
+- Interactive anti-hype guardrail and a single START / BUY A REAL OPTION / WATCH / REJECT output.
+- Public Radar watchlist loaded from `radar/opportunities.json` when served over HTTP.
+- Local-run and GitHub-Pages deployment documentation.
+
+### Changed
+
+- Skill version advanced to `8.4.0`.
+- Canonical and portable skills now state that the demo is a heuristic front-end, not live market evidence or a success-probability engine.
+- README positioning now includes an executable decision aid in addition to the methodology and Agent Skill.
+
+
 ## v8.3 — Falsification & Capital-Customer Divergence
 
 ### Added
