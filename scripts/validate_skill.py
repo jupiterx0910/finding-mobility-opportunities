@@ -18,6 +18,8 @@ REQUIRED_FILES = [
     "references/operator-archetypes.md",
     "references/career-to-founder-transition.md",
     "references/signal-lenses.md",
+    "references/capital-heat-lens.md",
+    "references/hype-divergence.md",
     "references/youth-campus-lens.md",
     "references/scorecards.md",
     "references/evidence-confidence.md",
@@ -29,6 +31,9 @@ REQUIRED_FILES = [
     "radar/2026-08.md",
     "radar/decision-ledger.md",
     "radar/opportunities.json",
+    "cases/failure-backtests/README.md",
+    "cases/failure-backtests/matrix.md",
+    "skills/finding-mobility-opportunities/SKILL.md",
 ]
 
 REQUIRED_EXAMPLES = [
@@ -64,12 +69,14 @@ def main() -> int:
         errors.append("SKILL.md must start with YAML frontmatter")
     for token in [
         "name: finding-mobility-opportunities",
-        'version: "8.1.0"',
+        'version: "8.3.0"',
         "Public-Example Safety Rule",
         "Career-to-Founder Transition",
         "Evidence Coverage",
         "Why-Not-Yet",
         "START / BUY A REAL OPTION / WATCH / REJECT",
+        "Hype Divergence",
+        "Capital Heat",
     ]:
         if token not in skill:
             errors.append(f"SKILL.md missing required token: {token}")
@@ -123,6 +130,30 @@ def main() -> int:
     ]:
         if token not in window:
             errors.append(f"window logic missing token: {token}")
+
+    hype = read("references/hype-divergence.md")
+    for token in [
+        "Capital Heat",
+        "Payment",
+        "Retention",
+        "Underfollowed Opportunity",
+        "C4 Euphoric",
+    ]:
+        if token not in hype:
+            errors.append(f"hype-divergence missing token: {token}")
+
+    matrix = read("cases/failure-backtests/matrix.md")
+    for token in [
+        "Hype Divergence",
+        "Underfollowed opportunity",
+        "MoviePass",
+        "Blue Apron",
+        "Quibi",
+        "WeWork",
+        "Shared e-scooters",
+    ]:
+        if token not in matrix:
+            errors.append(f"failure matrix missing token: {token}")
 
     ledger = read("radar/decision-ledger.md")
     for token in ["OPEN", "UPGRADED", "DOWNGRADED", "KILLED"]:
