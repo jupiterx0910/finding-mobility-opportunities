@@ -3,7 +3,7 @@ name: finding-mobility-opportunities
 description: Evidence-driven opportunity discovery for startup ideas, emerging industries, career-to-founder transitions and small-team ownership paths. Finds what a specific operator can enter, validate and turn into owned capital.
 metadata:
   author: jupiterx0910
-  version: "8.3.0"
+  version: "8.4.0"
 ---
 
 # Opportunity Radar Agent Skill
@@ -31,7 +31,8 @@ Always:
 - define leading, confirmation and kill criteria;
 - identify the Power Pool and an assetization path;
 - preserve dated decisions rather than rewriting history;
-- use failure / false-positive backtests when the category is hype-sensitive.
+- use failure / false-positive backtests when the category is hype-sensitive;
+- treat the static `demo/` as a heuristic front-end only, never as live market evidence or a success-probability calculator.
 
 ## Public artifact rule
 
