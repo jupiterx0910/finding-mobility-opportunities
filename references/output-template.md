@@ -65,17 +65,32 @@
 | Youth Migration | | | | | |
 | Campus Frontier | | | | | |
 
-## 6. Candidate Businesses
+## 6. Capital Heat & Hype Divergence
+
+- **Capital Heat:** C0 / C1 / C2 / C3 / C4 / C5
+- **Capital Trend:** Rising / Flat / Falling
+- **Investor Breadth:** Narrow / Broad
+- **Capital Destination:**
+- **Commercial Confirmation:** Weak / Mixed / Strong
+- **Payment Strength:** Weak / Mixed / Strong
+- **Retention Strength:** Weak / Mixed / Strong / Unknown
+- **Contribution Economics:** Improving / Flat / Worsening / Unknown
+- **Competition Effect:** Opening / Neutral / Closing
+- **Divergence State:** Formation / Hype Divergence / Underfollowed / Unwinding / Mixed
+- **Operator implication:**
+- **Cheapest falsification test:**
+
+## 7. Candidate Businesses
 
 | Concrete business | Payer | Pain | Why now | Why this operator | Entry wedge | Main risk |
 |---|---|---|---|---|---|---|
 
-## 7. Payer Architecture
+## 8. Payer Architecture
 
 | User | Beneficiary | Buyer | Payer | Existing alternative | Offer | Price hypothesis | ROI hypothesis |
 |---|---|---|---|---|---|---|---|
 
-## 8. Scores & Evidence Confidence
+## 9. Scores & Evidence Confidence
 
 - **Signal Confirmation Score:** X/100
 - **Mobility Opportunity Score:** X/100
@@ -92,7 +107,7 @@
 |---|---|---|---|
 | | | | |
 
-## 9. Power Pool
+## 10. Power Pool
 
 - **Where value is created:**
 - **Where surplus is likely captured:**
@@ -100,14 +115,14 @@
 - **Who controls scarce supply / standards / data / workflow:**
 - **Can this operator reach the Power Pool? How?**
 
-## 10. Why-Not-Yet Test
+## 11. Why-Not-Yet Test
 
 - **Why has this not already been fully solved?**
 - **Best benign explanation:**
 - **Best hostile explanation:**
 - **Evidence that distinguishes them:**
 
-## 11. Opportunity Window
+## 12. Opportunity Window
 
 - **Window stage:** Opening / Expanding / Crowding / Consolidating / Closed to generalists
 - **Estimated half-life / range, only if evidence supports it:**
@@ -115,7 +130,7 @@
 - **Main closing mechanism:**
 - **What must be built before the window closes:**
 
-## 12. Unit Economics
+## 13. Unit Economics
 
 - `T` target owner income:
 - `F` fixed operating cost:
@@ -123,7 +138,7 @@
 - `CM` contribution margin:
 - `Required customers = ceil((T + F) / (P × CM))`
 
-## 13. First Sale
+## 14. First Sale
 
 - 10 reachable prospects:
 - 30–60 day paid pilot / first order:
@@ -133,11 +148,11 @@
 - Payment amount / condition:
 - Conversion / reorder condition:
 
-## 14. Recurrence
+## 15. Recurrence
 
 Why does the same payer pay again?
 
-## 15. Assetization
+## 16. Assetization
 
 `expertise → service → SOP → automation/agent → proprietary data → software/product/network/brand/channel/equity`
 
@@ -145,7 +160,7 @@ Why does the same payer pay again?
 - **Next asset:**
 - **Proof it compounds:**
 
-## 16. Evidence Thresholds
+## 17. Evidence Thresholds
 
 ### Leading Indicators
 - 
@@ -156,7 +171,7 @@ Why does the same payer pay again?
 ### Kill Criteria
 - 
 
-## 17. Verdict
+## 18. Verdict
 
 **START / BUY A REAL OPTION / WATCH / REJECT**
 
