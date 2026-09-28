@@ -30,6 +30,13 @@ These cases are deliberately selected to attack the framework:
 - `consumer-metaverse.md` — capital and narrative heat exceeded evidence for persistent consumer behavior and durable willingness to pay.
 - `daily-deals.md` — real consumer demand existed, but weak merchant economics, discount dependency and low switching costs made the business structurally difficult to defend.
 - `google-glass-consumer.md` — a powerful technology signal did not imply a viable mass-market consumer wedge at that moment.
+- `moviepass.md` — paid subscriber growth existed while marginal fulfillment economics drove severe cash burn.
+- `blue-apron-meal-kits.md` — repeat purchase existed, but acquisition and fulfillment economics constrained durable growth.
+- `quibi.md` — abundant capital and premium content did not create a durable viewing habit.
+- `wework-capital-mismatch.md` — real recurring demand coexisted with a dangerous fixed-cost / duration mismatch.
+- `shared-e-scooters-bird.md` — real usage and revenue did not guarantee attractive fleet economics.
+
+See [`matrix.md`](matrix.md) for the cross-case **Capital Heat × Payment × Retention** comparison.
 
 These are **synthetic analytical reconstructions**, not investment advice and not claims that every company in a category failed.
 
