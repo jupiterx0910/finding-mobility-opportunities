@@ -3,7 +3,7 @@ name: finding-mobility-opportunities
 description: Evidence-driven opportunity discovery for startup ideas, emerging industries, career-to-founder transitions, side businesses, founder-market fit and small-team ownership paths. Use when deciding what a specific operator can realistically enter, validate, survive and turn into owned capital.
 metadata:
   author: jupiterx0910
-  version: "8.2.0"
+  version: "8.3.0"
 ---
 
 # Finding Mobility Opportunities — Opportunity Radar
@@ -60,7 +60,7 @@ Read `references/reasoning-chain.md` for the full causal explanation.
 3. **Identify structural need and opening change.** Look for cost collapse, capability downshift, new distribution, regulation/payment rails, adjacent-skill repricing, new infrastructure or a new bottleneck.
 4. **Stage the industry.** `S0 idea → S1 product → S2 talent build → S3 payer/revenue → S4 private scale → S5 IPO pipeline → S6 public validation`.
 5. **Triangulate signals.** Read `references/signal-lenses.md`. Use payment, hiring, supply chain, formalization, public-market economics, youth/campus when relevant, and capital signals.
-6. **Add Capital Heat separately.** Read `references/capital-heat-lens.md`. Report `C0–C5`, trend, investor breadth, capital destination, commercial confirmation and overheating risk. **Capital Heat ≠ Customer Pull ≠ Founder Opportunity.** Ask whether customers still pay if funding stops.
+6. **Add Capital Heat separately.** Read `references/capital-heat-lens.md` and `references/hype-divergence.md`. Report `C0–C5`, trend, investor breadth, capital destination, commercial confirmation and overheating risk. **Capital Heat ≠ Customer Pull ≠ Founder Opportunity.** Cross-check `Capital Heat × Payment × Retention × Contribution Economics × Competition × Power Pool`; ask whether customers still pay if funding stops.
 7. **Separate User / Beneficiary / Buyer / Payer.** Payment and renewal outrank attention, search, downloads, social discussion and funding.
 8. **Generate concrete businesses, not sectors.** Name customer, pain, offer, why-now, why-this-operator and first-sale route.
 9. **Score twice.** Signal Confirmation Score = external reality. Mobility Opportunity Score = operator-specific fit. Read `references/scorecards.md`.
@@ -100,7 +100,21 @@ Special warning:
 
 > If VC/angel funding stopped tomorrow, would customers still pay?
 
-A hot category with weak payment is a classic false-positive candidate. A cool category with strong payment and an unresolved bottleneck can be an overlooked small-operator opportunity.
+A hot category with weak payment is a classic false-positive candidate. A cool category with strong payment and an unresolved bottleneck can be an overlooked small-operator opportunity. If capital is hot but retention or contribution economics are weak, classify the divergence explicitly before the verdict.
+
+## Hype Divergence Check
+
+For hype-sensitive categories, classify one state before the final verdict:
+
+- **Formation:** high capital + strong payment + strong retention.
+- **Hype Divergence:** high capital + weak payment + weak/unknown retention.
+- **Underfollowed Opportunity:** low/moderate capital + strong payment + strong retention.
+- **Unwinding:** falling capital + weak payment + weak retention.
+- **Mixed:** evidence conflicts or is incomplete.
+
+Read `references/hype-divergence.md` and compare against `cases/failure-backtests/matrix.md`.
+
+**Hard guardrail:** do not return `START` when `Capital Heat = C4 Euphoric` and payment plus retention are weak or materially unverified.
 
 ## Career-to-Founder Heuristics
 
@@ -165,6 +179,7 @@ Use `references/output-template.md` and return, in order:
 - `docs/career-to-founder-map-2026.md` — occupational transition map
 - `references/signal-lenses.md` — evidence stack
 - `references/capital-heat-lens.md` — VC / angel / strategic capital analysis
+- `references/hype-divergence.md` — capital-vs-customer divergence and anti-hype rules
 - `references/youth-campus-lens.md` — early youth/campus signals
 - `references/scorecards.md` — dual scoring and vetoes
 - `references/evidence-confidence.md` — coverage, quality, confidence and unknowns
@@ -173,6 +188,7 @@ Use `references/output-template.md` and return, in order:
 - `references/output-template.md` — standard deliverable
 - `references/recommended-reading.md` — three-book reading path
 - `cases/failure-backtests/` — failure and false-positive backtests
+- `cases/failure-backtests/matrix.md` — Capital Heat × Payment × Retention comparison
 
 ## Agent Skill Installation
 
