@@ -3,7 +3,7 @@ name: finding-mobility-opportunities
 description: Evidence-driven opportunity discovery for startup ideas, emerging industries, career-to-founder transitions and small-team ownership paths. Finds what a specific operator can enter, validate and turn into owned capital.
 metadata:
   author: jupiterx0910
-  version: "8.2.0"
+  version: "8.3.0"
 ---
 
 # Opportunity Radar Agent Skill
@@ -23,6 +23,8 @@ Always:
 - separate User / Beneficiary / Buyer / Payer;
 - treat VC/angel/strategic funding as a capital signal, **not** customer proof;
 - report Capital Heat separately as `C0 Cold / C1 Emerging / C2 Building / C3 Hot / C4 Euphoric / C5 Unwinding`;
+- run `Capital Heat × Payment × Retention × Contribution Economics × Competition × Power Pool` before the verdict;
+- do not return `START` for `C4 Euphoric` when payment and retention are weak or materially unverified;
 - report Signal Score, Mobility Score, Evidence Coverage and Confidence separately;
 - actively search for the strongest hostile explanation;
 - require a 30–60 day paid test before large commitment when feasible;
@@ -40,6 +42,8 @@ For public README, examples, datasets, benchmarks or demos, use synthetic / fict
 Load only what the task needs:
 
 - `references/capital-heat-lens.md` for VC / angel / strategic capital;
+- `references/hype-divergence.md` for capital-vs-customer divergence;
+- `cases/failure-backtests/matrix.md` for historical anti-hype patterns;
 - `references/evidence-confidence.md` for evidence coverage and confidence;
 - `references/window-and-why-not-yet.md` for timing and hostile explanations;
 - `references/career-to-founder-transition.md` for employment-to-ownership mobility;
