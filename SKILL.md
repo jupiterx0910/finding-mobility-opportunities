@@ -3,7 +3,7 @@ name: finding-mobility-opportunities
 description: Evidence-driven opportunity discovery for startup ideas, emerging industries, career-to-founder transitions, side businesses, founder-market fit and small-team ownership paths. Use when deciding what a specific operator can realistically enter, validate, survive and turn into owned capital.
 metadata:
   author: jupiterx0910
-  version: "8.3.0"
+  version: "8.4.0"
 ---
 
 # Finding Mobility Opportunities — Opportunity Radar
@@ -189,6 +189,20 @@ Use `references/output-template.md` and return, in order:
 - `references/recommended-reading.md` — three-book reading path
 - `cases/failure-backtests/` — failure and false-positive backtests
 - `cases/failure-backtests/matrix.md` — Capital Heat × Payment × Retention comparison
+
+## Interactive Radar Demo
+
+A static companion UI lives in `demo/`. It is intentionally a **decision aid**, not a prediction engine.
+
+The demo may calculate operator-side heuristics from career archetype, payer access, supplier/channel access, affordable loss, time and paid-pilot feasibility. It must preserve these rules:
+
+- never present heuristic readiness as success probability;
+- never infer live market evidence from user inputs;
+- keep Capital Heat separate from payment / retention;
+- preserve the `C4 Euphoric + weak/unverified payment + weak/unverified retention → no START` guardrail;
+- use synthetic examples only in public artifacts.
+
+For current-market judgments, the full Skill workflow and dated evidence still apply.
 
 ## Agent Skill Installation
 
