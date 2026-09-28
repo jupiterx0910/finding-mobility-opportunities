@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Interactive Opportunity Radar — operator-specific opportunity discovery demo.">
+<title>Opportunity Radar — Interactive Demo</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<main class="shell">
+<header class="hero">
+<div><p class="eyebrow">OPPORTUNITY RADAR · v8.4 DEMO</p><h1>Find the opportunity that fits <em>your position</em>, not the loudest market.</h1><p class="lede">A local, no-backend decision aid for Career→Founder fit, payer proximity, capital heat and the first paid wedge.</p></div>
+<div class="hero-card"><span>Core thesis</span><strong>Human Capital → Cash Flow → Owned Capital</strong></div>
+</header>
+<section class="grid">
+<form id="radar-form" class="panel form-panel">
+<div class="panel-head"><div><p class="kicker">1 · OPERATOR MAP</p><h2>Describe your starting position</h2></div><button type="button" id="example-btn" class="ghost">Load synthetic example</button></div>
+<label>Career archetype<select id="career">
+<option value="industrial-b2b-sales">Industrial B2B sales / channel</option><option value="industrial-field-service">Industrial field service / maintenance</option><option value="procurement-supply-chain">Procurement / supply chain</option><option value="ecommerce-operator">E-commerce operator</option><option value="domain-operator-ai">Domain operator + AI</option><option value="automation-integrator">Automation / systems integrator</option><option value="cross-border-operator">Export / cross-border operator</option><option value="growth-operator">Performance marketing / growth</option><option value="quality-engineer">Quality / manufacturing engineer</option><option value="creator">Creator with direct audience</option><option value="product-manager">Product manager</option><option value="ai-engineer">Data / AI engineer</option><option value="software-engineer">Software engineer</option><option value="general-admin">General internal administration</option>
+</select></label>
+<div class="two"><label>Region<select id="region"><option value="china">China</option><option value="global">Global</option><option value="north-america">North America</option><option value="europe">Europe</option><option value="other">Other</option></select></label><label>Available time / week<select id="time"><option value="5">≤5 hours</option><option value="10" selected>5–10 hours</option><option value="20">10–20 hours</option><option value="40">20+ hours</option></select></label></div>
+<label>Industry / domain<input id="industry" placeholder="e.g. manufacturing, logistics, finance"></label>
+<div class="two"><label>Reachable payer access<select id="payer"><option value="0">None</option><option value="1">Indirect</option><option value="2" selected>Some direct access</option><option value="3">Weekly direct access</option></select></label><label>Supplier / channel access<select id="supplier"><option value="0">None</option><option value="1">Some awareness</option><option value="2" selected>Working relationships</option><option value="3">Strong access</option></select></label></div>
+<div class="two"><label>Affordable loss<select id="loss"><option value="0">Very low</option><option value="1" selected>Low</option><option value="2">Moderate</option><option value="3">High</option></select></label><label>Can sell a 30–60 day paid pilot?<select id="pilot"><option value="0">No clear path</option><option value="1">Maybe</option><option value="2" selected>Yes, with outreach</option><option value="3">Yes, to known prospects</option></select></label></div>
+<label>Recurring pain you observe<textarea id="pain" rows="3" placeholder="What expensive, repeated problem do you see?"></textarea></label>
+<label>Current asset / edge<textarea id="edge" rows="3" placeholder="Tacit knowledge, trust, data, distribution, workflow knowledge, reputation…"></textarea></label>
+<div class="panel-head compact"><div><p class="kicker">2 · MARKET REALITY</p><h2>Separate capital heat from customer truth</h2></div></div>
+<div class="two"><label>Capital Heat<select id="capital"><option value="C0">C0 Cold</option><option value="C1">C1 Emerging</option><option value="C2" selected>C2 Building</option><option value="C3">C3 Hot</option><option value="C4">C4 Euphoric</option><option value="C5">C5 Unwinding</option></select></label><label>Capital trend<select id="capital-trend"><option>Rising</option><option selected>Flat</option><option>Falling</option></select></label></div>
+<div class="three"><label>Payment<select id="payment"><option value="0">Weak</option><option value="1" selected>Mixed</option><option value="2">Strong</option></select></label><label>Retention<select id="retention"><option value="0">Weak</option><option value="1" selected>Unknown / Mixed</option><option value="2">Strong</option></select></label><label>Contribution economics<select id="economics"><option value="0">Worsening</option><option value="1" selected>Unknown / Flat</option><option value="2">Improving</option></select></label></div>
+<button class="primary" type="submit">Run Opportunity Radar</button>
+<p class="fine">This demo is heuristic. It does not estimate success probability and does not replace current-market research.</p>
+</form>
+<section class="panel results-panel">
+<div class="panel-head"><div><p class="kicker">3 · DECISION OUTPUT</p><h2>Your opportunity posture</h2></div><span id="verdict" class="badge">READY</span></div>
+<div class="metrics"><article><span>Transition readiness</span><strong id="readiness">—</strong><small>operator-side heuristic</small></article><article><span>Payer proximity</span><strong id="payer-score">—</strong><small>access to budget owners</small></article><article><span>Divergence state</span><strong id="divergence">—</strong><small>capital vs customer reality</small></article><article><span>Window pressure</span><strong id="window">—</strong><small>competition / capital pressure</small></article></div>
+<div class="decision-stack">
+<article class="decision-card"><p class="kicker">WHY THIS OPERATOR</p><h3 id="why-operator">Complete the form and run the radar.</h3><p id="operator-detail"></p></article>
+<article class="decision-card"><p class="kicker">BEST ENTRY WEDGE</p><h3 id="wedge">—</h3><p id="wedge-detail"></p></article>
+<article class="decision-card alert"><p class="kicker">ANTI-HYPE CHECK</p><h3 id="warning">—</h3><p id="warning-detail"></p></article>
+<article class="decision-card"><p class="kicker">FIRST PAID TEST</p><h3 id="pilot-plan">—</h3><p id="pilot-detail"></p></article>
+<article class="decision-card"><p class="kicker">ASSETIZATION PATH</p><h3 id="assetization">—</h3><p>Move from personal capability toward something that compounds without proportional founder hours.</p></article>
+<article class="decision-card danger"><p class="kicker">DO NOT DO</p><h3 id="dont">—</h3><p id="dont-detail"></p></article>
+</div>
+<div class="radar-watch"><div class="panel-head compact"><div><p class="kicker">PUBLIC RADAR WATCHLIST</p><h2>Current hypotheses from the repository</h2></div></div><div id="opportunity-list" class="opportunity-list"><p class="fine">Loading radar/opportunities.json…</p></div></div>
+</section></section>
+<footer><p><strong>Opportunity Radar</strong> — evidence before narrative, payment before popularity, ownership before vanity growth.</p><p><a href="../SKILL.md">Read the Agent Skill</a> · <a href="../cases/failure-backtests/matrix.md">Failure Matrix</a> · <a href="../references/hype-divergence.md">Hype Divergence</a></p></footer>
+</main><script src="./app.js"></script></body></html>
