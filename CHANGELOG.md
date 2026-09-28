@@ -1,5 +1,25 @@
 # Changelog
 
+## v8.3 — Falsification & Capital-Customer Divergence
+
+### Added
+
+- Five additional failure / false-positive backtests: MoviePass, Blue Apron / meal kits, Quibi, WeWork capital-model mismatch, and shared e-scooters / Bird.
+- Cross-case `Capital Heat × Payment × Retention` matrix.
+- `Hype Divergence` lens with Formation / Hype Divergence / Underfollowed Opportunity / Unwinding states.
+- Explicit contribution-economics and subsidy-divergence checks.
+- Four new behavioral pressure tests for euphoric capital, underfollowed opportunities, worsening paid-growth economics and post-hype openings.
+- Portable Agent Skill guardrails for capital-vs-customer divergence.
+
+### Changed
+
+- Capital Heat remains separate from Signal Confirmation Score and Mobility Opportunity Score.
+- `C4 Euphoric + weak/unverified payment + weak/unverified retention` can no longer produce START.
+- Output template now reports capital trend, payment, retention, contribution economics, competition effect and divergence state.
+- Failure backtests now serve as an anti-survivorship-bias reference library.
+- Skill version advanced to `8.3.0`.
+
+
 ## v8.1 — Opportunity Intelligence System
 
 ### Added
