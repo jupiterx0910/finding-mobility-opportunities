@@ -34,6 +34,10 @@ REQUIRED_FILES = [
     "cases/failure-backtests/README.md",
     "cases/failure-backtests/matrix.md",
     "skills/finding-mobility-opportunities/SKILL.md",
+    "demo/index.html",
+    "demo/styles.css",
+    "demo/app.js",
+    "demo/README.md",
 ]
 
 REQUIRED_EXAMPLES = [
@@ -69,7 +73,7 @@ def main() -> int:
         errors.append("SKILL.md must start with YAML frontmatter")
     for token in [
         "name: finding-mobility-opportunities",
-        'version: "8.3.0"',
+        'version: "8.4.0"',
         "Public-Example Safety Rule",
         "Career-to-Founder Transition",
         "Evidence Coverage",
@@ -80,6 +84,24 @@ def main() -> int:
     ]:
         if token not in skill:
             errors.append(f"SKILL.md missing required token: {token}")
+
+    demo_html = read("demo/index.html")
+    demo_js = read("demo/app.js")
+    for token in [
+        "Run Opportunity Radar",
+        "ANTI-HYPE CHECK",
+        "PUBLIC RADAR WATCHLIST",
+    ]:
+        if token not in demo_html:
+            errors.append(f"interactive demo missing token: {token}")
+    for token in [
+        "Hype Divergence",
+        "C4",
+        "BUY A REAL OPTION",
+        "radar/opportunities.json",
+    ]:
+        if token not in demo_js:
+            errors.append(f"interactive demo logic missing token: {token}")
 
     for path in REQUIRED_EXAMPLES:
         content = read(path)
