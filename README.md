@@ -4,7 +4,7 @@
 
 An evidence-driven opportunity discovery system for people moving from **employment to ownership**: B2B salespeople, cross-border operators, industrial technicians, procurement and supply-chain professionals, domain operators using AI, growth operators, creators, merchants, engineers and small teams.
 
-**Latest: v8.3** · [简体中文](README.zh-CN.md)
+**Latest: v8.4** · [简体中文](README.zh-CN.md)
 
 ```text
 Human Capital → Cash Flow → Owned Capital
@@ -27,6 +27,52 @@ npx skills add https://github.com/jupiterx0910/finding-mobility-opportunities
 ```
 
 The repository follows the Agent Skills structure: `SKILL.md` contains the operating procedure; deeper logic, cases, scorecards and examples live in `references/`, `docs/`, `cases/`, `examples/` and `radar/`.
+
+---
+
+# Interactive Opportunity Radar
+
+v8.4 adds a static, no-backend interface in [`demo/`](demo/) so the framework can be used as a lightweight decision tool instead of only being read as documentation.
+
+The demo asks for:
+
+```text
+career archetype
++ region / domain
++ payer access
++ supplier / channel access
++ affordable loss
++ available time
++ paid-pilot feasibility
++ Capital Heat
++ Payment
++ Retention
++ Contribution Economics
+```
+
+It returns:
+
+- heuristic Career→Founder transition readiness;
+- payer proximity;
+- Hype Divergence state;
+- window pressure;
+- best entry wedge;
+- first paid test;
+- assetization path;
+- anti-hype warning;
+- one verdict: `START / BUY A REAL OPTION / WATCH / REJECT`.
+
+**Important:** the UI is not a prediction engine. It does not perform live market research, and readiness is not a startup-success probability.
+
+Run locally:
+
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000/demo/`.
+
+GitHub Pages can host the demo because it is fully static, but Pages must be enabled separately in repository settings.
 
 ---
 
