@@ -31,6 +31,54 @@ npx skills add https://github.com/jupiterx0910/finding-mobility-opportunities
 
 ---
 
+# Interactive Opportunity Radar｜交互式机会雷达
+
+v8.4 新增静态、无后端的交互界面：[`demo/`](demo/)。
+
+它不是“预测创业成功率”的玩具，而是把 Opportunity Radar 的关键判断做成可操作前端。
+
+输入包括：
+
+```text
+职业原型
++ 地区 / 行业
++ Payer Access
++ Supplier / Channel Access
++ Affordable Loss
++ 可投入时间
++ 30–60 天付费 Pilot 可行性
++ Capital Heat
++ Payment
++ Retention
++ Contribution Economics
+```
+
+输出包括：
+
+- Career→Founder 迁移准备度；
+- Payer Proximity；
+- Hype Divergence 状态；
+- Window Pressure；
+- Best Entry Wedge；
+- First Paid Test；
+- Assetization Path；
+- Anti-Hype Warning；
+- 最终动作：`START / BUY A REAL OPTION / WATCH / REJECT`。
+
+**注意：**这个界面只是决策辅助，不做实时市场调研，Readiness 也不是创业成功概率。
+
+本地运行：
+
+```bash
+python -m http.server 8000
+```
+
+然后打开 `http://localhost:8000/demo/`。
+
+由于页面完全静态，也可以部署到 GitHub Pages；但 Pages 仍需在 GitHub 仓库设置里单独开启。
+
+---
+
 # 30 秒理解这套框架
 
 一个行业很大，**不代表适合你创业**。
