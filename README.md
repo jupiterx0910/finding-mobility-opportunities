@@ -4,7 +4,7 @@
 
 An evidence-driven opportunity discovery system for people moving from **employment to ownership**: B2B salespeople, cross-border operators, industrial technicians, procurement and supply-chain professionals, domain operators using AI, growth operators, creators, merchants, engineers and small teams.
 
-**Latest: v8.1** · [简体中文](README.zh-CN.md)
+**Latest: v8.3** · [简体中文](README.zh-CN.md)
 
 ```text
 Human Capital → Cash Flow → Owned Capital
@@ -47,7 +47,7 @@ A modest market can be life-changing when:
 So the real unit of analysis is:
 
 ```text
-Person × Change × Evidence × Payer × Power × Ownership × Timing
+Person × Change × Evidence × Payer × Capital Heat × Power × Ownership × Timing
 ```
 
 ---
@@ -65,7 +65,7 @@ Person × Change × Evidence × Payer × Power × Ownership × Timing
         ↓
 5. Real Customer Payment
         ↓
-6. Capital + Supply Chain + Formalization
+6. Capital Heat + Supply Chain + Formalization
         ↓
 7. Public-Market / Economic-Quality Gate
         ↓
@@ -98,6 +98,7 @@ The order matters because each step eliminates a different false positive.
 | Early Signals | Where are behavior, hiring budgets and supplier activity moving? | Financial statements are late. Opportunity discovery needs earlier evidence. |
 | Payment | Who pays from which budget, and for what measurable result? | Attention, downloads and funding can exist without a business. |
 | Industry Formation | Are roles, suppliers, standards, service firms and infrastructure forming? | Distinguishes a novelty from an ecosystem. |
+| Capital Heat | Are VC / angel / strategic investors accelerating, and does that agree with payment and retention? | Separates category formation from capital-fueled hype. |
 | Economic Quality | Does the story survive margin, retention, CAC, cash-flow and concentration scrutiny? | Removes growth that is bought, rented or subsidized. |
 | Power Pool | Who can keep the profit after competition arrives? | Value creation and value capture are different. |
 | Operator Fit | Why can this person enter better than an average outsider? | A 95/100 industry can still be a 30/100 personal opportunity. |
@@ -225,7 +226,7 @@ Historical backtests ask:
 
 > Using only signals that were observable early, would the framework have asked useful questions, identified an accessible entry window, and avoided obvious false positives?
 
-Initial backtests:
+Success / formation backtests:
 
 - [E-commerce](cases/ecommerce.md)
 - [Mobile App Economy](cases/mobile-app-economy.md)
@@ -234,6 +235,54 @@ Initial backtests:
 - [AI-Native Services](cases/ai-native-services.md)
 
 Backtests are not proof that the framework predicts winners. They test whether the framework's questions, vetoes and staged-commitment logic are useful before certainty exists.
+
+For false positives and failed narratives, see [`cases/failure-backtests/`](cases/failure-backtests/) and its cross-case [`matrix.md`](cases/failure-backtests/matrix.md).
+
+---
+
+# Capital Heat ≠ Customer Pull
+
+v8.3 adds a dedicated **VC / Angel / Strategic Capital Heat** layer.
+
+```text
+C0 Cold → C1 Emerging → C2 Building → C3 Hot → C4 Euphoric → C5 Unwinding
+```
+
+Then cross-check:
+
+```text
+Capital Heat × Payment × Retention × Contribution Economics × Competition × Power Pool
+```
+
+Key states:
+
+| State | Pattern | Default interpretation |
+|---|---|---|
+| Formation | high capital + strong payment + strong retention | category is becoming economically real |
+| Hype Divergence | high capital + weak payment/retention | investor narrative is ahead of customer reality |
+| Underfollowed Opportunity | low/moderate capital + strong payment + strong retention | potentially attractive niche for non-venture operators |
+| Unwinding | falling capital + weak payment/retention | financing cycle is reversing without durable economics |
+
+**Guardrail:** `C4 Euphoric + weak/unverified payment + weak/unverified retention` cannot receive **START**.
+
+Read [Capital Heat Lens](references/capital-heat-lens.md), [Hype Divergence](references/hype-divergence.md), and the [Failure Matrix](cases/failure-backtests/matrix.md).
+
+---
+
+# Failure Backtests: Attack the Framework
+
+v8.3 expands the false-positive library to ten cases, including MoviePass, Blue Apron, Quibi, WeWork and shared e-scooters/Bird.
+
+Each case asks what could have been known **at the time**:
+
+```text
+capital heat → payment → retention / contribution economics → Power Pool
+→ earliest kill signal → what remained unknowable
+```
+
+This reduces survivorship bias and prevents the framework from learning only from winners.
+
+See [Failure / False-Positive Backtests](cases/failure-backtests/README.md).
 
 ---
 
