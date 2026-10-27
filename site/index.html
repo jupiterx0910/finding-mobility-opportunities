@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Opportunity Radar：基于证据发现、研究和验证创业机会。">
+  <title>Opportunity Radar｜创业机会雷达</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="brand-mark">O</span><span>OPPORTUNITY RADAR<small>创业机会雷达</small></span></a>
+    <nav><a href="#radar">机会雷达</a><a href="#method">判断方法</a><a href="#principles">研究原则</a><a class="nav-cta" href="https://github.com/jupiterx0910/finding-mobility-opportunities">GitHub ↗</a></nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="pulse"></span> EVIDENCE-DRIVEN OPPORTUNITY RESEARCH</div>
+      <h1>下一个时代性机会，<br><em>正在什么地方形成？</em></h1>
+      <p class="hero-copy">不追逐热词。追踪结构变化、利润池迁移与真实付款信号，找到新进入者可能切入的位置。</p>
+      <div class="hero-actions"><a class="button primary" href="#radar">查看机会雷达 <span>↓</span></a><a class="button secondary" href="#method">我们如何判断</a></div>
+      <div class="hero-foot"><span>STRUCTURAL CHANGE</span><b>→</b><span>PROFIT POOL</span><b>→</b><span>REAL PAYMENT</span><b>→</b><span>OWNERSHIP</span></div>
+    </section>
+    <section class="stats" aria-label="研究原则">
+      <div><strong>01</strong><span>先找变化，不先找风口</span></div>
+      <div><strong>02</strong><span>先看付款，不先看热度</span></div>
+      <div><strong>03</strong><span>评分与证据置信度分开</span></div>
+      <div><strong>04</strong><span>保留旧判断，接受现实检验</span></div>
+    </section>
+    <section class="section" id="radar">
+      <div class="section-head">
+        <div><div class="eyebrow">THE RADAR / 01</div><h2>值得持续研究的机会</h2><p>不是行业排行榜，而是等待证据确认的研究假说。</p></div>
+        <div class="snapshot"><span class="status-dot"></span><span id="data-status">正在读取研究快照…</span></div>
+      </div>
+      <div class="filters">
+        <label class="searchbox"><span>⌕</span><input id="search" type="search" placeholder="搜索机会、付款方或关键词…" autocomplete="off"></label>
+        <select id="sector-filter" aria-label="按领域筛选"><option value="all">全部领域</option><option value="ai">AI 与软件</option><option value="manufacturing">先进制造与机器人</option><option value="crossborder">跨境贸易</option></select>
+        <select id="verdict-filter" aria-label="按当前判断筛选"><option value="all">全部判断</option><option value="BUY_A_REAL_OPTION">小额验证</option><option value="WATCH">持续观察</option><option value="START">开始行动</option><option value="REJECT">暂不进入</option></select>
+      </div>
+      <div class="notice" id="freshness-notice"><strong>数据透明提示</strong><span>页面会显示研究快照的日期。历史研究条目不代表当前已验证机会；正式自动更新流水线尚未启用。</span></div>
+      <div class="radar-layout">
+        <div id="opportunity-list" class="opportunity-list"><div class="loading">正在载入机会…</div></div>
+        <aside id="detail-panel" class="detail-panel"><div class="detail-placeholder"><span class="placeholder-icon">↖</span><h3>选择一条机会</h3><p>查看切入位置、潜在付款方、利润捕获假说、证据缺口与下一步验证动作。</p></div></aside>
+      </div>
+      <div id="empty-state" class="empty-state" hidden><h3>没有匹配的机会</h3><p>试试更换关键词或筛选条件。</p></div>
+    </section>
+    <section class="section method-section" id="method">
+      <div class="eyebrow">HOW WE THINK / 02</div><h2>从产业变化，到一笔真实订单</h2><p class="section-intro">行业增长不等于创业机会。我们沿着一条可以被证伪的推理链，逐层检查利润是否存在、能否进入、是否能留下。</p>
+      <div class="method-grid">
+        <article><span>01 / CHANGE</span><h3>识别结构变化</h3><p>技术成本、制度、供给、渠道或客户行为发生了什么变化？为什么是现在？</p></article>
+        <article><span>02 / PAYER</span><h3>找到真正付款者</h3><p>谁有预算？购买什么结果？现有替代方案的成本和痛点是什么？</p></article>
+        <article><span>03 / POWER</span><h3>判断利润归属</h3><p>谁有定价权、客户关系、数据、渠道或交付壁垒？新进入者能留下什么？</p></article>
+        <article><span>04 / TEST</span><h3>设计低成本验证</h3><p>用访谈、报价、付费试单和复购数据检验关键假设，而不是先写商业计划。</p></article>
+      </div>
+    </section>
+    <section class="section principles-section" id="principles">
+      <div class="eyebrow">RESEARCH INTEGRITY / 03</div><h2>让判断有证据，也允许判断被推翻</h2>
+      <div class="principles-grid">
+        <div><span class="principle-number">A</span><div><h3>事实 ≠ 推断 ≠ 假设</h3><p>每条核心判断都应标明证据类型、来源与未知项。</p></div></div>
+        <div><span class="principle-number">B</span><div><h3>资本热度 ≠ 客户需求</h3><p>融资和媒体关注只能提供信号，不能替代付款、留存与单位经济。</p></div></div>
+        <div><span class="principle-number">C</span><div><h3>高分 ≠ 高置信</h3><p>关键证据缺失时，正确动作可能是小额验证，而非重仓进入。</p></div></div>
+        <div><span class="principle-number">D</span><div><h3>保留历史判断</h3><p>新证据可以改变结论，但不能静默改写过去的判断。</p></div></div>
+      </div>
+    </section>
+    <section class="closing"><div class="eyebrow">THE REAL QUESTION</div><h2>不是“哪个行业会火”，<br>而是 <em>“利润会流向哪里，我能从哪里进入？”</em></h2><a class="button primary" href="https://github.com/jupiterx0910/finding-mobility-opportunities">查看完整研究框架 ↗</a></section>
+  </main>
+  <footer><div class="brand footer-brand"><span class="brand-mark">O</span><span>OPPORTUNITY RADAR<small>创业机会雷达</small></span></div><p>研究工具，不构成投资建议或创业成功预测。机会结论必须由可追溯证据和真实市场验证支持。</p><span class="footer-meta">EVIDENCE BEFORE NARRATIVE · PAYMENT BEFORE POPULARITY</span></footer>
+</body>
+</html>
