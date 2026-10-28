@@ -34,7 +34,7 @@ jobs:
 
       - name: Validate collector syntax and source registry
         run: |
-          python -m py_compile scripts/collect_signals.py
+          python -m py_compile scripts/collect_signals.py scripts/merge_signal_snapshots.py
           python - <<'PY'
           import json
           from pathlib import Path
