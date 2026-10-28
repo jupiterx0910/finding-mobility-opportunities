@@ -7,6 +7,7 @@
   <title>Opportunity Radar｜创业机会雷达</title>
   <link rel="stylesheet" href="./styles.css">
   <script defer src="./app.js"></script>
+  <script defer src="./signals.js"></script>
 </head>
 <body>
   <header class="topbar">
@@ -43,6 +44,15 @@
         <aside id="detail-panel" class="detail-panel"><div class="detail-placeholder"><span class="placeholder-icon">↖</span><h3>选择一条机会</h3><p>查看切入位置、潜在付款方、利润捕获假说、证据缺口与下一步验证动作。</p></div></aside>
       </div>
       <div id="empty-state" class="empty-state" hidden><h3>没有匹配的机会</h3><p>试试更换关键词或筛选条件。</p></div>
+    </section>
+    <section class="section signals-section" id="signals">
+      <div class="section-head">
+        <div><div class="eyebrow">LIVE SIGNAL INBOX / 01B</div><h2>正在采集的公开信号</h2><p>先收集可追溯的变化线索，再经过研究和反方验证，才有资格成为机会判断。</p></div>
+        <div class="snapshot"><span class="status-dot"></span><span id="signals-status">等待首次采集</span></div>
+      </div>
+      <div class="signal-integrity"><strong>线索不等于机会</strong><span>新闻、论文和公开信息仅是研究线索。它们不证明客户愿意付费，也不会自动改变机会评级。</span></div>
+      <div id="signals-list" class="signals-list"><div class="loading">公开信号快照尚未生成。首次采集运行后，这里将显示带有来源链接的研究线索。</div></div>
+      <div class="signals-footer"><a href="https://github.com/jupiterx0910/finding-mobility-opportunities/blob/main/radar/sources.json">查看数据源清单 ↗</a><a href="https://github.com/jupiterx0910/finding-mobility-opportunities/blob/main/radar/collection-report.json">查看采集运行报告 ↗</a></div>
     </section>
     <section class="section method-section" id="method">
       <div class="eyebrow">HOW WE THINK / 02</div><h2>从产业变化，到一笔真实订单</h2><p class="section-intro">行业增长不等于创业机会。我们沿着一条可以被证伪的推理链，逐层检查利润是否存在、能否进入、是否能留下。</p>
