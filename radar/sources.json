@@ -3,12 +3,30 @@
   "description": "Public-source signal collection configuration. Collection creates leads for research; it does not validate business opportunities.",
   "sources": [
     {
-      "id": "arxiv-ai-robotics",
-      "name": "arXiv API — AI, robotics and automation research",
-      "type": "arxiv_api",
-      "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22AI+agent%22+OR+all%3Arobotics+OR+all%3Aautomation%29&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending",
+      "id": "arxiv-cs-ai-rss",
+      "name": "arXiv RSS — Artificial Intelligence research",
+      "type": "rss",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
       "region": "global",
-      "topic_tags": ["ai", "robotics", "automation"],
+      "topic_tags": [
+        "ai",
+        "agents",
+        "research"
+      ],
+      "reliability_tier": "primary_research",
+      "enabled": true
+    },
+    {
+      "id": "arxiv-cs-ro-rss",
+      "name": "arXiv RSS — Robotics research",
+      "type": "rss",
+      "url": "https://rss.arxiv.org/rss/cs.RO",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "automation",
+        "research"
+      ],
       "reliability_tier": "primary_research",
       "enabled": true
     },
@@ -18,7 +36,10 @@
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
       "region": "global",
-      "topic_tags": ["ai", "enterprise"],
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
       "reliability_tier": "secondary_media",
       "enabled": true
     },
@@ -28,7 +49,10 @@
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
       "region": "global",
-      "topic_tags": ["robotics", "manufacturing"],
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
       "reliability_tier": "secondary_media",
       "enabled": true
     },
@@ -38,7 +62,11 @@
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
       "region": "global",
-      "topic_tags": ["crossborder", "trade", "compliance"],
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
       "reliability_tier": "secondary_media",
       "enabled": true
     }
