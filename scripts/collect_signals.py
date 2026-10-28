@@ -26,7 +26,7 @@ SOURCE_FILE = ROOT / "radar" / "sources.json"
 OUTPUT_FILE = ROOT / "radar" / "signals.json"
 REPORT_FILE = ROOT / "radar" / "collection-report.json"
 MAX_SIGNALS = 1200
-TIMEOUT_SECONDS = 20
+TIMEOUT_SECONDS = 10
 USER_AGENT = "OpportunityRadarResearchBot/0.1 (+https://github.com/jupiterx0910/finding-mobility-opportunities; public feed reader)"
 
 
@@ -162,7 +162,7 @@ def fetch_source(source: dict[str, Any]) -> tuple[list[dict[str, Any]], dict[str
     )
     try:
         with urllib.request.urlopen(request, timeout=TIMEOUT_SECONDS) as response:
-            payload = response.read(4_000_000)
+            payload = response.read(1_500_000)
             status = getattr(response, "status", 200)
             if status != 200:
                 raise RuntimeError(f"HTTP status {status}")
