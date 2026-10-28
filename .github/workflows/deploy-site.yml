@@ -1,0 +1,67 @@
+name: Deploy Opportunity Radar Website
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "site/**"
+      - "radar/opportunities.json"
+      - "radar/signals.json"
+      - ".github/workflows/deploy-site.yml"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Assemble static website
+        run: |
+          mkdir -p public/radar
+          cp -R site/. public/
+          cp radar/opportunities.json public/radar/opportunities.json
+          cp radar/signals.json public/radar/signals.json
+          cp radar/collection-report.json public/radar/collection-report.json
+          test -s public/index.html
+          test -s public/app.js
+          test -s public/styles.css
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for name in ("public/radar/opportunities.json", "public/radar/signals.json", "public/radar/collection-report.json"):
+              json.loads(Path(name).read_text(encoding="utf-8"))
+              print("Validated", name)
+          PY
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
