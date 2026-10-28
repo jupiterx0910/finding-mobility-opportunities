@@ -118,7 +118,7 @@ def parse_feed(payload: bytes, source: dict[str, Any]) -> list[dict[str, Any]]:
             title = text_of(entry, ["title"])
             link = item_link(entry, False)
             published = text_of(entry, ["pubDate", "published", "updated", "date"])
-            summary = text_of(entry, ["description", "summary", "content:encoded"])
+            summary = text_of(entry, ["description", "summary", "{http://purl.org/rss/1.0/modules/content/}encoded"])
             authors = []
         title = clean_text(title, 400)
         link = link.strip()
