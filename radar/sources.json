@@ -6,7 +6,7 @@
       "id": "arxiv-ai-robotics",
       "name": "arXiv API — AI, robotics and automation research",
       "type": "arxiv_api",
-      "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22AI+agent%22+OR+all%3Arobotics+OR+all%3Aautomation%29&start=0&max_results=30&sortBy=submittedDate&sortOrder=descending",
+      "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22AI+agent%22+OR+all%3Arobotics+OR+all%3Aautomation%29&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending",
       "region": "global",
       "topic_tags": ["ai", "robotics", "automation"],
       "reliability_tier": "primary_research",
