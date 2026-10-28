@@ -1,5 +1,16 @@
 (() => {
-  const url = "../radar/signals.json";
+  const urls = ["./radar/signals.json", "../radar/signals.json"];
+  async function fetchSnapshot() {
+    let lastError;
+    for (const url of urls) {
+      try {
+        const response = await fetch(url, {cache:"no-store"});
+        if (response.ok) return response;
+        lastError = new Error("HTTP " + response.status);
+      } catch (error) { lastError = error; }
+    }
+    throw lastError || new Error("Signal snapshot unavailable");
+  }
   const list = document.querySelector("#signals-list");
   const status = document.querySelector("#signals-status");
   if (!list || !status) return;
@@ -23,8 +34,7 @@
   }[value] || value);
   async function load() {
     try {
-      const response = await fetch(url, {cache:"no-store"});
-      if (!response.ok) throw new Error("HTTP " + response.status);
+      const response = await fetchSnapshot();
       const data = await response.json();
       const signals = Array.isArray(data.signals) ? data.signals : [];
       const asOf = data.as_of ? dateLabel(data.as_of) : "尚无成功采集快照";
