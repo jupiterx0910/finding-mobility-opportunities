@@ -86,8 +86,7 @@ function selectOpportunity(id) {
 }
 async function init() {
   try {
-    const response = await fetch(DATA_URL, {cache:"no-store"});
-    if (!response.ok) throw new Error("数据请求失败：" + response.status);
+    const response = await fetchData();
     const data = await response.json();
     opportunities = Array.isArray(data.opportunities) ? data.opportunities : [];
     const asOf = data.as_of || "日期未知";
