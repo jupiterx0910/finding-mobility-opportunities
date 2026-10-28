@@ -1,0 +1,82 @@
+name: Collect Opportunity Signals
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: opportunity-signal-collection
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Validate collector syntax and source registry
+        run: |
+          python -m py_compile scripts/collect_signals.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          cfg = json.loads(Path("radar/sources.json").read_text(encoding="utf-8"))
+          assert cfg.get("schema_version") == "1.0"
+          assert cfg.get("sources"), "source registry must not be empty"
+          ids = [s["id"] for s in cfg["sources"]]
+          assert len(ids) == len(set(ids)), "source ids must be unique"
+          for source in cfg["sources"]:
+              assert source["url"].startswith("https://"), source["id"]
+              assert source.get("type") in {"rss", "arxiv_api"}, source["id"]
+          print(f"Validated {len(cfg['sources'])} configured sources.")
+          PY
+
+      - name: Collect public signals
+        id: collect
+        continue-on-error: true
+        run: python scripts/collect_signals.py
+
+      - name: Validate generated JSON
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for name in ("radar/signals.json", "radar/collection-report.json"):
+              path = Path(name)
+              if path.exists():
+                  json.loads(path.read_text(encoding="utf-8"))
+                  print(f"Valid JSON: {name}")
+              else:
+                  print(f"Not generated: {name}")
+          PY
+
+      - name: Commit collection snapshot and run report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add radar/signals.json radar/collection-report.json
+          if git diff --cached --quiet; then
+            echo "No signal or report changes to commit."
+          else
+            git commit -m "chore(radar): refresh collected public signals"
+            git push
+          fi
+
+      - name: Fail job if every source failed
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo "Signal collection failed. Inspect radar/collection-report.json and the workflow logs."
+          exit 1
