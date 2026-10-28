@@ -19,7 +19,7 @@
 python -m http.server 8000
 ```
 
-然后打开 `http://localhost:8000/site/`。首次采集可在 GitHub 仓库的 Actions → Collect Opportunity Signals → Run workflow 手动触发。仓库已加入 GitHub Pages 自动部署工作流（`.github/workflows/deploy-site.yml`）。部署是否成功及公开网址，必须以 [Actions 运行记录](https://github.com/jupiterx0910/finding-mobility-opportunities/actions) 为准；首次启用可能仍需要仓库 Pages 权限允许部署。
+然后打开 `http://localhost:8000/site/`。首次采集可在 GitHub 仓库的 Actions → Collect Opportunity Signals → Run workflow 手动触发。仓库已加入 GitHub Pages 自动部署工作流（`.github/workflows/deploy-site.yml`）。首次部署前，请进入仓库 **Settings → Pages → Build and deployment → Source**，选择 **GitHub Actions** 并保存；当前连接的自动化权限无法替你首次启用 Pages。之后由 [Actions 工作流](https://github.com/jupiterx0910/finding-mobility-opportunities/actions) 构建与部署，必须以成功记录和实际打开的网址为准。
 
 
 **最新版：v8.1** · [English](README.md)
