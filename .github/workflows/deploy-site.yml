@@ -2,6 +2,8 @@ name: Deploy Opportunity Radar Website
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * *"
   push:
     branches:
       - main
