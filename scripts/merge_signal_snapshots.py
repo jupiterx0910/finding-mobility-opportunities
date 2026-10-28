@@ -68,6 +68,7 @@ def main() -> int:
 
     # Preserve the report belonging to the newest completed collection run.
     report_to_keep = local_report if parse_time(local_report.get("finished_at")) >= parse_time(current_report.get("finished_at")) else current_report
+    report_to_keep["items_retained"] = len(signals)
     current_report_path.write_text(
         json.dumps(report_to_keep, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
