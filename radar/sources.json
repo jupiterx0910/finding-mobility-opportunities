@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "description": "Public-source signal collection configuration. Collection creates leads for research; it does not validate business opportunities.",
+  "sources": [
+    {
+      "id": "arxiv-ai-robotics",
+      "name": "arXiv API — AI, robotics and automation research",
+      "type": "arxiv_api",
+      "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22AI+agent%22+OR+all%3Arobotics+OR+all%3Aautomation%29&start=0&max_results=30&sortBy=submittedDate&sortOrder=descending",
+      "region": "global",
+      "topic_tags": ["ai", "robotics", "automation"],
+      "reliability_tier": "primary_research",
+      "enabled": true
+    },
+    {
+      "id": "google-news-ai-enterprise",
+      "name": "Google News RSS — enterprise AI adoption",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "region": "global",
+      "topic_tags": ["ai", "enterprise"],
+      "reliability_tier": "secondary_media",
+      "enabled": true
+    },
+    {
+      "id": "google-news-robotics",
+      "name": "Google News RSS — industrial robotics and humanoid robots",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "region": "global",
+      "topic_tags": ["robotics", "manufacturing"],
+      "reliability_tier": "secondary_media",
+      "enabled": true
+    },
+    {
+      "id": "google-news-crossborder",
+      "name": "Google News RSS — cross-border trade and export services",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "region": "global",
+      "topic_tags": ["crossborder", "trade", "compliance"],
+      "reliability_tier": "secondary_media",
+      "enabled": true
+    }
+  ]
+}
