@@ -79,6 +79,7 @@ jobs:
             echo "No signal or report changes to commit."
           else
             git commit -m "chore(radar): refresh collected public signals"
+            git pull --rebase origin main
             git push
           fi
 
