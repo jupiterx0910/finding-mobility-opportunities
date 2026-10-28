@@ -2,6 +2,13 @@ name: Collect Opportunity Signals
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/collect_signals.py"
+      - "radar/sources.json"
+      - ".github/workflows/collect-signals.yml"
   schedule:
     - cron: "17 2 * * *"
 
