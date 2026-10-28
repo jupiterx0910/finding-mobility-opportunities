@@ -11,7 +11,7 @@
 - [打开网站首页源码](site/index.html)
 - [独立网站产品路线图](docs/independent-website-roadmap.zh-CN.md)
 
-当前网站读取 `radar/opportunities.json` 静态快照。它**不是实时数据平台**：数据库、自动采集、AI 研究流水线和定时更新仍待实现。页面会提示快照日期，避免把历史研究误认为当前已验证机会。
+网站当前包含机会雷达与公开信号收件箱。机会数据来自 `radar/opportunities.json`；公开信号由 `scripts/collect_signals.py` 从配置的 RSS/Atom/arXiv 等公开源定时采集，结果写入 `radar/signals.json`，每次运行报告写入 `radar/collection-report.json`。这条流水线只采集研究线索，不自动生成或发布“已验证机会”；AI 研究、数据库、付款/复购结果回流仍待后续实现。
 
 本地预览（在仓库根目录执行）：
 
@@ -19,7 +19,7 @@
 python -m http.server 8000
 ```
 
-然后打开 `http://localhost:8000/site/`。正式启用 GitHub Pages 之前，仍需在仓库设置中配置发布目录，并验证相对路径与实际部署结果。
+然后打开 `http://localhost:8000/site/`。首次采集可在 GitHub 仓库的 Actions → Collect Opportunity Signals → Run workflow 手动触发。仓库已加入 GitHub Pages 自动部署工作流（`.github/workflows/deploy-site.yml`）。部署是否成功及公开网址，必须以 [Actions 运行记录](https://github.com/jupiterx0910/finding-mobility-opportunities/actions) 为准；首次启用可能仍需要仓库 Pages 权限允许部署。
 
 
 **最新版：v8.1** · [English](README.md)
