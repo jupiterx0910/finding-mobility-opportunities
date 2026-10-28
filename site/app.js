@@ -1,4 +1,15 @@
-const DATA_URL = "../radar/opportunities.json";
+const DATA_URLS = ["./radar/opportunities.json", "../radar/opportunities.json"];
+async function fetchData() {
+  let lastError;
+  for (const url of DATA_URLS) {
+    try {
+      const response = await fetch(url, {cache:"no-store"});
+      if (response.ok) return response;
+      lastError = new Error("数据请求失败：" + response.status + " (" + url + ")");
+    } catch (error) { lastError = error; }
+  }
+  throw lastError || new Error("数据请求失败");
+}
 const titles = {
   "enterprise-agent-production-governance-evaluation": "企业级 AI Agent 生产治理与评测",
   "lightweight-ai-services-manufacturing-smes": "面向中小制造企业的轻量 AI 服务",
