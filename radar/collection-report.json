@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "started_at": "2026-10-28T01:01:25+00:00",
-  "finished_at": "2026-10-28T01:01:49+00:00",
+  "started_at": "2026-10-28T01:02:03+00:00",
+  "finished_at": "2026-10-28T01:02:16+00:00",
   "sources_configured": 4,
   "sources_succeeded": 3,
   "sources_failed": 1,
-  "items_new_this_run": 240,
-  "items_retained": 240,
+  "items_new_this_run": 74,
+  "items_retained": 314,
   "results": [
     {
       "source_id": "arxiv-ai-robotics",
@@ -14,7 +14,7 @@
       "status": "failed",
       "items_seen": 0,
       "items_new": 0,
-      "duration_ms": 20115,
+      "duration_ms": 10126,
       "error": "The read operation timed out"
     },
     {
@@ -22,24 +22,24 @@
       "source_name": "Google News RSS — enterprise AI adoption",
       "status": "success",
       "items_seen": 100,
-      "items_new": 100,
-      "duration_ms": 502
+      "items_new": 42,
+      "duration_ms": 641
     },
     {
       "source_id": "google-news-robotics",
       "source_name": "Google News RSS — industrial robotics and humanoid robots",
       "status": "success",
-      "items_seen": 93,
-      "items_new": 93,
-      "duration_ms": 415
+      "items_seen": 100,
+      "items_new": 32,
+      "duration_ms": 524
     },
     {
       "source_id": "google-news-crossborder",
       "source_name": "Google News RSS — cross-border trade and export services",
       "status": "success",
       "items_seen": 47,
-      "items_new": 47,
-      "duration_ms": 444
+      "items_new": 0,
+      "duration_ms": 494
     }
   ]
 }
