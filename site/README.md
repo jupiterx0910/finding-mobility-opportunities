@@ -12,7 +12,7 @@ python -m http.server 8000
 
 Open <http://localhost:8000/site/>.
 
-Do not open `index.html` through a `file://` URL: the interface fetches the shared research snapshot from `../radar/opportunities.json`.
+Do not open `index.html` through a `file://` URL. For local preview, the interface tries `./radar/` and then `../radar/`; the Pages build copies the data snapshots to `public/radar/`.
 
 ## What works in this MVP
 
@@ -26,7 +26,7 @@ Do not open `index.html` through a `file://` URL: the interface fetches the shar
 ## What does not exist yet
 
 - no database;
-- no live source collection;
+- no database or account system;\n- public signal collection is implemented in `scripts/collect_signals.py` and scheduled by `.github/workflows/collect-signals.yml`; first-run success must be checked in Actions;
 - no AI-generated candidate pipeline;
 - no automatic scoring or publishing;
 - no authentication, user accounts or notifications;
@@ -36,8 +36,8 @@ The displayed opportunity data is a research snapshot, not a statement that the 
 
 ## GitHub Pages
 
-The site can be published as a static prototype if the repository's Pages settings are configured to serve the repository root and the public URL is verified. Because this interface loads `../radar/opportunities.json`, keep `site/` and `radar/` at the same repository level. Do not claim it is live until the deployed URL has been checked in a browser.
+The `.github/workflows/deploy-site.yml` workflow assembles `site/` at the Pages root and copies the opportunity, signal and collection-report JSON snapshots into `/radar/`. It uses GitHub Pages Actions deployment. Do not claim the site is live until the deployment workflow succeeds and the resulting URL has been checked in a browser.
 
 ## Next engineering step
 
-Build the first ingestion pipeline for a small set of stable, public, permitted sources. Store each source and signal with timestamps, deduplication keys, source URLs and validation status. Initially automate **signal collection only**; keep opportunity conclusions behind evidence checks and a review gate.
+Next, verify the first scheduled collection run and Pages deployment. Review source failures and signal quality before expanding the source registry. Keep opportunity conclusions behind evidence checks and a review gate.
