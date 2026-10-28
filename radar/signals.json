@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-10-28T01:02:49+00:00",
+  "as_of": "2026-10-28T01:03:32+00:00",
   "purpose": "Collected public signals for later research. These are unverified leads, not validated opportunities.",
-  "signal_count": 855,
+  "signal_count": 864,
   "signals": [
     {
       "id": "f4c3fa1e2e2d07f53e94",
@@ -1192,6 +1192,27 @@
       "verification_status": "not_reviewed"
     },
     {
+      "id": "85963fa29941e88dd6be",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNVjBRMWJWV1dFcVRmM0tsaDVFek1weUgxN3ZHWm9oMnZGbk1nWlJtMEJiekoxb0poNGg1VmhRUDN5Y1JpQW9pTG1aNGF6WFpFazQyME9HU2NYZzh5T0VDRkd6Ukw1RDFxcG5tNm9WWGxEaDh2N3l2R2NlalppTjFrTkJPcTNWUkRDc3NZbjhPVDVCVUJybXhqd0MtaFVKNURsa2xEVUx4Zk5QZ0tOUU5EUTNVbGhDX01BN2p6UlM1eWphZmI3ZWU3RGJ4Ykl0OEZOeVNIdVplVWRVdjNGRUJuWE1HSFRiMTJxdTFydWVKZVJkZlNnbUpYUTJ1Wkd0blh0aE0yRnZVV1NCc2ZKU0EwWkFMVk9tOXVEczBVZEpkRjFuWktzV25XM3dsQlNEc3V5?oc=5",
+      "title": "Department of Commerce Extends RELIEF Initiative Under Export Promotion Mission Until March 31, 2027, Offering 95% Risk Coverage Under Component II to Boost ECGC-Covered Export Shipments - A2Z Taxcorp LLP",
+      "summary": "Department of Commerce Extends RELIEF Initiative Under Export Promotion Mission Until March 31, 2027, Offering 95% Risk Coverage Under Component II to Boost ECGC-Covered Export Shipments &nbsp;&nbsp; A2Z Taxcorp LLP",
+      "published_at": "2026-10-27T10:37:40+00:00",
+      "collected_at": "2026-10-28T01:03:32+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
       "id": "2e2b5d248d2825d1660f",
       "source_id": "google-news-ai-enterprise",
       "source_name": "Google News RSS — enterprise AI adoption",
@@ -1569,6 +1590,27 @@
       "topic_tags": [
         "ai",
         "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "43fadaf7b94f11b84457",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcHU2QU9hRDlZMWN2czQ4NVZMbHF0ZHRJT3Zqdy03YVB3NnlBUjc3MllycWtHSGJBTEY4Q243cUxlLS1zUldpZTVsdHlPWTRpY2lFTTNzOU5NUFd2aWtYRVpod2lTeVFsZ1ZBcDJGUHpuaXRBS1hkNXdzMTNhMV9zN3QxLVN4R1ZyZjRBdXpoTzUwWTN4LXozUTBONmFzTm5tdlJURDRhQ1FtQUE0ZlRBRWpzUTBRYmVJaHBpclNhdm52cjBYS2VfelhVQ2JhVjV5M29HOXhVVTZzWkJJ0gHiAUFVX3lxTE9EM1lKV08yWGgwLVl1anZGOUJVQ2laaVBpUXEtRGRGU2Ftc0tHVDlFUnd3RnMzdTdjTVVFMldGemNBNjZOWnl0bEVrV3JxaWgyOTZMeXpydUd0Z201STZyNnhaLUdXRmt2TU9HVXBQOFJDNE5fVldINWJmVGRZSWY2cFpqSXJOcTNsYTZTYU9RN1paUDR2S2l6LTR1MzZ3Q3dWbkc1aDNfSTc5WFBJMDhkQTJDMWxrSm92N3RVOFF5Y0x5Y1RjU1Jta1cwU1RRRlhjdzUwUG9TQ0pFYzlrUmZUd0E?oc=5",
+      "title": "3 Export Stocks Retail Investors Are Watching After China’s Trade And Export Rebound - Simply Wall Street",
+      "summary": "3 Export Stocks Retail Investors Are Watching After China’s Trade And Export Rebound &nbsp;&nbsp; Simply Wall Street",
+      "published_at": "2026-10-27T04:01:01+00:00",
+      "collected_at": "2026-10-28T01:03:32+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
       ],
       "reliability_tier": "secondary_media",
       "evidence_class": "lead_unverified",
@@ -13057,6 +13099,27 @@
       "verification_status": "not_reviewed"
     },
     {
+      "id": "62302f4b452f93652c87",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1OOHRPTjRqQ2gzMDl2eEhaQTNXeG9rSGttVHNYWTRucHFxR2VjMGpmQ3NfLXFBcXdNUGJoM3NPaTBlVDM4WnIxeklJQ2RWMnhtdEtZeVUxdXFCWFFOU1NHR2ppVnZzMXZSVkdqSFAyMW4tRzJCU0lfX1RCSFFUZw?oc=5",
+      "title": "Regional linkages for industrial and commercial development. - Vietnam.vn",
+      "summary": "Regional linkages for industrial and commercial development. &nbsp;&nbsp; Vietnam.vn",
+      "published_at": "2026-10-27T00:05:49+00:00",
+      "collected_at": "2026-10-28T01:03:32+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
       "id": "ba00351ac0f3f4b77a35",
       "source_id": "google-news-robotics",
       "source_name": "Google News RSS — industrial robotics and humanoid robots",
@@ -13652,6 +13715,26 @@
       "topic_tags": [
         "robotics",
         "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "633c836c32ac0bf9182c",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZVGtsY3VKRVRuSVkzQ05TaGhDTTVwTjc2WHQ3ZWYtTjZkM1pnck5VeHk2OWtTZ2Fscm1HWVo4Mnp5Nzk2MDBjUUk2MktablFwNl9QdFB6SnptRWt4aUsyUHg1UnQzT3NhV3g2c2Q4T2FucnV5RmUxZmJvRWY?oc=5",
+      "title": "How Zoom is giving IT leaders control over AI agents across the enterprise - Zoom",
+      "summary": "How Zoom is giving IT leaders control over AI agents across the enterprise &nbsp;&nbsp; Zoom",
+      "published_at": "2026-10-26T13:36:01+00:00",
+      "collected_at": "2026-10-28T01:03:30+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
       ],
       "reliability_tier": "secondary_media",
       "evidence_class": "lead_unverified",
@@ -14713,6 +14796,48 @@
       "verification_status": "not_reviewed"
     },
     {
+      "id": "55b65022d3655c9ae335",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xRHM0SFhGWHRBR0txeS1HVHk1MHRkOERkYnNCQTdxakN6bEcwZUtHcGx2TWJBSHFvZG1jSXRwMXdYTERPS25sQzVKY1VYQlhpbkZlVjBxbVVKbEt1SFZadl9aUURYLVk?oc=5",
+      "title": "Creating a complex ecosystem - VnEconomy",
+      "summary": "Creating a complex ecosystem &nbsp;&nbsp; VnEconomy",
+      "published_at": "2026-10-24T23:30:00+00:00",
+      "collected_at": "2026-10-28T01:03:32+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "91bcf5d73ac1898bf9d6",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPaHVweWhHRHRWS01CaFhCWGowcUNCNUxhTHRjWm8wT3R2SGNpNG5nUURka1pydnptWVA0VlhBQjBvYTdOemdVZkdXSll5YWFJUjBZc0paM1dZRjdJdzJzWGlaMDYtb19xVF92a3hqVy0zQ3ZNYUNFWTJrUHJnRjFMVUYxeEx5X01mRjNqQnZiX0VDdi1hUkFXcENNR3U1Q2tSWmk3RW84U2s4dy1yVmVQT252T2l6NFFxQnZvRXNEUVpUMWRfU1VuVE4yMkNwUmdHNWZQaUppdGpTa2V2ZmJsZ2xRdHVwTjJueUdqS21mdlbSAfYBQVVfeXFMTzJhdk9FR3hKSXQ2WXRucWJZanU4WXR2S01pVE9pR1pxa0FTc2Jlb3RVMUpZa2M5dFB0M3pYX0dOYTNaNUNuMkpxS0lVZ0N3djBwTGVlOVN1b09pM2Z4RlBJQmpiRHhDM3VlX3lPamdfX1JNWWdUUk83TTZyQWx2RWw2TDBlM0Y4eTV1NnVfTmhzQlhNeEdyckZDejk3OHVWRzFpSTdhWmJzNkdzbllUQTAxdlBFMVlnRHpTNjdGNTBROFg1ZVR5QUNQMDlUZ04xdmRpazFwa1hXWDhHNUJvRnk5blhxam5zemFzaWI3clB6QTVlbzN3?oc=5",
+      "title": "West Asia crisis hits Kongu region's export trade; Coimbatore industry seeks relief - The Times of India",
+      "summary": "West Asia crisis hits Kongu region's export trade; Coimbatore industry seeks relief &nbsp;&nbsp; The Times of India",
+      "published_at": "2026-10-24T16:32:00+00:00",
+      "collected_at": "2026-10-28T01:03:32+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
       "id": "37d4f62b3476dec0a21b",
       "source_id": "google-news-robotics",
       "source_name": "Google News RSS — industrial robotics and humanoid robots",
@@ -14809,6 +14934,27 @@
       "topic_tags": [
         "robotics",
         "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "b173022f612c706e6b69",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNck9tZkR6VTV0ZkFITDA3NEtLNnNjTWZ5V1NJQVprdFJrdFNNNTFBTnBUSnhnZVZiTlBYYXNoSk1XY3ZLZHlqcVRydGlReE5kZ1Vpci1yZW5xUVVMaGlFa0hnVVBEbkJlMGlpS3owLTM5ZngyMzdTWm1mQ3VkcmQxMll5b1owWlZTT0xuMTBSNFEtRUJ5dExfYXF4WjY0aDBPYXpnaDlmQmJsTXZzdkRhRHNwZEpTaXRCc2RoZDdVZFJKbDB2eEl4dl83Zw?oc=5",
+      "title": "Better logistics, trade pacts, policy support can boost India's rice exports: Industry leaders at BIRC 2026 - ChiniMandi",
+      "summary": "Better logistics, trade pacts, policy support can boost India's rice exports: Industry leaders at BIRC 2026 &nbsp;&nbsp; ChiniMandi",
+      "published_at": "2026-10-24T10:23:26+00:00",
+      "collected_at": "2026-10-28T01:03:32+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
       ],
       "reliability_tier": "secondary_media",
       "evidence_class": "lead_unverified",
@@ -15559,6 +15705,26 @@
         "crossborder",
         "trade",
         "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "9bdcac6e1afd5ddaa2d4",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcEVBUXU3dHZlcmVocVJPSV91c2R3VWFzUF9rVkJsdjlfeFFkYk1MVXNIRlJ4X1NwWEtqdlpDYXdSbTdER0pyZ1diV0N0bkJ6UDhmNUQweS1kbGtmREhGZnllN3Y0Q3dTNk5NVnZIWFNpSWFFeTJ5NjlQaG9lMFZITnFZMmI3R2pMYzVxY1RjR1BpSWRXWHhXdDdUa1lLTjdwTjU1QzBmOUQ1WlU?oc=5",
+      "title": "El Paso Nearshoring Summit Showcases Humanoid Robot Ali for 250 Manufacturers - Hoodline",
+      "summary": "El Paso Nearshoring Summit Showcases Humanoid Robot Ali for 250 Manufacturers &nbsp;&nbsp; Hoodline",
+      "published_at": "2026-10-23T02:05:20+00:00",
+      "collected_at": "2026-10-28T01:03:31+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
       ],
       "reliability_tier": "secondary_media",
       "evidence_class": "lead_unverified",
@@ -16563,6 +16729,27 @@
       "topic_tags": [
         "robotics",
         "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "97a87e1525ff6b51c3c5",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE45VHlIRWlPVG43TXVSZXRBN3NDMGd6OUFSSUdNbU1veUdhSmp0UjdRUnJyRzZjWnV1bzBjeU1tTVNHLWRIRnpYa29XQ1k0TEM2RGVNb0dGMHczQjFLYzE0Yi1JSWVfM24tTmY0RHhtSmczLThuSnJNZjlCU2c?oc=5",
+      "title": "Foreign trade in Brazil: what it is, how it works and where a business starts - DHL",
+      "summary": "Foreign trade in Brazil: what it is, how it works and where a business starts &nbsp;&nbsp; DHL",
+      "published_at": "2026-10-22T07:00:00+00:00",
+      "collected_at": "2026-10-28T01:03:32+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
       ],
       "reliability_tier": "secondary_media",
       "evidence_class": "lead_unverified",
