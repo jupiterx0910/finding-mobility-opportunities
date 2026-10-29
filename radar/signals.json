@@ -1,9 +1,933 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-10-28T08:24:41+00:00",
+  "as_of": "2026-10-29T08:25:06+00:00",
   "purpose": "Collected public signals for later research. These are unverified leads, not validated opportunities.",
   "signal_count": 1200,
   "signals": [
+    {
+      "id": "e7eecbfb4c20cf15a043",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUGNac0Z0X19XWEl2ZUJOMU9TcTJRRkhobHNDRkxWMEhqRHhwRDJka25ES0JOcm9nREVPTDYwMGw3bFltQ1ZKY2NxN3VMVXFwVVRYNl9fQVBUYUhnV2VRTjIwR1M4YmtUWkpaOWFoWlBiRDUyZkZkQVR0YU1BTENHa0xrU29COFNXNEE2ZnNGV3B4elpDQlQ5U0tQUDJZS2lianR2eVIzLW8wUUhtU0lmemhBUHRXdTlXUlpwaUh6THc?oc=5",
+      "title": "Robot vibe-coding: Standard Bots' Evan Beard on making industrial robotics an iPhone moment - Dealroom",
+      "summary": "Robot vibe-coding: Standard Bots' Evan Beard on making industrial robotics an iPhone moment &nbsp;&nbsp; Dealroom",
+      "published_at": "2026-10-29T07:22:20+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "7f7d70eece23505ad1a1",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSXZydkU2MzRhYmlpdl9wSXlqRlAtNUk4QmhWcmNDTWhZSENyTzhITlQwdWdUMlQ4WnBreWl3dEl5ZlZ0MkljVUlia3RmbUl1UTdEVDUzaWJnRDRidElSZngteTBzOU5WTGxrcm9Qb2xSSGl6N25YVkVZaHBISE9hbEhlUjBhS2l6Q1k1U3NMdkNOaTFoSXNz?oc=5",
+      "title": "Audi trials mobile humanoid robots for factory parts - Driven Car Guide",
+      "summary": "Audi trials mobile humanoid robots for factory parts &nbsp;&nbsp; Driven Car Guide",
+      "published_at": "2026-10-29T06:21:59+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "ab14e5d4401e28734dde",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRzg0NGJNcHlKeHFZRVFXZVFmMy1Ua0NBNnNXaDJvVHlQOXo5cUFkMXJMdkwwX1Z5aU5aNm5SVVRHTllsdkNvRDlaVElHaElHdE5hVUxOSngxbzRHbmhBWk1WN3JHQkU3RzRtODNmbktMUnU1WHBoMjI0OHFBTlROUFlXUHVxQ2lJTm9iSmZ4S2RTM2FCSDBBOElDTUpDNFFMeUhGcg?oc=5",
+      "title": "Bleu Robotics raises €5M to cut humanoid robot training to 20 minutes - Dealroom",
+      "summary": "Bleu Robotics raises €5M to cut humanoid robot training to 20 minutes &nbsp;&nbsp; Dealroom",
+      "published_at": "2026-10-29T05:44:44+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "b3f0a0062d636d2a3bc6",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYW15WlVOUkcxb19nWTRDcU0tcG80cURfaGsyWG1tbkxFMG1ta1J4VV95QnAxbTFwOTREQXF6aHJOWmwxbmVQa05nc2pSWkhiRmtmQXk5ekdMbHBrY3hyOFdhUzd0ZU1mVDIyRjZISlVSMUdsZVVMVmtIVEdXRmNvZEhkZlFqLVZiUVVoMEMxSzJpcXota0k1bXJhX1VQWjdFdEE?oc=5",
+      "title": "IL Posts Record Quarterly Sales as Humanoid Robot Business Takes Off - Seoul Economic Daily",
+      "summary": "IL Posts Record Quarterly Sales as Humanoid Robot Business Takes Off &nbsp;&nbsp; Seoul Economic Daily",
+      "published_at": "2026-10-29T05:36:14+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "82e96c18d014edd81c25",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbWtHLVQtRm5xZ1pOR0VyVDBhZENhb1V0MnY2ZDVCcWxnZzFrNDBqRW1lVXg1cy1RbEw2NU5xVlJITzJoZDkwOHRtZ0VVUWtwbW1zY3o2XzZyWEhJanQtTmxPUDJxcWo1YTNDbEhORlZkSFpMNUxucTlQOXJEZFY1RTJrMThfc1RTVGlmVU00dUQ?oc=5",
+      "title": "Enhancing competitiveness to reach global markets - Nhan Dan Online",
+      "summary": "Enhancing competitiveness to reach global markets &nbsp;&nbsp; Nhan Dan Online",
+      "published_at": "2026-10-29T04:52:04+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "895d976d4019f39f93dd",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdVQzYlI1V1RhN2UwS1hadVViWEJuTWd3TzBET0lLRHo3LTlHdWJ3TkxaZ1NBTDFmdkVDcFlpM1NRcjB0LUhDeHIydnF6MnlPVjdmZnNBZ3VkbHRqZFNIQjVZUHJsVTBvNjhfNlcxOS02bjZTdWhWX0VSU3pPTm5hQ2lzUktvSUt2bWgySzBBNHBVYU44UkF6V3NWbUhWQ0hmcVE?oc=5",
+      "title": "Google has a plan to keep ads alive even when AI agents do the shopping - Business Insider",
+      "summary": "Google has a plan to keep ads alive even when AI agents do the shopping &nbsp;&nbsp; Business Insider",
+      "published_at": "2026-10-29T04:49:43+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "f2c80a25b209aa2d47d1",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVGRkRUlnOTBYaTd0emo2c1FrNXhZTnU1S3lzWjJDV0tnNlRfV193LU1OUDN1ME04Wnd1ZmxQVmV2d3JvT1BTVkxpTVdFRTVpNTBDbHd3bkRjOVRQRlVCR2JkY0gyQ0NTcHM1RURVX2NRREJSVTlBVUNWZ3lxNllCc09tWmFUT1BhZHRVUktNRWNxU2ZxOHRxOHFYMEU2ZXNWeGdGZEMxN0VRUnJyZEthR0pSS1JQNUItanc3Wg?oc=5",
+      "title": "One Tech Tip: How to get started with AI agents, and which are best for specific tasks - WRAL",
+      "summary": "One Tech Tip: How to get started with AI agents, and which are best for specific tasks &nbsp;&nbsp; WRAL",
+      "published_at": "2026-10-29T04:09:43+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "7ca977bd7d3126b84d91",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQclA0VW5KbUUwc0IwV2ZGQTMxUWF1YVhGSXNQSU43d1pJOFY4QTlWalpQYmRzVjYyd3E3bmZDZ0E2YjB4dURZemxRUjJINDZYeXNaak1mZlJvM0VSTWJLUGx5ZUt5SU5ERHJ3ZU9vZTdtTndLTjZ3N1N5SGhSWUhWaERVZC1zNmI3ZG9jOHM2SFp2Vng5VFBGeEdMVG53MHBBWlRoa2NGbGYwUU1uZWd3eVFGTXc2MjJQWktmY3FadHJBdFdVYjdjbXk2RThWcHZxb09nZA?oc=5",
+      "title": "Piyush Goyal interacts with EPCs, calls for greater export competitiveness and market diversification - India Shipping News",
+      "summary": "Piyush Goyal interacts with EPCs, calls for greater export competitiveness and market diversification &nbsp;&nbsp; India Shipping News",
+      "published_at": "2026-10-29T03:57:34+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "fcea8b6858eff2a61b5d",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONEVndHl4bXBiWF9sSXcyZFF3MlB3TlZZTHVpMDIxUWptb3BMTEtCVlRkbGR2TkZRaEJMcXVFRzNsNEF4UWhFMk03d3NyNWhOT1Vndm9mMFdxRnhIYWd5U1FEa1VFMVhGR3lUUlJBWS14dlR4WUNoSm1nRTVlY21IVUVFY2loMXNRY3NjOXBQR0Z1MldTdEhlaXR5VUs5Qi15ZmFBTQ?oc=5",
+      "title": "Execute logistics policy without delay to stay competitive: ADB - The Financial Express",
+      "summary": "Execute logistics policy without delay to stay competitive: ADB &nbsp;&nbsp; The Financial Express",
+      "published_at": "2026-10-29T02:44:50+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "07219c88dd3595b6e9ac",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYzhGS1BoX1lnWEZvTmx2ZXBnSXd6NVM2RE5hT1ZTVWNUT1NwWkpRYzFvampSbFp6LTZOaDZqV1pJbmYzcUpPZVo0ZTdpY2g0UGpZMUctWWpUZmVWa0pVUGxPV0pPOExPT1VnV1hfUTRkRjI0N2hwbGtGdkRjcXlkbHFMWG9KSnVQeEY5WWdRdWM3OWtzaWlNcHk0MFM2ZXViYXhZUWE2d1NVU0U?oc=5",
+      "title": "Google Pushes AI Agents Into Commerce as Spending Pressures Cash Flow - PYMNTS.com",
+      "summary": "Google Pushes AI Agents Into Commerce as Spending Pressures Cash Flow &nbsp;&nbsp; PYMNTS.com",
+      "published_at": "2026-10-29T00:44:23+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "c44c64ec6d08ab8a2981",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZXRoVTRhS3BOLXEwdzNLR1lpNmllTlNuWWpOSkJZemN3Y0FsWWdyT3BvbmlETzktanhVcWZHcktISEhIZXdrbm5lTVAyVW1FRmxneEN6d1lNTkc1YXRGN2Z6TWRFRklOVEw1bTAyNGl4YXhfNmgtdWtPWjVqWmR6SXU2LWJCcUY2T0Jr?oc=5",
+      "title": "PACOM Looks to AI Agents for Faster Intelligence, Targeting - GovCIO Media & Research",
+      "summary": "PACOM Looks to AI Agents for Faster Intelligence, Targeting &nbsp;&nbsp; GovCIO Media & Research",
+      "published_at": "2026-10-28T23:15:58+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "48059dd23dca675feaf7",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMGJ2UDNpU2lZUWJGZ25CZDN5NEJCZllkOEpJVHg5c1gzVUQxSHRzdWdTY1RFY0tFcGM3VVA4LXVSdElQSzZ6aGJxNUhqTlA2OGg1TkJFRDR0MmNpMjR2YVo2SlI4RnhxYUUxT1dqQXJSNG9VWkJhT2VrSmJ2LTF4MHZkYTZkS0RjelEzWjhpOFowZ3l2MWxJbnM1c0FTaDBpSzRtYkc5cVhJanpVY2hXNDZ0OFdpS1JhRTgtS3Y5VHRzdVItVWtJ?oc=5",
+      "title": "Cyber resiliency frameworks for enterprise AI infrastructure - SiliconANGLE",
+      "summary": "Cyber resiliency frameworks for enterprise AI infrastructure &nbsp;&nbsp; SiliconANGLE",
+      "published_at": "2026-10-28T21:54:00+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "03a7a50ea566fefb8b33",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5xSmRUZmZtb3pONmQ2V0dqMzQ5bUlST1VzZVpGWmdLYmd5MVZjSGlKVXVEQ2VVb1lHbTg4b0I4WU5sRG95VXZZVTRFOU5iUS1aQkIzdTRpdFZQTTcxMlVVY01ONWRPSURwbU53?oc=5",
+      "title": "Beyond Model Accuracy: A Three-Boundary Framework for AI Agents - Society of Women Engineers",
+      "summary": "Beyond Model Accuracy: A Three-Boundary Framework for AI Agents &nbsp;&nbsp; Society of Women Engineers",
+      "published_at": "2026-10-28T21:39:57+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "13cec9deacdf2d4076b8",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOG9Ka05NZG1rWnZ3NnBLaXRCVVE5VG1ucnFVc05YSjNkbG1LekdCYTJ1Y05vc0JBX1YxQU1ZMFViNHk1MFBlQ2dVLWRMbUpfdS1JQld4OWt3emhILU9mLWxYMW5EVlhRNGZfb2RpNENSVmdRdy1IRWNsOVl2azRDU1lNM0hoT3pYME9FU0x3MU5HMThWd2x4NmNSc0V5STZ1Zk5EVw?oc=5",
+      "title": "Why traditional prompt testing no longer protects enterprise AI systems - Spiceworks",
+      "summary": "Why traditional prompt testing no longer protects enterprise AI systems &nbsp;&nbsp; Spiceworks",
+      "published_at": "2026-10-28T21:01:56+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "58e7c6394163be9d5a36",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQenFwU0pzbEF3Zi1FUFhmQlpyV04xWkdjRGR1RGpQQUVma0J1NFRyWm1NaldJS0hZWmcySW45TFdEREd5YTEyby1xX1FyUl9yM2JVdVN6NDBJTjg1RE5HNWwzblZCSDY5M1U0bjA4d3p2LXR4U01wSGU5Ujg2UlVPMHNENEl4U1Q2aVJ1ZWRYbFhIVUo4M2lXanFlS3BZNVBkRjZDdjFjSkE3SHFxajc0aW9mZHdjUERkaFRFWDhIVQ?oc=5",
+      "title": "Schwab CEO says firm is blocking rogue AI agents from client accounts - InvestmentNews",
+      "summary": "Schwab CEO says firm is blocking rogue AI agents from client accounts &nbsp;&nbsp; InvestmentNews",
+      "published_at": "2026-10-28T20:28:34+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "491c5d52ada905330a08",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUlIzMTNkUzAwZXo1blc1R29WZlJvSW9tUGt3QUtVbnB3YjNZODk0dzd2VGdtaHAzazY3dE44djk4ZGNrNHF6MzFZMzVVWU4xY1p2bklpd3BmRlpaUHNZM0xUa3Jvcmxnc0ZQY2gxcFNYZEt3c0pyM1VXWWd2bG1VblEzeHNOYTc2QzZwcHFaZ0I5ZVpNMGRKNkY0RHdSUmtIYlE?oc=5",
+      "title": "RBC Blocks Third-Party Personal AI Agents Over Fraud Risks - PYMNTS.com",
+      "summary": "RBC Blocks Third-Party Personal AI Agents Over Fraud Risks &nbsp;&nbsp; PYMNTS.com",
+      "published_at": "2026-10-28T19:14:29+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "59f78a118adad4f7b6ba",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb3VnaFlnbHJES3h5WDRkZllnZm93WGJNa0NCOXNWcE9CNnd3cmVsY3lfREhLZjdUZ1huMVJxQlBFTTF0RjRldWNDd08yOVdYZ3BraVVwWkRXMnVJbVY2c2hfMzFuTnZGeGR0MmpOM1ROM1hFQXVNa2dOeS1QdzNKYmNR?oc=5",
+      "title": "Elon Musk-Linked Startup Says Its AI Agents Hacked Anthropic in Just Hours - Futurism",
+      "summary": "Elon Musk-Linked Startup Says Its AI Agents Hacked Anthropic in Just Hours &nbsp;&nbsp; Futurism",
+      "published_at": "2026-10-28T18:55:34+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "52e418075e078e99c9ee",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQT1ZUUTRUbjh6akhJclM2cHNSZEJKWFBBMWp1cXB3ejJYT1JfdHpnY19mXzNMUTBtMFAwd2VtcGNQcUdkWmpzcUdSQjVmWU1UMUZQMGxTQ3Y2bDNUTG5JdHFJMmktb0FuN1NZbU9rLURlUkxtQlBKVlZPdnp4M3p1N1FB?oc=5",
+      "title": "In Ukraine, Fedorov wants a humanoid robot in combat within 6 months - Meta-Defense",
+      "summary": "In Ukraine, Fedorov wants a humanoid robot in combat within 6 months &nbsp;&nbsp; Meta-Defense",
+      "published_at": "2026-10-28T18:54:56+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "447bd8b847d09d18e566",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BTlVSSnpkeGh3LU5feGJwdVB1bzZtc0lzSTdldEprMldqVUZKQzRDX3RvR3k3aVFWRGxNdHRKNWdoZ0w4U05Vc3VzME1hODlTTWhVYUZBdG1mZ1ZKaHRwTG5KSjdwR1JEOTAtcUhnOUpJSkhNZUFGY0NDVVg?oc=5",
+      "title": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet - WIRED",
+      "summary": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet &nbsp;&nbsp; WIRED",
+      "published_at": "2026-10-28T18:30:00+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "fb3591b3efaabe098a38",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOWpWeVVNTDQ5a3NHWTRsTG1FRTVseVdMWWV1a3UxUmwxSFpOQWtWN0FEd2swQ3lXQndVdFRlbk1KeXBRd2FLRm5JUDV6N01YWmxtcDRrQkFMVzRDaEh1LXJySU5nR0lhdFAxMVl0QUNnUHBfT2ZPM1BGLXNyajFZdFhNUFdFUDVaSm0zb3lXU1pzQkctcGJ5RjNFaGNXWmx1?oc=5",
+      "title": "Robotics company Faraday Future promotes $90K AI-powered Humanoid robot in NYC - Christian Post",
+      "summary": "Robotics company Faraday Future promotes $90K AI-powered Humanoid robot in NYC &nbsp;&nbsp; Christian Post",
+      "published_at": "2026-10-28T18:15:01+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "8bef4b5a591a3120cd58",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMjdXai1lT1pnNUJuUWRVMzc3Zjc5bFBJcHVQVmFpeE9FSkl2dF9BVnFEQmtTYl9FN1VZZFd1YWtYVGIyNFBCNWtFV2ltR2JCdWlrd19RY1Z5RmZkeUlTY3ZMZThQRVN0MVVSTHhfNWU1M3ZpRHlGTWFFMTAybFE0N1liU1NpcDU0R1puMXFQTkJOeE4tX0k3NWVsZ2xJeURiOVBXNEZCTHBKS0M2aHdxWnZETk9jWGZ6aHM3dQ?oc=5",
+      "title": "Sopra Steria, FIDAMC to Advance Physical AI-Based Industrial Robotics for Composites - CompositesWorld",
+      "summary": "Sopra Steria, FIDAMC to Advance Physical AI-Based Industrial Robotics for Composites &nbsp;&nbsp; CompositesWorld",
+      "published_at": "2026-10-28T18:14:47+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "a7933c8f75386053bec6",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUWJuS3dPd3p3THNtMnp6aUhyS2RIMEpXSkFINGhGZFVFRFNZNHFXTncycEotdVZNTUw3WjNqT0RXNUVVTXVvY09raHh6YXVVX1I3cDktczFrcEkxMktXSzVLck9ZejZjRnpVTXotWkN5d0NjQ2dzUzg3MFB2bk9EVHNPQ0ZIcGdvZ3NmTzJfazdDQWJkZ3puWm9paVF2QTMtalYyRmFXOUNoR054eDVv?oc=5",
+      "title": "Google opens Android development to third-party AI agents and unveils new Gemini APIs - The Decoder",
+      "summary": "Google opens Android development to third-party AI agents and unveils new Gemini APIs &nbsp;&nbsp; The Decoder",
+      "published_at": "2026-10-28T17:01:14+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "c54db17f6688a807562a",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNmNQT19jOEd2T1VtOUFqUEdvWEJvaGw5XzlYUVhMRUI3WVVWQkdnMlptajZQcV9PSjY1OXF6Z294ZEtuT3dFN1A5V3RMT3lLbWp5eGVCaUtpUGdQbXY3aGg4SE9ZTzVPWVVDeURjQUExblRCY0lnd1JJTDRYaGxvdGhGX3oweTRkUWRYalZEaE0zU29sZVVDMjMtTVV1dGVxWjVUV3RoSTFENkU?oc=5",
+      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps - TechCrunch",
+      "summary": "As AI agents reshape the web, Google opens Gemini and Search to more apps &nbsp;&nbsp; TechCrunch",
+      "published_at": "2026-10-28T17:00:00+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "7939ccc23985bf469446",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQlVvbXhUNzU0SDJmOEZnQVpLSXhxUDczLWgwejBwX3ZpNzctelRNNGg5VlhzWW8tWnQ1MXREY1lsb2VnUEg0bkdZVjE5eC1aam5DemxMak9QeENiZC14MEx4YXlFT253V09WdzN4Zk9FU092MGswbzZYVFpKZmtvZl9kQnI4UzU5S0M2dG5nQ0xKUEgt?oc=5",
+      "title": "The security risks SMEs face from unchecked AI agents - Spiceworks",
+      "summary": "The security risks SMEs face from unchecked AI agents &nbsp;&nbsp; Spiceworks",
+      "published_at": "2026-10-28T16:00:46+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "79b3566f1d3992348192",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdWlsM3M4MDRLTDVpTkZXSEZlSVhJZS10Ympaam1XeVBPQXZramYtcVRWN0VqbWY0d25fV0xzR0VjSjRFcnRIc2U4X0hqZ3JlT3FBZEhDQ3BsNWZWazB5aTNZMzc2aGExOU1la1o0dVd1UzlVbENnb2FXbGw0UHg0WXNhS0ZiNUhpWFp2Y1dvMlNrdld1LWpkcEdTa2pubFJDazBGdmRxTGRpVTRHYld1TGR5bjIwNEhqZUk1Vkc1OEg3WVU?oc=5",
+      "title": "This humanoid robot unloads parcels from a Cybertruck and carries them to your door - Interesting Engineering",
+      "summary": "This humanoid robot unloads parcels from a Cybertruck and carries them to your door &nbsp;&nbsp; Interesting Engineering",
+      "published_at": "2026-10-28T15:47:58+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "d9646e83223233f70358",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wUFBISGhuNTBaUjFQMk1BOVRYczRfbHk3TWJnNHBOUGMzWlFjLWMyNmxISzQ5amJxRGlrZFFhY1NNeWxoVHZmVnNRZ1NyRGthazZtLTFLUE43akpfU2V1TlRB?oc=5",
+      "title": "Unitree's post-IPO results show strong revenue growth - Global Times",
+      "summary": "Unitree's post-IPO results show strong revenue growth &nbsp;&nbsp; Global Times",
+      "published_at": "2026-10-28T15:43:00+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "2b9e591aef66230c22e7",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbmFZN28xU1JZV1FRZmZjdVdHYjkwZ3MxcGFZN0FPeV9qRjE5bEp2eF83U1ZsT1Z6UVdWOHJZUWZNdmozYkdrTzJxWE9vRkF4TzlwUngtTXdtNGdkTmxSVlZUc25qYjk4aGwyZ09UanRCRUFYdVB4ckVvMjBLYUQxQVdTYjl4UWRqRWVSd0pqeEZka09vYk84a24wRmVNNUs3UVE1QjFJY29sZVFFeXQ5bQ?oc=5",
+      "title": "Zocdoc invites AI agents to book appointments on behalf of patients - Healthcare Dive",
+      "summary": "Zocdoc invites AI agents to book appointments on behalf of patients &nbsp;&nbsp; Healthcare Dive",
+      "published_at": "2026-10-28T15:22:02+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "c4b024cf29320c2b833d",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWElWVUtNWkF2VFp0THVpQXRtYmN6QjhhQ2NBaW5tVklINnczdTdpazdreDBOeVN1Y0ZYeXIwVUNXNXdTdUMzeVdIeWRWS0FvWE5iLXluNDVnYllOaGhiTnVuOFFxRl8yT2xEXzFQbUJkaUNtcU5SS00xX19SNVhYRGFpb1RjY1FSZi1fc3BkY1gxcUJBZjdqNDNUTHg5YjJB?oc=5",
+      "title": "Uncanny Valley! Humanoid robot has eerily lifelike movements - Daily Mail",
+      "summary": "Uncanny Valley! Humanoid robot has eerily lifelike movements &nbsp;&nbsp; Daily Mail",
+      "published_at": "2026-10-28T15:18:31+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "2ad6a68be64e00471723",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGFwQjgzNmNudE9wNVdaT0ZJOGYxNkM3cVNWRTlmQlV2UnVRX0Jrb1YyVlg4V0N4RUw2NUpQYU1iY1hPVlhHbFBzaVR6TkJtLWowRlJFQmc5MjlRQndObS1fMFJEeTZiRXJpbGxNY2Fla1V0bkpxYTNMUVFaWkxjTXgzNUw?oc=5",
+      "title": "AI agents need middle managers too - Financial Times",
+      "summary": "AI agents need middle managers too &nbsp;&nbsp; Financial Times",
+      "published_at": "2026-10-28T15:00:59+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "b2f429c18d6f5f5ac8b7",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWTJFYnYxdF9XN21mM0dDaXUxeTZNSUJqT3E5R2tiOE1sbWZ6Qm02alNNeHBzYXN1NmRqb2RxRjhsaW95NDh4bGwyQWNvR0UyZmEwUnZSaklPYUhKZ2Y0SHVoZnQ2NmNsbWpUM0JvdS1rU29CZlpjd1dpY2d3NV9DWDVYMGNxSElpZTVkeFNBOVpPaTB3c1RjZThvN0U1bi14Z1YwWDNBSlQyMi1RdmVFVGlXell0ekxlMkVRNFZOcnlXaWxRRlpFaFd1MnI?oc=5",
+      "title": "Hotels are putting AI agents to work in live operations, with Apaleo MCP Server use up 70% - Hospitality Net",
+      "summary": "Hotels are putting AI agents to work in live operations, with Apaleo MCP Server use up 70% &nbsp;&nbsp; Hospitality Net",
+      "published_at": "2026-10-28T14:39:24+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "c41255e322dcf308c538",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMk83eTFPT01pYnZHaDVZTlVneWk3OEhmQnZBNEdSSDNKdWppRS1TLU1wNUhxdWMzb1BRYzBHU2F0ekFleDlaYW1ySTNKTmFqbEp0d3V3dHVSMzBNOXVuM2RIQlBrdTg2eXM5X1N1ZXN1Rjdva0ZnUjk4MFFDa0RiemxaOWdaTGY4RjhDOHN6SGlGbWtJbDdr?oc=5",
+      "title": "TCS and Volvo explore Physical AI for adaptive industrial robotics with NVIDIA Omniverse Libraries - Tata Consultancy Services",
+      "summary": "TCS and Volvo explore Physical AI for adaptive industrial robotics with NVIDIA Omniverse Libraries &nbsp;&nbsp; Tata Consultancy Services",
+      "published_at": "2026-10-28T14:35:59+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "0dbd0c18e3190b7adb0c",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaTZ5WURZYUxNUS1BUkFPWXduNWxQSjcybTBjcEFxZ3hOSC0yd0toQWl4NjQxSXRiLXRUS2VCakRuRjV1eGp6TWEtLWxnRFBocDRKU28yaE1jd3ZsVVdYeWtJQ1VzNXpaSERLbkJETnZCWVBjVmdEM0tSeVRONnRocmZsTldjQ1FwSUQzRVQ1TjZQVFk5c1BNUWFCS19nZmxnMmJpeDFuRlE0MHZJZ3c?oc=5",
+      "title": "Zocdoc CEO: will AI agents make your business more valuable or more vulnerable? - Fortune",
+      "summary": "Zocdoc CEO: will AI agents make your business more valuable or more vulnerable? &nbsp;&nbsp; Fortune",
+      "published_at": "2026-10-28T14:02:00+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "40460608ffc902e184ea",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTzhEcDFNMjFidmE5RDhQU2tNbl92QWc3QkJPVFJQNEdpSzJjbWkzdEhCclpBeFlRcXpUYm9HR1FyeTNWUFZXRVBvdFEtSmtWZ24xNk5fOEVqa1lZbWhzU216T3ZEQzhBWEdLb1RHTC05bF9tTDNBX3lJVXdOYmY3aWlwdHgwLUxDc1UxLXVUVXFQZ2RFQWhHUVlIb3E?oc=5",
+      "title": "Banks are blocking AI agents from customer accounts - Malwarebytes",
+      "summary": "Banks are blocking AI agents from customer accounts &nbsp;&nbsp; Malwarebytes",
+      "published_at": "2026-10-28T13:50:36+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "c04099a65b7a72397eac",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeXVIZE1kOUVCQmxYalhLVDlmNjRKQjZ2cEtIeHd2RWFaaThOSnFEODBfNk5kOS11R01MQjF4eTg2c21YLU1CYVZXLVdsS3ROZVVMYklMd2FhSk1iQnZWckdzVlBjYlpDZHFyRm1oYmFIcl9vRFNET2kzTWtGR2R3eVdHZV9odTM3Q2tVdw?oc=5",
+      "title": "BankThink: Understanding the banking industry’s reaction to AI agents - Bank Policy Institute",
+      "summary": "BankThink: Understanding the banking industry’s reaction to AI agents &nbsp;&nbsp; Bank Policy Institute",
+      "published_at": "2026-10-28T13:27:43+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "73eeda3fd5853ca1a410",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aWHh0akdRWm9RZkhaRjk0Q0w5bDI1UHd1MlhJQVBlci1vQ1l2R1Mzc3pGUXNKOGJxTVFOYVlkRXUxYUZnNURwTjRnVWlXa0t6ZDM3MW9rU2tnelp5bVNrUXFIa2JQU2c?oc=5",
+      "title": "Japanese Railway Workers Equip Humanoid Robot With a Chainsaw - Mezha",
+      "summary": "Japanese Railway Workers Equip Humanoid Robot With a Chainsaw &nbsp;&nbsp; Mezha",
+      "published_at": "2026-10-28T13:25:00+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "cba8e9a07fb7541e82bf",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPckRvQUxsZXhNTWdqY3M2Nm9aSVJydTFwUjhROVVZTGk1ejhJV1hVMFBscGEwR0VNREo5OFdybi1UaFI5aDJ0QmtPTWxwVmxxRVRRSF9EMEZfNjBtLWNTNkgxMVNsMnp4NFdKWG8xajduSGpxd2lJRTF1NU1UU0FSVE1ZaUZ6RUVmbUlRY2pDU2lMNm9Qei1yMnNkZTg5UjZyM25ZOVY5QnZMMmJCcmw3eDg0YXdKVlJ2Y3c?oc=5",
+      "title": "Virtana lets its AI agents pull in agents from other vendors to work IT incidents - SiliconANGLE",
+      "summary": "Virtana lets its AI agents pull in agents from other vendors to work IT incidents &nbsp;&nbsp; SiliconANGLE",
+      "published_at": "2026-10-28T13:00:00+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "ad198b9cd864d10d73ed",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1mRjRzMS1vbzB0QWJ2QnV3UGZuYVhnU0JOY0I1ZHZ2dFdwNnNxN2l6Y0kzR1VzY08yUkc1TW15am5INVotajhkcHZXUi1NN0xLdmM1eER4ZG1nVUNaenhCaHBsaw?oc=5",
+      "title": "Manage Enterprise AI Capabilities and Access with AI Registry - Oracle Blogs",
+      "summary": "Manage Enterprise AI Capabilities and Access with AI Registry &nbsp;&nbsp; Oracle Blogs",
+      "published_at": "2026-10-28T12:11:23+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "2b260e06cfc81c4b70e9",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQUtnXy1XVklIdExPV21iaHVjTjRXSlBkOFRNcUtXWXQwNWhDenVSZVo3VHd5NjRra0lsemhMOVRLVm41R0ZtbXVKN1U1aGhjcllKMTNxZnpMNWRreHYtQWVPcDNNSVNWNmJ1WnJzVFpyQlV1WXo3aExiaUNfMUNKcWNiRQ?oc=5",
+      "title": "Why AI Agents Need to Understand Your Business - Oracle Blogs",
+      "summary": "Why AI Agents Need to Understand Your Business &nbsp;&nbsp; Oracle Blogs",
+      "published_at": "2026-10-28T12:11:23+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "20702cf06e4be7cdbe3e",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdnJQZGc1Y3pzWkxfdXBOTENSNllxU0t6N01tanFhc3lqLVRFcUVtUGxfSnlTR3hiTjAyZXZnV1NmenBKUElRYzhqUE1zbzIzWUlPU01nY3dvUWVpVDdESklmbzZFR1dvOEQ1YzQ5TmdFZzFNLVQ5RlRzWkRubmtNaDlWaFM0WXU4Z0h1R184ZGtfV0p1OEZMenhYakRIcnR5T3RLdXZQT1NwZjU2a0FPZ2hLeFpLMWFJMWZsLWRB?oc=5",
+      "title": "Cisco open sources tool for detecting AI agents on hacking sprees - The Register",
+      "summary": "Cisco open sources tool for detecting AI agents on hacking sprees &nbsp;&nbsp; The Register",
+      "published_at": "2026-10-28T12:00:00+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "c2140c321caae972700a",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWk0tYWMwQzdTcVMya1NkX0lNVkJycF9oMlpKa04xVnY5TkdCYmt1RkpTc2tYdkRuWHNQOFhpTHJPNEEzY3BIeUJDY3Nod0hybUw1QWpkb3gzSFlWdGNqSGRVLTFMdTdFR2JESUNCZzRQVl93dEU3VWdQWHhKeEROSEY3TmpFWUdZZjZRcHFWMll3QzlJbExIallUNkk?oc=5",
+      "title": "Understanding the banking industry's reaction to AI agents - American Banker",
+      "summary": "Understanding the banking industry's reaction to AI agents &nbsp;&nbsp; American Banker",
+      "published_at": "2026-10-28T11:30:00+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "37f3b87cd202ff248fc3",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTzZmaWlydTRmOXk1ODN0ZTVZc0lJMVd5cHpBMVVJVlhrZzUxNnlGNWJGRHRTQ2pWSXNFc2Y5bWU5UWZWczJfUjJqMUV6MmxHblhtVHoyNFFreTF2UEFZMFNiX3l0Y3BvTm1GVW5WYXZnXzI0YmdkRHV0QXc5azBqLThySm0zalBxVkszeHQ0emkyZDMxeWdOcFRsT01GeHVPalc4?oc=5",
+      "title": "Inside Anthropic’s IPO + How AI Agents Spy on Your Messages : Machine Gods - NPR",
+      "summary": "Inside Anthropic’s IPO + How AI Agents Spy on Your Messages : Machine Gods &nbsp;&nbsp; NPR",
+      "published_at": "2026-10-28T11:00:00+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "c334b8ecfd2fcfb7fef9",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYzFNTUxsaVI1ZnVzRWtNMkZMZXhETkp5N1hSRV9maF9vTldBb0FaN0Zxby1VV29TM1F4RnhBSi14OVc0SDFHVTk1cE0teXdFVU55MlpzcjdmV1d4SjFLLTRKYVVVcjNVd2x5LVMtRDB5NkVwVFJiWldRSDRhRVlNWnlRcDlkWlpaOHFEUGl6ZFlOb0JQX2xZQVhKUXZTZEpqN0Nmag?oc=5",
+      "title": "Best Import-Export Platforms for Cross-Border Trade - Alibaba.com",
+      "summary": "Best Import-Export Platforms for Cross-Border Trade &nbsp;&nbsp; Alibaba.com",
+      "published_at": "2026-10-28T10:49:48+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "43fd55a44ccea7c6bbbb",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSjMtb1dvTTF0T25HLThIZm1oakNHQWZkMFh1ekcyRDdSTUlnd2gtMFVSNUtTWGtQVnVDOHF5TWFha1k1bF9qTVdudDdxbnZIUmdGNTh6MHpXUW5LcmpIdTdzNktRdkg1dWVGdzBNMWFkMnZHbzZ4NkdkeWlZYW9VeXhPb2lvX2JUX3lFbDJPbEJOaGtidmw1SjZEM1k3UXFEZlgtLUY4b3BXbWxDcHl4aFdVUk1kLXJrMjZpeg?oc=5",
+      "title": "Oracle adds Google TPUs to OCI to expand enterprise AI compute options - Network World",
+      "summary": "Oracle adds Google TPUs to OCI to expand enterprise AI compute options &nbsp;&nbsp; Network World",
+      "published_at": "2026-10-28T09:49:40+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "15390c4d0b688ae0ea20",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ0F0LXdkUnd6VGlwdFByUzF0RUtaMDdoMHR1TlUzYmRBYTQydzNCX3dpc2x5OEpNWFdNblBiN0FjVUVJWFlpcm1zUldCTS10YkhLbjVRdHpYd000NjNqMVVoQnczWDYzRVFfMTU5SEswM2JraDJSVVBrUVZaMnU5QUdJcGlZSXpHVFVjWHN4eGVsZmoweVpEVHc4WnMtN290bXJCZW9mR21iSXpIUWNPZHhOMHUyNGpOOE9NUGdKMA?oc=5",
+      "title": "Neocloud thinks AI agents - not meatbags - will be its main customers - The Register",
+      "summary": "Neocloud thinks AI agents - not meatbags - will be its main customers &nbsp;&nbsp; The Register",
+      "published_at": "2026-10-28T09:30:00+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "54eb12fe6c95f2922340",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUGdrOHNGckFaS1VYV2hkVUZYdnRHMVdiT1B6MllzaVljaEl0MDdFRDRfTmpUMk04cGh3cTdGdjlmWmdPR3licUYxMnpoa0NoeS11OGY2RVNPN2VNako2MlgwLXlBMHhwaVM0Zlp1UzBXd0ZLZFFuVThMUTJqRnZiYlNsdno2ekZJcFpFamNUbzNRTTUtT3hwTW5vZkFXc1RFZ3dOQlR5WFk5QjdNS0pkRW1lT1lsbTRuY3BN?oc=5",
+      "title": "XPeng Starts Small-Batch Output of Solid-State Batteries for Humanoid Robot - Electric Vehicles",
+      "summary": "XPeng Starts Small-Batch Output of Solid-State Batteries for Humanoid Robot &nbsp;&nbsp; Electric Vehicles",
+      "published_at": "2026-10-28T09:30:00+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "564b5e13d2e1eee649db",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPak5QNjFvV0V0NlI1TzJRY1JKNHRJZUNtSnI4Ty1zRERWeFljVVBHN3RHRXNFdmF4d3E1Z1lZQnFwMnhPTEw3dU13UUR6QTZFYjFGS2VQWHNjcEp0dUVLTUN3U0k5UkFFUnNrWEF2elBZR2dsRXVDbk44MWFuNXNSQ05xV0lzZmxqenM3UmhEVWtCQQ?oc=5",
+      "title": "Solid-state batteries for Xpeng's Iron humanoid robot enter small-batch production - CnEVPost",
+      "summary": "Solid-state batteries for Xpeng's Iron humanoid robot enter small-batch production &nbsp;&nbsp; CnEVPost",
+      "published_at": "2026-10-28T09:11:24+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
     {
       "id": "c518d3b8e3b09684fd68",
       "source_id": "google-news-robotics",
@@ -46,6 +970,26 @@
       "verification_status": "not_reviewed"
     },
     {
+      "id": "2473414926ae54b184eb",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9RVlJPbENHU1FsVG5TdnhDS1VOamVjNDZUeDZUajlWeFZ1QUY3XzIwb2FiT3o3NklfZkZFYTR0Nl9Lc0pSMkFEZjhaZDMyQ29WZU1vUi03dXJfNl9ySVBaMlNlT0FCdWJwb1VGeXpnRzU0U3RncHRRNTNaTW0?oc=5",
+      "title": "Unitree unveils new humanoid robot with advanced rescue capabilities - CCTV.com English",
+      "summary": "Unitree unveils new humanoid robot with advanced rescue capabilities &nbsp;&nbsp; CCTV.com English",
+      "published_at": "2026-10-28T07:49:13+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
       "id": "aa8aefff7a8a37ba1ae3",
       "source_id": "google-news-ai-enterprise",
       "source_name": "Google News RSS — enterprise AI adoption",
@@ -80,6 +1024,26 @@
       "topic_tags": [
         "robotics",
         "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "be3f541cd343d33992ae",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BOGd0MzBfbkROa0ZHWXlIaXBZX3NkLXlwUWdDT2laMDRzekRWdnNzZ3VnOHktTTZqVG5mOHhGMkdmQTVzZUZQM3FHNGdYY2l4aTl3by1UM2IxT3VZbTZuY1NtUGJDcVlVa3hpRmNDRjROaDBkMTczYVR0VkI?oc=5",
+      "title": "AI agents are coming for your bank’s easy money - The Japan Times",
+      "summary": "AI agents are coming for your bank’s easy money &nbsp;&nbsp; The Japan Times",
+      "published_at": "2026-10-28T05:54:00+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
       ],
       "reliability_tier": "secondary_media",
       "evidence_class": "lead_unverified",
@@ -11511,6 +12475,46 @@
       "verification_status": "not_reviewed"
     },
     {
+      "id": "fb6acf999de9c0499e01",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeFF0SUdERnJIbXpmNEM0TkRid2RhZlVOVjk2dkdjNzkyV3JvbXNhb05idkY4X0YxVTRlRThhOUU1bkx6QkdPMkgwVm9ZeHYtS3FsR2dGX0VnNXRsdGZ1ZHdDejRHRHpQR2NrNWRBTll2dTdmbExnWEFpOFpIN1I3WVV3?oc=5",
+      "title": "China unveils 13-foot robot that can lift a cow - Yahoo Finance UK",
+      "summary": "China unveils 13-foot robot that can lift a cow &nbsp;&nbsp; Yahoo Finance UK",
+      "published_at": "2026-10-27T17:44:01+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "2eadfe34aa7dd9f4baee",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRE82LTNFeEFRclZwUEVPeDNmbGRJUVF0eEJUQmo2VXBlX2VSZTJaNlFPal91RlVIU09zNi1Uem5ET0tscTlMd0N4VHI4Wk5JQUVsX3duOG5CLXhsVF81SzlnX01BeXlxaEh2QkJvalJYVDY1SGRJWjBZNUVVa19pZEFhUmdvT0RnNnYyTk9reUNlU2NuREpuLWFGOA?oc=5",
+      "title": "SNOW Rides on Strong Enterprise AI Push: Can It Outpace AVGO and ORCL? - Yahoo Finance",
+      "summary": "SNOW Rides on Strong Enterprise AI Push: Can It Outpace AVGO and ORCL? &nbsp;&nbsp; Yahoo Finance",
+      "published_at": "2026-10-27T17:25:00+00:00",
+      "collected_at": "2026-10-29T08:25:04+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
       "id": "6c69f9467b7998eeeb3e",
       "source_id": "google-news-ai-enterprise",
       "source_name": "Google News RSS — enterprise AI adoption",
@@ -12775,6 +13779,27 @@
       "topic_tags": [
         "ai",
         "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "971917131f8a9a923d0d",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE4wdkF5LW5UYlR5TTRNR1ZWZE0zWUNqQld6YURQM0hfV0l5cDczT0ZhY3VWN25oMExNWHFoMW1KX2dFUdIBQkFVX3lxTE4wdkF5LW5UYlR5TTRNR1ZWZE0zWUNqQld6YURQM0hfV0l5cDczT0ZhY3VWN25oMExNWHFoMW1KX2dFUQ?oc=5",
+      "title": "Shopee Partners with the Ministry of Trade and Logistics Partners to Help Indonesian MSMEs Expand Export Markets - VOI.ID",
+      "summary": "Shopee Partners with the Ministry of Trade and Logistics Partners to Help Indonesian MSMEs Expand Export Markets &nbsp;&nbsp; VOI.ID",
+      "published_at": "2026-10-27T07:00:00+00:00",
+      "collected_at": "2026-10-29T08:25:05+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
       ],
       "reliability_tier": "secondary_media",
       "evidence_class": "lead_unverified",
@@ -24048,1041 +25073,6 @@
         "research"
       ],
       "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "8418db6a0eba2ed4a446",
-      "source_id": "arxiv-cs-ro-rss",
-      "source_name": "arXiv RSS — Robotics research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.RO",
-      "url": "https://arxiv.org/abs/2610.32365",
-      "title": "Graphs of Trajectory Bundles for Nonlinear Motion Planning",
-      "summary": "arXiv:2610.32365v2 Announce Type: replace Abstract: We present the Graphs of Trajectory Bundles (GTB) method for motion planning of systems with nonlinear and black-box dynamics, combining sampling-based motion planning with trajectory optimization and graph search. Based on a graph-of-convex-sets decomposition of the workspace, GTB iteratively constructs a graph of trajectory bundles that captures the local dynamics of the system at any vertex. By solving a shortest-path problem on this graph, we find maximally dynamically feasible iterates that satisfy the system's dynamics in the limit and any constraints such as collision avoidance or additional safety or specification constraints by construction of the underlying graph. As a result, GTB can handle highly nonlinear, unstable, and even black-box dynamics with complex collision and specification constraints, making it a powerful tool for motion planning of complex systems.",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "collected_at": "2026-10-28T01:02:48+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "automation",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "d81a76362a64cc193966",
-      "source_id": "arxiv-cs-ro-rss",
-      "source_name": "arXiv RSS — Robotics research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.RO",
-      "url": "https://arxiv.org/abs/2610.32909",
-      "title": "HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training",
-      "summary": "arXiv:2610.32909v2 Announce Type: replace Abstract: HoloBoxing presents a simple recipe for learning humanoid boxing by building on a pretrained whole-body controller. The recipe separates reusable motor skills from task decisions: a compact planner requests future body-point targets, while the frozen controller handles joint-level execution. A learned decoder maps 32-dimensional actions to structured target windows, and measured-state imitation initializes the planner before reinforcement learning. Task learning then refines interaction behavior while reusing the decoder and controller, avoiding the need to relearn whole-body control. This combination keeps task optimization focused on a compact upper policy and supplies an initial behavior before reward-driven exploration. Starting from that available controller, the recipe accounts for about seven minutes of additional training, including reused representation fitting and a single-GPU task run. This excludes controller pretraining, data preparation, evaluation, and search. Simulated boxing experiments and component controls evaluate the resulting behavior and the roles of imitation initialization and the target representation.",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "collected_at": "2026-10-28T01:02:48+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "automation",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "40b633e967c90e0ad1a9",
-      "source_id": "arxiv-cs-ro-rss",
-      "source_name": "arXiv RSS — Robotics research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.RO",
-      "url": "https://arxiv.org/abs/2212.06123",
-      "title": "Security of Deep Reinforcement Learning for Autonomous Driving: A Survey",
-      "summary": "arXiv:2212.06123v4 Announce Type: replace-cross Abstract: Reinforcement learning (RL) enables agents to learn optimal behaviors through interaction with their environment and has been increasingly deployed in safety-critical applications, including autonomous driving. Despite its promise, RL is susceptible to attacks designed either to compromise policy learning or to induce erroneous decisions by trained agents. Although the literature on RL security has grown rapidly and several surveys exist, existing categorizations often fall short in guiding the selection of appropriate defenses for specific systems. In this work, we present a comprehensive survey of 86 recent studies on RL security, addressing these limitations by systematically categorizing attacks and defenses according to defined threat models and single- versus multi-agent settings. Furthermore, we examine the relevance and applicability of state-of-the-art attacks and defense mechanisms within the context of autonomous driving, providing insights to inform the design of robust RL systems.",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "collected_at": "2026-10-28T01:02:48+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "automation",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "b5cf18841ca067feb424",
-      "source_id": "arxiv-cs-ro-rss",
-      "source_name": "arXiv RSS — Robotics research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.RO",
-      "url": "https://arxiv.org/abs/2601.00705",
-      "title": "Rethinking Densification in Gaussian SLAM: A Stationary Sampling Perspective",
-      "summary": "arXiv:2601.00705v5 Announce Type: replace-cross Abstract: Gaussian Splatting enables high-fidelity differentiable SLAM by representing scenes as anisotropic Gaussian primitives. Most systems rely on residual-driven densification, which couples refinement with representation growth: accuracy saturates at a moderate primitive count, yet memory grows throughout the trajectory, degrading throughput. We introduce TopoGS-SLAM, a stationary-sampling formulation that decouples refinement from capacity through coverage-triggered Gaussian initialization and bounded-topology optimization, turning mapping into a bounded-dimensional problem with stable scaling. On standard indoor benchmarks, TopoGS-SLAM matches or surpasses densification-based pipelines in localization and reconstruction accuracy while substantially improving memory scalability and throughput, showing that iterative topology mutation is not required for accurate Gaussian SLAM in bounded-area static indoor scenes with sufficient multi-view coverage. Additional details and resources are available at this URL: https://breeze1124.github.io/topogs-slam-project-page/",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "collected_at": "2026-10-28T01:02:48+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "automation",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "936e010ddf100d1192c4",
-      "source_id": "arxiv-cs-ro-rss",
-      "source_name": "arXiv RSS — Robotics research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.RO",
-      "url": "https://arxiv.org/abs/2603.07949",
-      "title": "ActECC: Action Chunk Temporal Harnessing for Edge-Cloud Collaborative VLA Inference System",
-      "summary": "arXiv:2603.07949v3 Announce Type: replace-cross Abstract: VLA models have emerged as the mainstream for embodied intelligence, which decouples reasoning and execution via action chunks. To enable real-time deployment of VLA models, existing studies investigate edge-cloud collaborative inference, which pose two challenges to the action chunk mechanism. (1) Edge-cloud collaboration complicates system latency components, hindering the determination of valid ranges for action chunks. (2) Latency fluctuations in cross-edge update links under edge-cloud scenarios make it difficult to schedule replanning requests. To address these, we analyze the key factors affecting action chunk usable ranges and replanning request timing, revealing phase dependence and edge-cloud latency constraints. Based on these insights, we propose ActECC, which enables Action Chunk Temporal Harnessing through kinematics-guided usable range assessment and delay-aware replanning scheduling. Experiments show that ActECC reduces per-action latency by up to 27.4% and cloud calls by up to 45.1%, while lowering average execution error compared with existing edge-cloud collaborative.",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "collected_at": "2026-10-28T01:02:48+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "automation",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "91800e5ed45a5de0dff9",
-      "source_id": "arxiv-cs-ro-rss",
-      "source_name": "arXiv RSS — Robotics research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.RO",
-      "url": "https://arxiv.org/abs/2603.26638",
-      "title": "RigidDriveGS: Object-Centric Vehicle Reconstruction from Fixed Multi-Camera Drive-Through Captures",
-      "summary": "arXiv:2603.26638v2 Announce Type: replace-cross Abstract: High-fidelity 3D reconstruction of vehicle exteriors improves buyer confidence in online automotive marketplaces, but fixed multi-camera drive-through capture departs from standard Structure-from-Motion (SfM): static cameras observe a moving vehicle amid clutter, rotating wheels, fisheye distortion, and specular reflections. We present RigidDriveGS, an object-centric pipeline combining motion-gated tracking, bifurcated masks that exclude wheels for SfM while optionally retaining them for rendering, mask-guided dense correspondences on raw distorted images, rig-constrained global SfM, and clean object-centric neural rendering with trimap-aware opacity or density supervision and native-alpha white compositing. We evaluate 25 vehicles from 10 dealership installations and six phone-recorded vehicles, each captured from 14 independent handheld positions. Under a staggered per-camera temporal-block holdout, 3DGUT+MCMC achieves 30.42 dB PSNR, 0.90 SSIM, and 0.20 LPIPS, improving PSNR by 7.78 dB over undistorted 3D-GS; independently recorded reference LiDAR scans yield full/body Chamfer-L1 of 0.026/0.013 m and F1@5 cm of 0.703/0.885. These results support clutter-free, object-centric novel-view synthesis without controlled studio infrastructure.",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "collected_at": "2026-10-28T01:02:48+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "automation",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "eb24bc27946068921a39",
-      "source_id": "arxiv-cs-ro-rss",
-      "source_name": "arXiv RSS — Robotics research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.RO",
-      "url": "https://arxiv.org/abs/2604.04554",
-      "title": "Geometry-Aware Epipolar Correspondence Graphs for Monocular Visual Odometry",
-      "summary": "arXiv:2604.04554v3 Announce Type: replace-cross Abstract: We demonstrate Graph Representation Learning to address challenges that arise in visual odometry. In this context, the change in pose of a camera is typically estimated using matched correspondences in frames that satisfy the epipolar constraint; finding this unique set under different situations is not a simple task. Employing an existing detector-free model to find matching correspondences in a pair of images, a correspondence graph is constructed whose topology is guided by the epipolar constraint. Starting with a graph where every node is connected to $k$ closest neighbours (by distance), this graph is pruned based on an initial estimate of the Essential Matrix; this feature is in stark contrast with traditional graph formulations where graphs from local spatial neighborhoods defined by heuristics are constructed. The graph learning module is then trained to generate an aggregated representative vector that summarises the geometric context of the graph. This vector forms an input to a Multi-layer Perceptron (MLP), whose outputs are standard rotation and translation elements that define the change in pose. To investigate the effect of graph learning on this representation, four variations of Graph Neural Networks (GNNs): GCN, GAT, GIN, and Graph-based Cross Attention are evaluated under a unified learning framework. The application to monocular visual odometry is validated using outdoor benchmark datasets such as KiTTi, ETH3D, King's College, and Tartan Air. Experimental results demonstrate consistent improvements in trajectory and relative pose estimation across diverse metrics when compared with classical consensus-based estimators and learning-guided correspondence methods.",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "collected_at": "2026-10-28T01:02:48+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "automation",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "6e5738c9efd47588f4d5",
-      "source_id": "arxiv-cs-ro-rss",
-      "source_name": "arXiv RSS — Robotics research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.RO",
-      "url": "https://arxiv.org/abs/2604.18161",
-      "title": "Does \"Do Differentiable Simulators Give Better Policy Gradients?\" Give Better Policy Gradients?",
-      "summary": "arXiv:2604.18161v2 Announce Type: replace-cross Abstract: In policy gradient reinforcement learning, access to a differentiable model enables 1st-order gradient estimation that accelerates learning compared to relying solely on derivative-free 0th-order estimators. However, discontinuous dynamics cause bias and undermine the effectiveness of 1st-order estimators. Prior work addressed this bias by constructing a confidence interval around the REINFORCE 0th-order gradient estimator and using these bounds to detect discontinuities. However, the REINFORCE estimator is notoriously noisy, and we find that this method requires task-specific hyperparameter tuning and has low sample efficiency. This paper asks whether such bias is the primary obstacle and what minimal fixes suffice. First, we re-examine standard discontinuous settings from prior work and introduce DDCG, a lightweight test that switches estimators in nonsmooth regions; with a single hyperparameter, DDCG achieves robust performance and remains reliable with small samples. Second, on differentiable robotics control tasks, we present IVW-H, a per-step inverse-variance implementation that stabilizes variance without explicit discontinuity detection and yields strong results. Together, these findings indicate that while estimator switching improves robustness in controlled studies, careful variance control often dominates in practical deployments.",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "collected_at": "2026-10-28T01:02:48+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "automation",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "4224c9ed949029089e20",
-      "source_id": "arxiv-cs-ro-rss",
-      "source_name": "arXiv RSS — Robotics research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.RO",
-      "url": "https://arxiv.org/abs/2606.01734",
-      "title": "FlatVPR: Plug-and-play Geo-linear Residual Adapter for Geometric Rectification of Foundation Model Feature Manifolds",
-      "summary": "arXiv:2606.01734v3 Announce Type: replace-cross Abstract: This paper proposes ``FlatVPR,'' a novel geometric rectification paradigm that effectively bridges the trade-off between map lightweightness and localization accuracy in visual place recognition (VPR) by enforcing a feature manifold structure where any descriptor between two adjacent anchors $\\mathbf{z}_A$ and $\\mathbf{z}_B$ can be accurately reconstructed via linear interpolation $\\hat{\\mathbf{z}}_{pseudo} = (1-t)\\mathbf{z}_A + t\\mathbf{z}_B$, where $t \\in [0,1]$ denotes the relative position. While state-of-the-art foundation models such as DINOv2-ViT-S/14 provide robust semantic features, their latent manifolds exhibit prominent curvature, projecting uniform linear motion in physical space onto highly non-linear trajectories in the feature space, which hinders reliable reconstruction under sparse anchor conditions. To enable the aforementioned interpolation-based reconstruction, we introduce a residual transformation $\\hat{\\mathbf{z}} = \\mathbf{z} + \\text{Res}(\\mathbf{z})$ to the raw foundation features $\\mathbf{z}$, where $\\text{Res}(\\cdot)$ represents a learnable adapter. Our method explicitly suppresses manifold curvature using a mathematically grounded Pullback Flatness Loss that minimizes the deviation of intermediate features from the linear segment connecting adjacent anchors, thereby minimizing the intrinsic curvature of the manifold. Through this spatial flattening, map construction is formulated within an Expectation-Maximization (EM) framework, decoupled into a continuous M-step for manifold adaptation and a conceptual E-step for optimal anchor selection guidelines. Experiments on the NCLT dataset demonstrate that the application of our adapter leads to significant performance improvements even unde",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "collected_at": "2026-10-28T01:02:48+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "automation",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "1794a0d2a4b7f83e0e09",
-      "source_id": "arxiv-cs-ro-rss",
-      "source_name": "arXiv RSS — Robotics research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.RO",
-      "url": "https://arxiv.org/abs/2609.35032",
-      "title": "JRDB-AVR: An Active Visual Reasoning Benchmark for Embodied Agents in Real-World Environments",
-      "summary": "arXiv:2609.35032v2 Announce Type: replace-cross Abstract: In complex embodied visual reasoning scenarios, an agent often has only a limited field of view, and the evidence needed to answer a question may be distributed across time, viewpoint, and interacting objects. A model may therefore give a plausible answer without ever observing the relevant object, time, or view that supports it. Current visual reasoning benchmarks largely evaluate passive observations and final answers, overlooking settings that require active reasoning and evidence acquisition. We introduce JRDB-AVR, a benchmark derived from existing real-world JRDB robotics data through a structured question-generation engine that turns this gap into an explicit evaluation: an embodied agentic system receives a visual reasoning question, requests bounded observations by timestamp and viewing angle, and is evaluated on both the final answer and the grounded visual evidence supporting it. The benchmark contains diverse questions over multiple real-world environments involving temporal search, viewpoint selection, and human-oriented compositional reasoning. We also introduce JRDB-AVR-Agent, a reference active reasoning agentic method that maintains an explicit observation-grounded graph-based world model and answers through solving. Experiments reveal a substantial gap between answer accuracy and evidence accuracy in current baselines, showing that current VLMs can produce unsupported correct answers and that active evidence-aware evaluation is necessary for embodied visual reasoning. Code and benchmark are available at https://github.com/ControlNet/JRDB-AVR.",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "collected_at": "2026-10-28T01:02:48+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "automation",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "bf695a5829715967ff80",
-      "source_id": "arxiv-cs-ro-rss",
-      "source_name": "arXiv RSS — Robotics research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.RO",
-      "url": "https://arxiv.org/abs/2610.02626",
-      "title": "Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internalized Spatiotemporal Imagination",
-      "summary": "arXiv:2610.02626v4 Announce Type: replace-cross Abstract: Vision-language-action (VLA) models increasingly incorporate intermediate reasoning to improve robotic manipulation, yet existing approaches primarily reason about observed states without explicitly anticipating future scene evolution. Extending such reasoning to explicit future rollouts at every inference step, however, introduces substantial computational overhead. We propose IG-VLA, a VLA reasoning framework that enables models to imagine the future and internalize the gist. Our Latent Spatiotemporal Reasoning learns to imagine task-relevant future scene evolution directly in visual representation space, guiding action prediction without costly pixel-level video generation. To further reduce inference overhead, we introduce Scene Gist Memory, which internalizes reasoning-derived scene-behavior associations into a compact Scene Gist Token, preserving the benefits of future reasoning while bypassing explicit future imagination at inference. Extensive experiments on LIBERO, LIBERO-Plus, and VLABench demonstrate the effectiveness and efficiency of IG-VLA. On the LIBERO-Plus Language suite, both the reasoning and gist policies outperform the strongest baseline by nearly 6% in success rate. The gist policy also achieves up to 6.38x speedup over baselines, reducing inference latency from 1081ms to 169.5ms per action chunk on a single NVIDIA A6000 GPU. These results demonstrate that future spatiotemporal reasoning can be effectively internalized for efficient VLA deployment.",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "collected_at": "2026-10-28T01:02:48+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "automation",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "9e222bbe4274686a341d",
-      "source_id": "arxiv-cs-ro-rss",
-      "source_name": "arXiv RSS — Robotics research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.RO",
-      "url": "https://arxiv.org/abs/2610.10270",
-      "title": "Video Prediction Policy 2: Predict Better, Act Better",
-      "summary": "arXiv:2610.10270v4 Announce Type: replace-cross Abstract: World action models (WAMs) have emerged as an important class of generalist robot policies, aiming to transfer video prediction priors to action learning. However, we find that existing WAMs frequently produce incorrect motion predictions in open-ended environment, leading to erroneous actions. We attribute this limitation to two factors: (1) base video models are not optimized for manipulation, and (2) naively incorporating action components into video models can substantially degrade their generalization capabilities. We introduce Video Prediction Policy 2 (VPP2), a WAM that enables strong zero-shot generalization in both video prediction and action generation. First, we curate a large-scale, diverse dataset of manipulation videos to continue pretraining the base video foundation model. We annotate video clips with detailed captions and perform \\textit{event-level} video pretraining to promote generalization across open-ended manipulation tasks. Second, we post-train and distill the video model into a single-step visual planner with fixed prediction horizon. Finally, we introduce action module via a mixture-of-transformers (MoT) architecture to learn implicit inverse dynamics model. Experiments demonstrate three key results: (1) VPP2-14B outperforms Cosmos3-64B by 11.0\\% points in video prediction instruction-following success rate on open-ended tasks; (2) VPP2 surpasses the strongest baseline by 18.5\\% points in success rate on real-world zero-shot ALOHA manipulation tasks; and (3) following benchmark-specific post-training, VPP2 achieves the highest success rates among evaluated methods on the challenging LIBERO-Pro, LIBERO-OOD, and RoboDojo benchmarks.",
-      "published_at": "2026-10-27T04:00:00+00:00",
-      "collected_at": "2026-10-28T01:02:48+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "automation",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "4ad30eb51c4798323fdb",
-      "source_id": "google-news-crossborder",
-      "source_name": "Google News RSS — cross-border trade and export services",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYlZvLXlMT2hIYWx5TVlTWGxqNlhGLXNxTXZVbzJsWWEyU0l6dmVaWVhmVGRYelBrSENFd2h4b2pyOS1tLUNoNlh5WmtNWW4xdG5ySm8tRUdiMkhCX05vNFNYVDNZSElDbWx0eWdYMHNQUzVzbk9lRFo3bHB0SXR4NG8xalFaZkRYMWFwb1dfRDZRZlk1SWZKQUxlX01OMXBGU1ZVQkZiaw?oc=5",
-      "title": "Measures sought to remove bottlenecks to reduce logistics costs - Vietnam+ (VietnamPlus)",
-      "summary": "Measures sought to remove bottlenecks to reduce logistics costs &nbsp;&nbsp; Vietnam+ (VietnamPlus)",
-      "published_at": "2026-10-27T02:48:35+00:00",
-      "collected_at": "2026-10-28T01:01:48+00:00",
-      "region": "global",
-      "topic_tags": [
-        "crossborder",
-        "trade",
-        "compliance"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "e8f0668f68d02c89d7c6",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUmRvSkh2cWRCMVUxNVc2VjdDdUhCU1pKeDlWWDFHUXpyekJPVGMtVG1iM3I0OG45TlVySGdNVDJYX2xFX3BYelNPbEs2Q29YLVNYcjJoRTZyVVpxcTJKNkNoNUNXR1hxVkZqUzY1Mmd0N1pRTHJ3c2loNkxlOFlPUWg2U0ZPLUdUWVZYSFV3VDZpZi1va2RLQmpKMElMYi1wM19tY0x1S0V1eVhZSEl5dVBLS3NWUDZmVktUR3MtU01GQ0JZMG1V?oc=5",
-      "title": "AI Agents Are Breaking the Internet. 5 Things You Should Do Right Now to Protect Yourself - Inc.com",
-      "summary": "AI Agents Are Breaking the Internet. 5 Things You Should Do Right Now to Protect Yourself &nbsp;&nbsp; Inc.com",
-      "published_at": "2026-10-27T02:14:05+00:00",
-      "collected_at": "2026-10-28T08:24:38+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "ac86e81cba25b419dce7",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNDRsbWRxdkkyRllWUld3ZTdJQ1Q2QTRXNnB5WUQ2YzNqVXFScTU5SEhOVHZDcGdXRkJGeUpSNkw2SmF2TmZDUWRoeVhPS1lzazN2azBmSnA4LXZjTkFJelpFWkVab29QTlpTUWUwZTEzZTB5Ymg1cFAyRi1ySWk5emstWHhHLVBTblhhYVFiVXFfeG91RzZzVnlpTk1GZ2JBMG1JaklnWjdIR0lzS1pmMjV4VmNZclRPeHF3X2FqRGVJY1dIS0xZ?oc=5",
-      "title": "Enterprise AI governance ties controls to workflow design - SiliconANGLE",
-      "summary": "Enterprise AI governance ties controls to workflow design &nbsp;&nbsp; SiliconANGLE",
-      "published_at": "2026-10-27T01:41:00+00:00",
-      "collected_at": "2026-10-28T01:02:14+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "49ad817d3c55d22dfae8",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQW1Zd1ZpVnlacEh5QThidlY5N0t6MXBSakNtZms1VG4wTGZOOUc0NHRHaDcybnlQOS1tMkdiRWVJV2RLLW5ZU2JyWUtaWlRnS2FDODZEMTRHblg5RThxWHYyZE4yTWV5emlHS2tHYTZZUFMxNWo0UDNUcTRIZDZ5ZUxNbVMwQllzMnc?oc=5",
-      "title": "Banks are locking AI agents out, Hashgraph CIO Gregg Bell says blockchain is the way back in - Yahoo Finance Singapore",
-      "summary": "Banks are locking AI agents out, Hashgraph CIO Gregg Bell says blockchain is the way back in &nbsp;&nbsp; Yahoo Finance Singapore",
-      "published_at": "2026-10-27T01:14:00+00:00",
-      "collected_at": "2026-10-28T01:02:14+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "729d109f90b1db8ef6aa",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMjEySE5Ra2ZzMUFpWUNyaGVKWEc3cHlkcmRpdVRQZnZxeEZCYnZWWGZtSWJKeXdsMFB4QWN2cWN5YWxPV09FcWV2cXpTV1RlSkY5OHRQaVZ0RGNxQXVFelhVYUdQV0FfU0F4cnBfVE5IODhMUkVDX2FERTNXUnVmejFHaU55X3JDTWRHSzVKVFduWUdBeGpWdDB4ZlBDSzA5bTc1WFlpX0gzNHpIbXNUZlZ2aUZjT3ZyZWlSN1YwNms?oc=5",
-      "title": "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price - SiliconANGLE",
-      "summary": "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price &nbsp;&nbsp; SiliconANGLE",
-      "published_at": "2026-10-27T00:39:00+00:00",
-      "collected_at": "2026-10-28T01:02:14+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "3a55ba1fd48902fc4a9b",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV2dUYndWMDAyZTQzUDFrVmxOdDd6N1hfTWRxTHppbFk5NWRTTkRwWEl6ZzRJRlR3ZDFyWVRyeG9rQkpaSVJCTElNWlg4NEQtMGgzVlVXSFBSa2xsZkJFNlJvTWlZUUt5eGZtNGxkc2pzMUxiTHNtNHozdWZ5UGtuTmJZaUlZdEgzMnB1QjQ3ZzhqeTJzRDFYUExXM2QtVDTSAaQBQVVfeXFMUFF6VUh4TE5kSDN3SDNscEpPTGxCWllFTXcyd2xjeGY5bnhGQjRDWE0yaXRpUnBaTlQ4d2RvM1VFaC1MQ2t0NmpnclhzcVl4cVdkWEpuUjZsRF9rWU5sdHRxeDBmYWFVcjNYNG03X1M4d0NQSVVkYWFxRG9DeTVSODNjcUhva2oxbDVkLUFSNEVjc3ZrVFpsSHBBMUVpMFU4ajY1OFM?oc=5",
-      "title": "Major U.S. banks restrict AI agents due to security risks - WJET/WFXP/YourErie.com",
-      "summary": "Major U.S. banks restrict AI agents due to security risks &nbsp;&nbsp; WJET/WFXP/YourErie.com",
-      "published_at": "2026-10-27T00:28:32+00:00",
-      "collected_at": "2026-10-28T01:02:14+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "62302f4b452f93652c87",
-      "source_id": "google-news-crossborder",
-      "source_name": "Google News RSS — cross-border trade and export services",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1OOHRPTjRqQ2gzMDl2eEhaQTNXeG9rSGttVHNYWTRucHFxR2VjMGpmQ3NfLXFBcXdNUGJoM3NPaTBlVDM4WnIxeklJQ2RWMnhtdEtZeVUxdXFCWFFOU1NHR2ppVnZzMXZSVkdqSFAyMW4tRzJCU0lfX1RCSFFUZw?oc=5",
-      "title": "Regional linkages for industrial and commercial development. - Vietnam.vn",
-      "summary": "Regional linkages for industrial and commercial development. &nbsp;&nbsp; Vietnam.vn",
-      "published_at": "2026-10-27T00:05:49+00:00",
-      "collected_at": "2026-10-28T01:03:32+00:00",
-      "region": "global",
-      "topic_tags": [
-        "crossborder",
-        "trade",
-        "compliance"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "ba00351ac0f3f4b77a35",
-      "source_id": "google-news-robotics",
-      "source_name": "Google News RSS — industrial robotics and humanoid robots",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PMGZROVVGV0czZnJvbVpJbnU5emtwQjJjdElHdkh5TGlYZnlsZE51Z3pwV1UzSEdiT2hXem5NbXRCRjN3dC1acGxjU2xRT0g3MnBhRXpoYmoteVJZdDdfLXdyZ2I1QUthWlE?oc=5",
-      "title": "Samsung Executive Chairman reportedly eyes RX unit visit for humanoid robot push - digitimes",
-      "summary": "Samsung Executive Chairman reportedly eyes RX unit visit for humanoid robot push &nbsp;&nbsp; digitimes",
-      "published_at": "2026-10-26T23:51:05+00:00",
-      "collected_at": "2026-10-28T01:01:47+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "manufacturing"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "17bd77b9235218330d8b",
-      "source_id": "google-news-robotics",
-      "source_name": "Google News RSS — industrial robotics and humanoid robots",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjdNWnhGQ1hBZWhKOFhHa1YzWGZ1LTBKV3dVMmlGV3JuRFVvOE1DaFBod19rdURjOWtnZWdVVVg0R1dKWDhmQS1ycXhBU1RVWVVtTjhWLWJleWg4TjZKSjBwbTktTmZ0SHZha1RoQllTUlUtOHFWcU5rejNISXUzNTVYUzNOT2pfcXhOVG9oZFNJSXc?oc=5",
-      "title": "Samsung Executive Chairman reportedly eyes RX unit visit for humanoid robot push - digitimes",
-      "summary": "Samsung Executive Chairman reportedly eyes RX unit visit for humanoid robot push &nbsp;&nbsp; digitimes",
-      "published_at": "2026-10-26T23:51:05+00:00",
-      "collected_at": "2026-10-28T01:02:15+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "manufacturing"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "2405b8cd6db6658251f3",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdWQxMHdGSWZFMVVOSlJoV3o5ZzlvNlBtY184ZXJPUUhHZmx3T05qcGpPdTVtSDNyU0Q2LTNVcnpGTzhBNXE1WXppRWU5dXVidUFhdDVNb3haZmZ4RExsazhOU1lCUlFRTkgxS3phNDFiZ3FPa184NFRzMWxKNzYyRzdtOFFsdHhJZU5ibWNn0gGiAUFVX3lxTE5TdktUVXgzQmNiRWJFSVpfN0xSb3NoN1lKX1N6VjhIYXF1U0NKd0stRDctTzRrX05sMzg0ZzVpYUFCT1VDRi1DQ1lMVDVvdlU2dDdwZmc4Q004OXpKMVR4YUlZYXJDd2E3ZDRDVjZLTTVmUms0eGlRVUxqZndudFh5WXJkNEN5eGFiaW4tXzhERGxLRmx4Q3dCWm5kN0dFNjduUQ?oc=5",
-      "title": "Unauthorized AI agents detected in bank accounts - KMOV",
-      "summary": "Unauthorized AI agents detected in bank accounts &nbsp;&nbsp; KMOV",
-      "published_at": "2026-10-26T23:02:00+00:00",
-      "collected_at": "2026-10-28T01:01:46+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "448386071ead3f5711b7",
-      "source_id": "google-news-robotics",
-      "source_name": "Google News RSS — industrial robotics and humanoid robots",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FbmpoV2pTcXpXZGtyelVKNk9sdGNVTGRUOXlKb2hLRFVUOVhMLWhkQUpRWHRlOEhRWGhBakJzSHpBM1Zicm5ydWhZYjVEQmd4bUF6VDQ1ZXNwYW1ZNGZnWk9jRUprWVFLREpj?oc=5",
-      "title": "Video shows humanoid AI robot roaming NYC streets - CBS News",
-      "summary": "Video shows humanoid AI robot roaming NYC streets &nbsp;&nbsp; CBS News",
-      "published_at": "2026-10-26T23:01:55+00:00",
-      "collected_at": "2026-10-28T01:01:47+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "manufacturing"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "979cde50fe7c8a7913db",
-      "source_id": "google-news-robotics",
-      "source_name": "Google News RSS — industrial robotics and humanoid robots",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT0FobEhZdk9lemtnMnJ6Q2FWdVlKY2g1dUNvYUowWjZkQllnRkR0UmNWT0RnQ2kwMVoyaVMxWFJVMG9GVmJnRzVDc3ZOZ1REclQyY3ZsVzVUS1AtajB1c1RSVUxlNEtZcVZmVWVQMHBxSUdWM0NLM0lVbmdCNlpjVUNUUGZJU0pWZFhPa05YOUxfUHFaUURkVw?oc=5",
-      "title": "Humanoid robot spotted in NYC sparks curiosity, concern - CBS News",
-      "summary": "Humanoid robot spotted in NYC sparks curiosity, concern &nbsp;&nbsp; CBS News",
-      "published_at": "2026-10-26T22:11:00+00:00",
-      "collected_at": "2026-10-28T01:01:47+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "manufacturing"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "bb01f887394c5b335c41",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Wdl90TEFLQ0JjMVQyaEhsTEp4YWlmRnhTMFJ2dExQREwyZzJhblJtM0NlSlk2TmVFRFJJUUVhVW0yOVhhLXZ4bWFIQV9qSjA1TEs4?oc=5",
-      "title": "Episode 200: From rogue AI agents to factchecking AI, Ken Ford responds to more listener AI questions - IHMC",
-      "summary": "Episode 200: From rogue AI agents to factchecking AI, Ken Ford responds to more listener AI questions &nbsp;&nbsp; IHMC",
-      "published_at": "2026-10-26T22:00:51+00:00",
-      "collected_at": "2026-10-28T01:01:46+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "d8a8f6eb8e56c4c242f7",
-      "source_id": "google-news-robotics",
-      "source_name": "Google News RSS — industrial robotics and humanoid robots",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQkZucVYzM1B3TGpIb1R2M1RDMDZFSHoxRTNxdkJ1R18tbTByelBWM0F3UDlJY1hrbFlWSXYxaVVUOXJyRnZ6dmljdnRSN1ZrWWRiZG5qN0dGeEUxSm95S3FjV3dxY0c2OENfa1kwRTUtT0VSTkdpWThrNEJWSDlrVGhjZms4M09zZnpfamVSaHprc2RPLWIyZ3VLYVIwNndZeFZ5WUo1d3ZNR1UtN0lPUjhpNA?oc=5",
-      "title": "Humanoid Robot H2-X Malfunctions During Kung Fu Demonstration at 2026 World Physical AI Conference - The CSR Journal",
-      "summary": "Humanoid Robot H2-X Malfunctions During Kung Fu Demonstration at 2026 World Physical AI Conference &nbsp;&nbsp; The CSR Journal",
-      "published_at": "2026-10-26T21:40:46+00:00",
-      "collected_at": "2026-10-28T01:01:47+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "manufacturing"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "c61be19b3a8e0300ca05",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQUVIT2NYUzl3c1JlSlFYOU4tb1NLUVFYVlJSRG9MX29IRWoycmNIVmRPZmJCTWRXQWdXT1pmQUVrTXU5WldIclpGNWJtcTdqQ1Itb2lXMzJWLVg3N0NUdDRuTUlUVjMtR3hTV2c3aVVjcm4zSnpHZGFjaW1mUDIyX3ozRU5mNEIxaWpzMF9ncUgxdHpLUDA4MktyeV83WU1lSndvUEp1a0c?oc=5",
-      "title": "Watch Odd Lots: AI Agents Are Already Changing the Price of Goods - Bloomberg.com",
-      "summary": "Watch Odd Lots: AI Agents Are Already Changing the Price of Goods &nbsp;&nbsp; Bloomberg.com",
-      "published_at": "2026-10-26T21:32:41+00:00",
-      "collected_at": "2026-10-28T01:01:46+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "defd01f22ed92caf55d5",
-      "source_id": "google-news-robotics",
-      "source_name": "Google News RSS — industrial robotics and humanoid robots",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOLTBsdENiSnk5bXV2eTd0Nllxb1hDdmMtWkdIa3JYUTJWR2Y4RThIMFJoX2pSay0wdEtrQkRtVldhSTJZN01iNWdVYUdIX1RPVDZGemxSbmszc2hYWWRIUGtYZmhCZXBicC1TeE5Db1FIbjRzUU85ZW9HSVd5SHJwMW84RDB4M0dmUGRtMjJ2SHlpMGNNMmJlVzZqOXN4eG1CZ0xFU2duNHhWbmVOclVxVU9GdXJabGRJSjRQc3p1UXZkUWprSzRsQzFPRWp2dl9BeVJtVFdn0gHWAUFVX3lxTE5kLTIxbldBYUFVOG56SFNaREg3RkRkSVZtOGY4V1NtM2xlOVAtZlJRNTlUc083bHRnZ1RHSmFsRndsdlIxM092QkhfZ3QyZ3lsZU8wdThJSUtud004bWRmQlJBSDZRUVVIdkhscHZPUzJvb3d6UzZYc0E3LUdqdHpZM2pEd2t3TkdGWTM1RTJMd0RkbEl0UmtZWDc0MTluMmtKbGhKTTZGYi1JazFjYlBUQ2NRN1JTa3B4VVgydl93VXFZbDkyQzk1cWhJRERfNTYycWhKcXc?oc=5",
-      "title": "This $89K humanoid robot is learning to interact with people in a NYC park - MARCA",
-      "summary": "This $89K humanoid robot is learning to interact with people in a NYC park &nbsp;&nbsp; MARCA",
-      "published_at": "2026-10-26T21:18:37+00:00",
-      "collected_at": "2026-10-28T01:01:47+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "manufacturing"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "cce4dec7d6ddd0538091",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQV9uR3l4NEZyWGF2YjREaGNJMVlRdkM1eDd5WmtsU014WXNhek84R1BmbXc0eDNVZ1RiazFVeENHU3B6eVJyaWNNd0pvZDhmYlAwa2I0d3lfYzRWbTdiT29ENi1zVFNoWFRLNXRYblRCZ1NhbXBQVkFrS0VxOVlqdlJ4Q2pFLWEwdzJvbzVsRk9vU3VGQXpJ?oc=5",
-      "title": "In-the-Wild Attack Abuses AI Agents' Trust in Markdown - Dark Reading",
-      "summary": "In-the-Wild Attack Abuses AI Agents' Trust in Markdown &nbsp;&nbsp; Dark Reading",
-      "published_at": "2026-10-26T21:16:38+00:00",
-      "collected_at": "2026-10-28T01:01:46+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "ff05a23a1e81125314fb",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLTVsMGhXeWxBdE9qYThMVkdXUWNZd21ZcWZpQnc4UV8wVW5QN0pBMWtNdWpHdTQzaVZmOXdJVHJaZmlmcDZoYVYxUHFwOXhtVk40aDhyYXhaVWJZRHhVOUVZcFdXMExWNFdtTzdFS2J1aC1XNER6M1FXa1hQXzJ4cEc5bE5GZk0tY1d1eHlKSlVCN0xmeUQwclFFY1FtV0ZHNU4xSExTTVh4LVdfb3lCU05uU3d1a3lPeU5yYjREbkZ3TUZuRnlEbVRZTkdVNkFkdVhkVGVoQWzSAd4BQVVfeXFMUEZPQlY2Ti1HcG1GZ1pzYi1VSTV3REFnaGlSbkZoX1BLbERvNDk2dW5OQkx1ZExCblhwTEFfOFMxMERmeVVnY0RyMU5rUTNCeU5uTFVHQXlzMnQxWlUzMTJIUi1tUWdsTFZUc2NVSHExbndjZGVlQ2JlS1JYeVRJRGNjTzRCZERFakdRcEdFclVaYnhmTmpvVENSemZ6cGgzWEpzNTVfNnhyUmZuZTNXWXRudlVOSVF5VEgwSy13cXJoRU9KY2pJS01vVmNJZWdxSkZqdGdaVHJpWkwxbk9R?oc=5",
-      "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing - BleepingComputer",
-      "summary": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing &nbsp;&nbsp; BleepingComputer",
-      "published_at": "2026-10-26T20:46:49+00:00",
-      "collected_at": "2026-10-28T01:01:46+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "9a77c1442ef54eee5df9",
-      "source_id": "google-news-robotics",
-      "source_name": "Google News RSS — industrial robotics and humanoid robots",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMXNqcHVYajNDM0JwMThRMkwzVUNCUkhuV1YzZlJYZ0NnMThnbG92R2tUcGhSZEhvQlRDeURiTV9QeWtoNUNpa09JMHFCSU13R01iOThTbm9qY1k1NzNMeWZkcUJFQ1hFT29yZjVsRVcyMm5JaTJRM3Y1T3JxbE1zS3pJTWRrN28?oc=5",
-      "title": "Humanoid Showdown: Korea's Lead Opportunity - 조선일보",
-      "summary": "Humanoid Showdown: Korea's Lead Opportunity &nbsp;&nbsp; 조선일보",
-      "published_at": "2026-10-26T20:11:43+00:00",
-      "collected_at": "2026-10-28T01:01:47+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "manufacturing"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "e3be8c108db264822d18",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLURuSEdnWUpaSFJVUVJyX0NNWURmQUtEQ1RwQktUSHU2ckZ1ZkwtTUozcG9oRGRIeUt5dDFzXzJWa1ZGUFVJQlREWkp5YUdWT0s3YWM1UnpCZHU4RDhxaUtMWkxRa2huMjBINVFUU0lZVXBNamFpMWVpbGpFZ1hvcW83WEhBck1Nci1FQUNMb0s?oc=5",
-      "title": "Oracle Unveils 25 AI Agents to Automate Business Operations - Small Business Trends",
-      "summary": "Oracle Unveils 25 AI Agents to Automate Business Operations &nbsp;&nbsp; Small Business Trends",
-      "published_at": "2026-10-26T19:00:34+00:00",
-      "collected_at": "2026-10-28T08:24:38+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "de5ea99e52d0f4f6cad4",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbEx6MlVvN1pva1pNUXU4SlFvMnUxYlFnaVZGZm9xVHo5RGZOTjBxVHRmSFM4VHZsNUp6dHA5TXVZZHZOM3lsUGVzOS1IUEwtME1xb2dCWnpoZjBvRlBFOTFGY05ISmJQUkVDX3BNSWVoS1JMUE9ZQmZ5SmJlTUJGLUNpWXAwWV9YMVlkbXJkWlFrcXZkT1VOTUdGRU9RNmRrS1NGdnFISFB0dklQNGZkbk84RnhjZkdqRkFEbzVrZWxZQXlUUERqQ19oR2gwdw?oc=5",
-      "title": "Microsoft Expands AI Security Platform to Address Security Risks from AI Agents - Campus Technology",
-      "summary": "Microsoft Expands AI Security Platform to Address Security Risks from AI Agents &nbsp;&nbsp; Campus Technology",
-      "published_at": "2026-10-26T17:59:06+00:00",
-      "collected_at": "2026-10-28T01:01:46+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "d5b84c07083ba76fb7a5",
-      "source_id": "google-news-crossborder",
-      "source_name": "Google News RSS — cross-border trade and export services",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR2xaMmlLVnNfVTBOQ2FPLTlQRjA5LXY5SUluSndJZHBYdmxkMHRQZWt1ZVNGOWZVM0NVNGZrODdiMHdYdHFFc1ZNWUU3RmJ3bGxVaG5RMVBHUEdwR08td1VoZXhleUJSZHdVZ2JOVEhOOFlmVFplSXZtSDhWWDh0aDYwVEViSmVmOFJ4dExRdVM2ME45Qlpwc0F0cGxyRGsydURYVExRUU5Qc3VDUXJiSnNNcDRMOHNnM3NpUlBJWnoyZXJyRkJLc3VzdElvdXdvVVB3dQ?oc=5",
-      "title": "India extends 95% RELIEF export risk cover to March 31, 2027 - Fibre2Fashion",
-      "summary": "India extends 95% RELIEF export risk cover to March 31, 2027 &nbsp;&nbsp; Fibre2Fashion",
-      "published_at": "2026-10-26T17:58:32+00:00",
-      "collected_at": "2026-10-28T01:01:48+00:00",
-      "region": "global",
-      "topic_tags": [
-        "crossborder",
-        "trade",
-        "compliance"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "7346cefea85bd09b4efc",
-      "source_id": "google-news-robotics",
-      "source_name": "Google News RSS — industrial robotics and humanoid robots",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRkk3b2txaHZOM2lubFVVUjhSZkNXdk9RSG1kSjJPRElfVjNiNGZTWVVUdDd4dVZzb2VyS054aDlmYXhheEUzZjhiTmR6cm16SUNoSEZfWmktVmpYQW52eGlkaURoMnJ0dmJPQWQ4TFdBME1tejVTazJjMTl0a3hiVnJPZEdteU9aYnJoLTFHRm5lb191VnlBeS1uZEItZ3JfTVR1bnFCYURiV1c1Y19hUndBUHYya1U?oc=5",
-      "title": "Agility's First Humanoid Robot Customer Just Came Back For More - Forbes",
-      "summary": "Agility's First Humanoid Robot Customer Just Came Back For More &nbsp;&nbsp; Forbes",
-      "published_at": "2026-10-26T17:52:49+00:00",
-      "collected_at": "2026-10-28T01:01:47+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "manufacturing"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "eef9f408cd47443558c4",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdUJpNmxFM19Sa3Brbm9FbzcweU9DMHB5SERBYUltc3gtSmlEWXE4V3VRZF9fTHR2Zk5QU2QxcURNeDJmUkNDWW00MWluQV82SXdKd0FPM2V2SDhOMkI0bVlhWGxjU2x2SXZNTmF5b0NmOWVPZHY2VE5WQjNrdkVNOHVfakVLSkU?oc=5",
-      "title": "The RealReal won’t let AI agents hog designer clothing - The Verge",
-      "summary": "The RealReal won’t let AI agents hog designer clothing &nbsp;&nbsp; The Verge",
-      "published_at": "2026-10-26T17:30:55+00:00",
-      "collected_at": "2026-10-28T01:02:14+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "a0ec23edca2bd528db26",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORjVWdmstQVkxck01Y016QmwyMXRfcUxzYVMzVmw4eHJTeVR2eVhMWm9GSV9HLWJnR2dBeFJXSjNhQ3FvSzljWjI5YU5uZ2xtVUhQV1FsaDh4T2tIWG9Tcm11bkFFQkZmODhselNiTTFjM1lDMGdlOVJyMUlUV1ViNTlCMVlidmhJV3JoZjlpMzF5bkp1RXg3REVfbk96WG5XTUkwMzBHY21kVDE2U3AtOWpHcE8tSmQ4Qy14NFFXVzBKQ0ZEU2ZxcDF6Y2pxdmhOUkVXUG9ZYw?oc=5",
-      "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock - Amazon Web Services (AWS)",
-      "summary": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock &nbsp;&nbsp; Amazon Web Services (AWS)",
-      "published_at": "2026-10-26T17:27:20+00:00",
-      "collected_at": "2026-10-28T01:01:46+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "c631670fc376dfcfcef7",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSTZvaWZnLXRnUXJ1c1p1MU93S09PNkcwTnRwLVhnNFI0QldKZC1qWjdxQXIwZHNsTFpzbDUzMTFYaS1qeWQ3T1M4WXpaNUhqTVNIVWNyQU4xT2tCczd2V19oX2h2U29tdlZUQjBjQVVHdkZsWnJWejBleGhNWXNnNC1NNE1KOHAyWmhPOXdXUXEwT204amN4cFZLS1NTblJIRWwtcEJvelE?oc=5",
-      "title": "ServiceNow (NOW) Rallies as Investors Reassess the Value of Enterprise AI Software - Yahoo Finance",
-      "summary": "ServiceNow (NOW) Rallies as Investors Reassess the Value of Enterprise AI Software &nbsp;&nbsp; Yahoo Finance",
-      "published_at": "2026-10-26T17:26:14+00:00",
-      "collected_at": "2026-10-28T01:01:46+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "eed238b77a4f5d5ce8ba",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeGczRDFGYmlNM3M3dU5aaUZ4OG5DeXM5NDdIa3A1VFZzbHRRNGJlVjMwNHhSbERZZVcwNG1tMlpFNzRnbHpYLWc0M0txbjRHMk1YZ3JMRkRlWGxPMThZRkZ3WUJ5Zk5nSGtuZ3o4cjc5ZFF2bGdQYV9Hd2lIT3FSS0tZeUhmbVU1dUNCeTM4ZEdTYWFrTlZqZw?oc=5",
-      "title": "Schneider teams with HPE and Nvidia on industrial AI agents at the edge - Fierce Network",
-      "summary": "Schneider teams with HPE and Nvidia on industrial AI agents at the edge &nbsp;&nbsp; Fierce Network",
-      "published_at": "2026-10-26T17:22:08+00:00",
-      "collected_at": "2026-10-28T01:01:46+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "1f55d26918e7551d45e9",
-      "source_id": "google-news-robotics",
-      "source_name": "Google News RSS — industrial robotics and humanoid robots",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOWxqUThFUkFBbmhhWGp1bm9KVEJycnRMUkZ2OTJCUmJQYnMtb2FPYndSLV9KTEJTZHZFM05SRnQ5bjQxbGN6UENTOFlQZUlNSFFabkNjQzM1LWVYRG1wUW1GSmFKdVhkeHZsZVRjYlRUVXZUVGhhVWU0NHIxazVxZ3lMalRlQ2d5amZOb285ajl0UzdUaVA3Mk9EbHZvNHpzZ0poaEVpQlVHZl9mTTJRV3NUZ2I1UkVTa181eTFDbk9MVEh6OWlLYm4xUWVXT01JLV9NQUVDVUp0cDJvY3d3?oc=5",
-      "title": "Industrial Robotics Market Revenue Expected to Surpass $99.49 Billion by 2030 Driven by Increasing Demand - EIN News",
-      "summary": "Industrial Robotics Market Revenue Expected to Surpass $99.49 Billion by 2030 Driven by Increasing Demand &nbsp;&nbsp; EIN News",
-      "published_at": "2026-10-26T16:30:00+00:00",
-      "collected_at": "2026-10-28T01:01:47+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "manufacturing"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "c8187da7f9c089680ab4",
-      "source_id": "google-news-robotics",
-      "source_name": "Google News RSS — industrial robotics and humanoid robots",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORzdfZUZRTEhBT2NfT1VtR2QzSnBVaGcxb3E5MF9iRng5bEhXOXN0RVVxd19LNnJCbjRwLWFNT28wNU84NzRZeVMtTlZnSG9QelN2WEdnRlFCMTZLU1hYaGg0WGRpb00wU29qc2lrREZlQXlRY2FaQmRrRmxQRmw1MVpZWUNVRVJDSmZ4NE9qdjJheGVOamJFYlkxcUpSX2s2WVZCZjV0MjlTMU5mUVdKS25CbEJXZkQzVGNTMXQtVUZPcnRvZEU5aTZiaUlhTDktOXdFZ0taYkJoamVYOHYweWRoSnlzZw?oc=5",
-      "title": "Industrial Robotics Market Revenue Expected to Surpass $99.49 Billion by 2030 Driven by Increasing Demand - EIN Presswire",
-      "summary": "Industrial Robotics Market Revenue Expected to Surpass $99.49 Billion by 2030 Driven by Increasing Demand &nbsp;&nbsp; EIN Presswire",
-      "published_at": "2026-10-26T16:30:00+00:00",
-      "collected_at": "2026-10-28T08:24:39+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "manufacturing"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "47c7b0c4d780ef624098",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSHhtOHF6c1Q0SDBMeWpzbVI1dzUyNmNhY3ZOSnF0NU5UbTRjd2Y2Q1ZHQV9tcDNBY1AtOXVjVlcwS2NOOThuYzR1UEplcjdWUHNWd0pCcFU4aVptTk5BQ2lMbkZvTHBrZnhGU0E1MjFmbUVBR3Z2cFNtd2tkZWItcl9tbGYycXdmUzg3N1RmYw?oc=5",
-      "title": "Major U.S. Banks Block AI Agents Found in Customer Accounts - Yahoo Finance",
-      "summary": "Major U.S. Banks Block AI Agents Found in Customer Accounts &nbsp;&nbsp; Yahoo Finance",
-      "published_at": "2026-10-26T15:53:32+00:00",
-      "collected_at": "2026-10-28T01:02:14+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "c7e6006ae44e77a8f06b",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeTAwOWJYSDVQa3MtN1hDajNyRE42RjEzaW1JWE02c21EdEZzQzZKMEdQa0FtSmFzcnNvY01PRlREelNETVFsOEpSWTZFcUVRRlVCWkxDVkI2QW1hOEh5WXoxZjZveGxxOGtOMzlvemdINU9PRHotcC1GclJLa0tQbTY5ME5OWUxuTDFXSnpPR1RXN3FvN19fdWlXRWN3QUE?oc=5",
-      "title": "Oracle Launches AI Agents to Automate Business Workflows - Yahoo Finance",
-      "summary": "Oracle Launches AI Agents to Automate Business Workflows &nbsp;&nbsp; Yahoo Finance",
-      "published_at": "2026-10-26T15:51:44+00:00",
-      "collected_at": "2026-10-28T01:01:46+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "1107f2a39414ea777602",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR1g5bllzV3hxeFMzOWFTNy1EdmlxMEdtV1V0YXFjTGNsWFprV2s4Qm0xVjlyVUdrRUhFbW5fSVZubnNGV2J6V3d2MDVtSEp5UDcyT284T3Q1NVFyRXh4bGdLZ2ZJbUtHdnFBak5udzRUZ0ZELWdGU0pjTkpMTlZWX3hjX2VYeG12VE1tbTBUTFc1dFBZTktNZFdMdUhZdUNFVnR5eXFtNTFZX2p5MUpiUk40NmhFMWxBN05TTlRvaw?oc=5",
-      "title": "Oracle Deep Data Security Expands Authorization Across Analytics, APEX, ORDS, and AI Agents - Oracle Blogs",
-      "summary": "Oracle Deep Data Security Expands Authorization Across Analytics, APEX, ORDS, and AI Agents &nbsp;&nbsp; Oracle Blogs",
-      "published_at": "2026-10-26T15:44:42+00:00",
-      "collected_at": "2026-10-28T01:01:46+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "b62f0e99687fd7ccff6b",
-      "source_id": "google-news-robotics",
-      "source_name": "Google News RSS — industrial robotics and humanoid robots",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLUpVLTlzVjNzSnliNGNmZm12dXIwTHRNWlMxdTRwSDRSalFCcEZyUTVnUW1Ic2FCMjlqNDcwLTFrQ2NXMUdUNkc0YnZCS0FfUTZLbGtDLWwyT2RZdGJwcGswVFhQTEhSc0h5NzVmUUZCdlppRWFKOG1tR0pWdENwYVh0MzlKenhXakxsMjF2YXRzalVZQVNNXw?oc=5",
-      "title": "Why this humanoid robot wears a drone as a backpack - Interesting Engineering",
-      "summary": "Why this humanoid robot wears a drone as a backpack &nbsp;&nbsp; Interesting Engineering",
-      "published_at": "2026-10-26T15:09:35+00:00",
-      "collected_at": "2026-10-28T01:01:47+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "manufacturing"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "8c41f672b092857bdabe",
-      "source_id": "google-news-robotics",
-      "source_name": "Google News RSS — industrial robotics and humanoid robots",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSURKcXFiYjNVZWhWMkVSS1E1SGNPX0hOdHI0YU1KeUxZMDdfWFJHT2FYZnBweG5FZHpMZ3Z2TmFWa21odUtyYnpSQWVXb2VYWWU0ZUkyZ1IzMDZDbmlab2FEMGM5R3RpT3M5ZFNfU1FQbElDTE50MU1rd0ZFSU1lb1lNUm1udw?oc=5",
-      "title": "Why this humanoid robot wears a drone as a backpack - Yahoo",
-      "summary": "Why this humanoid robot wears a drone as a backpack &nbsp;&nbsp; Yahoo",
-      "published_at": "2026-10-26T15:09:35+00:00",
-      "collected_at": "2026-10-28T01:02:15+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "manufacturing"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "e49e04993026071f6538",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa2xyQllrUWJZWl9EZXpYZUxWT1VTcUc3NlNldVhXSVBMM3VEVzRZVjI1VUR6M3RkaDR2TzBXVDlTY1hkdjRibnUyR19BQ1NqckpvMmo5RV85RnBDbjFUMktjUVU2T2c3N2tGWmYyV2VWVi16dnNCVnFaVERoSVItNlFGcGd4U0pzaDIwdnpLS1lHb2ljMk51RmptYy0wVVkzU2JkNzFn?oc=5",
-      "title": "X-62A VISTA upgrade seeks to give AI agents new control over sensors - Aerospace America",
-      "summary": "X-62A VISTA upgrade seeks to give AI agents new control over sensors &nbsp;&nbsp; Aerospace America",
-      "published_at": "2026-10-26T15:07:15+00:00",
-      "collected_at": "2026-10-28T01:01:46+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "33a0e1057b540ee1575f",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTGRZNnN1SmEyUDhDRzY5S3hjaHJtcjhUcXpyODQ2T1V2NFNRUXBRYWlRc2ctZDlfeUhaNUwxVkhwZUtHRHVEU3RtNmxTcUNabXU1SlA2b1prS0ZXZGtHSGFxbTFUV0wwYlk2dEpnS1hNd1pvazI0MjVDdjA2MVBjVHhwWlB0VkpsQWFoZWRCYmZoY2t0anlyOG5NMGVaU2ZwQTRZ?oc=5",
-      "title": "Borderless data architectures: Empowering AI agents where your data lives - VentureBeat",
-      "summary": "Borderless data architectures: Empowering AI agents where your data lives &nbsp;&nbsp; VentureBeat",
-      "published_at": "2026-10-26T14:30:00+00:00",
-      "collected_at": "2026-10-28T01:01:46+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "ae8e14603e9ae692f8a4",
-      "source_id": "google-news-ai-enterprise",
-      "source_name": "Google News RSS — enterprise AI adoption",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc3ZCV0ppc2hHcjBodnk5VVZ4bXBPOE1RVGM1eGZkMEQwUTRYUTNpT3hWRExqTjZYdDc4ZW1uSVYtb0VWUEVvTjl2aVRCQjl1UDNxUmdUNVVNUHhFbnlVVTd4MGNHQktWdGE1RXlnWkZrejg3NnU0bWVad3p1a3p3dkpiNEQ?oc=5",
-      "title": "Plan for AI ‘agents’ to run US companies challenged by lawmakers - Financial Times",
-      "summary": "Plan for AI ‘agents’ to run US companies challenged by lawmakers &nbsp;&nbsp; Financial Times",
-      "published_at": "2026-10-26T14:00:09+00:00",
-      "collected_at": "2026-10-28T01:02:14+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "enterprise"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "5d583ccc7b30d42099f8",
-      "source_id": "google-news-robotics",
-      "source_name": "Google News RSS — industrial robotics and humanoid robots",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5sc19WWG9xR080SHREM210VUxhQlNUZTBmT3FJbEhQOXByTG9taGN3eUdsNnBrZ3lodXFkXzdBWTV6bVhCcXN3TzUxRHJKT0pFQmVKZS1iOHpVNFFLNzBjZGVBa0tNNmR1NFVSVERjeXAyazV1RzJQWWR5Zw?oc=5",
-      "title": "Humanoid robot tackles ladders and obstacles with 92.5% simulation success - Interesting Engineering",
-      "summary": "Humanoid robot tackles ladders and obstacles with 92.5% simulation success &nbsp;&nbsp; Interesting Engineering",
-      "published_at": "2026-10-26T13:55:00+00:00",
-      "collected_at": "2026-10-28T01:01:47+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "manufacturing"
-      ],
-      "reliability_tier": "secondary_media",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "bedf503217a07a59dd62",
-      "source_id": "google-news-robotics",
-      "source_name": "Google News RSS — industrial robotics and humanoid robots",
-      "source_type": "rss",
-      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHVwZmxfQ3o5WEc5NkpkMTl1UjQ0ZUM1T1oxWnZLWWh5aFZZalZib2IxcUxwUWR5M0pVdjA4aXZvaE53YzlKRWJ1OFBOLWl4M21aNkM0ckkzR0F2NVI0Z0ZOUDZwQXE5U21xVEYtZTFoWDkxQ1Z1QjVTV3ZZLXY3aVVsTGNLaEZicjd6TnpSQTNpZjJYT3RDb3F4ZTVWdFU5WmpGeHRNQ05QU1E?oc=5",
-      "title": "YYForce applauds Tesla's start of Optimus robot production, plans own humanoid robot deployment in Singapore hotel. - Pluang",
-      "summary": "YYForce applauds Tesla's start of Optimus robot production, plans own humanoid robot deployment in Singapore hotel. &nbsp;&nbsp; Pluang",
-      "published_at": "2026-10-26T13:38:47+00:00",
-      "collected_at": "2026-10-28T01:01:47+00:00",
-      "region": "global",
-      "topic_tags": [
-        "robotics",
-        "manufacturing"
-      ],
-      "reliability_tier": "secondary_media",
       "evidence_class": "lead_unverified",
       "verification_status": "not_reviewed"
     }
