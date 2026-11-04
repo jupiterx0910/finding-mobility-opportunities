@@ -1,53 +1,52 @@
 {
   "schema_version": "1.0",
-  "started_at": "2026-11-03T09:28:31+00:00",
-  "finished_at": "2026-11-03T09:28:35+00:00",
+  "started_at": "2026-11-04T09:06:04+00:00",
+  "finished_at": "2026-11-04T09:06:07+00:00",
   "sources_configured": 5,
-  "sources_succeeded": 4,
-  "sources_failed": 1,
-  "items_new_this_run": 347,
+  "sources_succeeded": 5,
+  "sources_failed": 0,
+  "items_new_this_run": 638,
   "items_retained": 1200,
   "results": [
     {
       "source_id": "arxiv-cs-ai-rss",
       "source_name": "arXiv RSS — Artificial Intelligence research",
-      "status": "failed",
-      "items_seen": 0,
-      "items_new": 0,
-      "duration_ms": 214,
-      "error": "no element found: line 9169, column 575"
+      "status": "success",
+      "items_seen": 413,
+      "items_new": 401,
+      "duration_ms": 181
     },
     {
       "source_id": "arxiv-cs-ro-rss",
       "source_name": "arXiv RSS — Robotics research",
       "status": "success",
-      "items_seen": 218,
-      "items_new": 211,
-      "duration_ms": 236
+      "items_seen": 125,
+      "items_new": 119,
+      "duration_ms": 58
     },
     {
       "source_id": "google-news-ai-enterprise",
       "source_name": "Google News RSS — enterprise AI adoption",
       "status": "success",
       "items_seen": 100,
-      "items_new": 63,
-      "duration_ms": 537
+      "items_new": 67,
+      "duration_ms": 450
     },
     {
       "source_id": "google-news-robotics",
       "source_name": "Google News RSS — industrial robotics and humanoid robots",
       "status": "success",
       "items_seen": 99,
-      "items_new": 51,
-      "duration_ms": 346
+      "items_new": 33,
+      "duration_ms": 378
     },
     {
       "source_id": "google-news-crossborder",
       "source_name": "Google News RSS — cross-border trade and export services",
       "status": "success",
-      "items_seen": 28,
-      "items_new": 22,
-      "duration_ms": 289
+      "items_seen": 29,
+      "items_new": 18,
+      "duration_ms": 322
     }
   ]
 }
