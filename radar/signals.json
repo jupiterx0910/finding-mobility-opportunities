@@ -1,9 +1,638 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-11-07T08:43:32+00:00",
+  "as_of": "2026-11-08T08:56:37+00:00",
   "purpose": "Collected public signals for later research. These are unverified leads, not validated opportunities.",
   "signal_count": 1200,
   "signals": [
+    {
+      "id": "d911793b5fd177acb724",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLUNUcHp3WjgxS0RnM2hhdlFjekxVNHpmUGg4aWZRWThXREx3dGNvYUhCejZOOXVRbXUzVUVKRUZpd2wxc3ZPUmpZc1dydElqMHZuckNraFVVbENUZ0VaYmNDLUxMVFNIQnBmaV8xZVlyZGIzTWt2SWNkZlNqYjF2WnhLWVNjaXNkNFFyN1NfakFQdnh0a2U1WlBtdFBJNE0yUHZNZk5jdE51QTFYekR2c3dLRjlUVm96aWU5TXRGT0tUMWtnSzNaeUlGQ1FVd9IB0wFBVV95cUxPRmpJRGVRN3lXalp0SEJ0M3NvS25sLW5lTk1kTUJ3c3VOaHF5aW51VUcwZDRES2NZWU1zQ0RxSlloaENPY1ljSHc1UDlmUGtRb2pHZ0xVWUdvSTZEMlJVVWx4SlVuYm5Yd05yT0RJU0JITFRsZHU2aHVjV0xwbU93NUx0WHd2b21US1lMaHFmWUdPbWlWSmtBZFgxX2lZTFNiYk5CRVV0Ql9TUTlkb243NWpJRlVRb1E3a0F5NkFCajE4LUFOTVRvUmh2WVNia3FjLXFz?oc=5",
+      "title": "Easing West Asia tensions could lift India's port and logistics sector, says Jefferies - Firstpost",
+      "summary": "Easing West Asia tensions could lift India's port and logistics sector, says Jefferies &nbsp;&nbsp; Firstpost",
+      "published_at": "2026-11-08T07:15:46+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "7e0e4621486b9077c2a8",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWnZ0N3A1RmZPS3VjZTJrbFpWdnVjZy1hYkE1YnV4NHdaZWw2bThHUlNlN1NSRUk3aGNqeFdvRnBMQVlJS1kxbUs2OEhocGFOTjNBTlY2bkVTSklEYi1rck53dXMtcWNaVzJHSWtUYXdfOUpMeUtlUWZ3TEdSazF3N3dHMndfT3ZjcmQ0VXAxSFJCN3BaUUlaQ21EalM4RDQ?oc=5",
+      "title": "Nutanix (NTNX) Expands Enterprise AI Access Through A New Multitenant Cloud Model - Yahoo Finance",
+      "summary": "Nutanix (NTNX) Expands Enterprise AI Access Through A New Multitenant Cloud Model &nbsp;&nbsp; Yahoo Finance",
+      "published_at": "2026-11-08T06:11:00+00:00",
+      "collected_at": "2026-11-08T08:56:35+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "bd8061af50e8d58ce997",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQSWtRWWEwdk9tUWVOdGg0RU80UHdONThXUVRBbDNIeDNheElzNmNWZm5FZ2dQVzZ2ZFN2RF9NMmNSYnZtWGxiLWZidm93cy1YZDZLc0ZuZVNpMXN3NnV4elduSEVWQW1IOUxsMnB3WE42Z2ZDZ1ZOOTY3S3QxNjhyNWRfMzJLYmM0MGhvRFFGVDRrT0o3QmtQUGI5NzlZVEhyTWd5dW90YUR1QzYxQjU3ZGVWY1NOOVB3MmhYTjlLdUlwVnlNQUZNQzZlY1hmcExXa3BvTVExcW40MHlFUlZzcFV3VXF3RG5Oa2E1b2Y2LVl5TFlwUjhJNjJ4NjJsY2N0SEQ2TdIBigJBVV95cUxOQ2VqZzRJSjl6dFRJUGZaQ3hLa2kzRDF4dDkxNE9PUmgwU1BxMmdMb3NRWkJnZWJwcmZBcnJMY2VNSkFEUF9VWnJSWC1Uc20zN3gtYTBEeGdhVEpGcjVfckdwLTBEVWJIRkNyRk9EaVU2MlUzUDM0UEhlUFVSUDNpdlJjOGZxcVhJcVpfMUlmZ0JkaTR0cEdWU05RdVYweTE4ZHhreXpjVGo5cmpZSnFiTGo1ZlBUTER3MmdVbmVKaTc1M1pZLWVlV0tkRjFZVklaM2VGSW5RakJuMVZJVzRSaU5wdGNzMldoeFFyQ2RrakJlQzRYOFgyTUZhaFNzVnlIZ1VlanZOOThIZw?oc=5",
+      "title": "AI to boost industrial robotics growth, but manufacturers may benefit less than customers: S&P Global - The Economic Times",
+      "summary": "AI to boost industrial robotics growth, but manufacturers may benefit less than customers: S&P Global &nbsp;&nbsp; The Economic Times",
+      "published_at": "2026-11-08T05:25:35+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "20b06b90d2f03203fae8",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNHF5dTRydkl0ZmFEd243MTNVZWNhVlh6aFNIZS1YTjAwTnVadjRBZDlZY19fTXV3YlJCYmRDQjZuZFZ0YnNXWjU3MWM1dEFyTFVadHlXYTdjcE55alRRMXVIaUJqM09QamZub0lOSjRFODRzUnBCajVOSTNxNWlkYlpBeWNhV1VsZXhLaUkwX1lvTkk0SlE?oc=5",
+      "title": "Sentra Raises $150M to Link AI Agents, Data and Identity - BankInfoSecurity",
+      "summary": "Sentra Raises $150M to Link AI Agents, Data and Identity &nbsp;&nbsp; BankInfoSecurity",
+      "published_at": "2026-11-08T04:01:42+00:00",
+      "collected_at": "2026-11-08T08:56:35+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "f8a4182bc7a96d5a4d06",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1IcEJhYTRPOG8tZzlBcnhtRnJxNHktRlh6VENiVzFXNVdQeWc3dzRUNkR2eFZMVEZkdVZQT2FoWkdfV2J1ZURSNFhYRUlhLXhSekMyUUladWZsTmlvNVdSaE1QQXJweXE1NGtoYy1GRkVoUlBndFNiZEVCaw?oc=5",
+      "title": "Removing obstacles to enable logistics businesses to thrive. - Vietnam.vn",
+      "summary": "Removing obstacles to enable logistics businesses to thrive. &nbsp;&nbsp; Vietnam.vn",
+      "published_at": "2026-11-08T03:05:08+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "358a2fb225919b06063a",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQa2liQVJNZTI1VDVCOWFqWkhlRFJ0eEF1MEVxSVJrWksyZG1rMjRqSUF4VFFxblNQTHJZZjdGbXZ1TkVOenBkUWJyM19wVWNWSllFVjRJUExQamVNVkZ2UzNYcjlPRUNMYTBJVDZpT2VxdzV5ZmNpRVMzYXliU0ZLV0hRNGNEajh6dnFMNFhjY1lETEl0aFc3Y2VxVzRMZTBGa0RDOGZiRkxicU1UbTJyOVFtQmVFY0p4LWJrbnJOczd3MHZXenVVTy1xVHE0SkphbjRFbDJDRzUzRXJxNlpCRzMxUF9yOXVvT0E?oc=5",
+      "title": "Pakistan-built robots serve taste of future to Karachi diners - KMVU FOX 26 Medford",
+      "summary": "Pakistan-built robots serve taste of future to Karachi diners &nbsp;&nbsp; KMVU FOX 26 Medford",
+      "published_at": "2026-11-08T02:04:10+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "619b7ae071e9b7493d4d",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGUWZBcjFlN0k4cnNrZnJDYXRXZnlJdzR2c3JqMGFFUHo4LXN3UHBsTXBZM1ZxSzZvLThSb1N4WEg4bDNVdmZuOWxqNTNLSWM4WmNWVlpiVGlsNnZHaUI1ZTNzYjNOdWNoOXo4cmZpc1VRSkV4bUxVRWkxZw?oc=5",
+      "title": "Humanoid Robot NdFeB Magnet Supply Chain US vs China - Rare Earth Exchanges",
+      "summary": "Humanoid Robot NdFeB Magnet Supply Chain US vs China &nbsp;&nbsp; Rare Earth Exchanges",
+      "published_at": "2026-11-07T21:07:11+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "ff7c5a24da09dc3b92fd",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQnV1MEZuU1FHSjRncU5rcHRUYXlRMklQNzhPSmFSUUhieHZHMnI0cEdBSE9FZ3hYMFN4Tnp6b1YyRE1LeVdRaFFWX0ptcFd2WDBlMXl3TS1xV0FTMjVpZHBTVDFJZ2YzUmY4clpmd1pIZ3FXSy10d0ZVcm9kcm80ejZTLUp0X2VySE5JbXgtaUFmd1dLUnJmVGxPVE5haWNEdTJoMWFvRWdPZlkxN1djUzFsbTNXQXoyS0xOdDZLVQ?oc=5",
+      "title": "Coherent Moves Trade Compliance AI Agents To The Front Of The Process - Forbes",
+      "summary": "Coherent Moves Trade Compliance AI Agents To The Front Of The Process &nbsp;&nbsp; Forbes",
+      "published_at": "2026-11-07T19:52:22+00:00",
+      "collected_at": "2026-11-08T08:56:35+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "8dc37facfca11811a094",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOGlaSm90SEhEcFNDc3RJYjlqODMxOHNuMkhnVHlnM1c5Z1R2Y0lPWV9hb0tJdHVpeHhpQUhSbTZxdktHVHNlakRfR2pzWFNiNXlWQjBVZ0xDbl82VjdwM1pPelhGV2Jub1BQeE56Z1lSY0ZQX3YycVl2enE3NDloSFVsaGlrNDAzc0ZDXzE1bzJsRFU?oc=5",
+      "title": "South Korea’s new humanoid robot data factory teaches real-world tasks - Yahoo Tech",
+      "summary": "South Korea’s new humanoid robot data factory teaches real-world tasks &nbsp;&nbsp; Yahoo Tech",
+      "published_at": "2026-11-07T18:24:28+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "be985739ae04a2bf69ff",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT01LbGxvajI1VUI0X3dXVS1sZHZLODZDUVZaUFV0TmhHR0FaUGJhd0x1VFprbEZWQmw5Ymt1WWdycjZIcEpvU3pPeVBIbGRsNGhkdnJnOGFCMGU5eFJTaG9SdERUX2NIOWlxT1VLQ3ZWeXhSWGNWZTVIU2djMkZ6VA?oc=5",
+      "title": "Every Humanoid Robot Needs Rare-Earth Magnets. Here's the American Stock Positioned to Sell Them -- and It's Down 62%. - AOL.com",
+      "summary": "Every Humanoid Robot Needs Rare-Earth Magnets. Here's the American Stock Positioned to Sell Them -- and It's Down 62%. &nbsp;&nbsp; AOL.com",
+      "published_at": "2026-11-07T17:20:00+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "73c16228b0b228971eec",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYlE0S0tnV0pPNVlNQnBBQ2dBdUpLaU1pcVhfY0JwRF9Fck5pVGw3NGdqWFU1U3RvcnoydGtEb181VmlFeGFOem93RXNISEg0dl9yNDE3MDlDVG9QTk50d1IyaDlnXy1OMTFxRTlJOGFqazZuTEk1QWhtUmhxeFZabU92SER1aWZOUUEwclZJME1Pc1FVRndwdWl2U0o?oc=5",
+      "title": "I hired humanoid robots to clean up after a wild house party for for $100 — here’s how it went - New York Post",
+      "summary": "I hired humanoid robots to clean up after a wild house party for for $100 — here’s how it went &nbsp;&nbsp; New York Post",
+      "published_at": "2026-11-07T17:11:00+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "809681d1bb925df5bc76",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbDYyT01vV2Z4YzNSUHNwN19LYmVfSmJEWk9zM3Zlb0VZaFJFNW1ZdWZoeXdvZFJUNGVMS0p2SndwVldodkZlVm5hak9vZU5rcmVlaWpsV1JjcnlnZEk2SnBCT0ZBMHZTTzUybXZIX1lfUDRoOFNWMnhuNEZ6SFZhTTJkeHRjRUt2V3FOVHhYZkw1cmwwQ1E2Rw?oc=5",
+      "title": "Every Humanoid Robot Needs Rare-Earth Magnets. Here's the American Stock Positioned to Sell Them -- and It's Down 62%. - The Motley Fool",
+      "summary": "Every Humanoid Robot Needs Rare-Earth Magnets. Here's the American Stock Positioned to Sell Them -- and It's Down 62%. &nbsp;&nbsp; The Motley Fool",
+      "published_at": "2026-11-07T17:00:00+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "6deec435e7af409096e0",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVDRObTBwR0VxMWVQTGNIRVAwMlRsNUwwSzFnZTI2N3FGNjhrbkVPZ21faXh6LTlSMlpHQWVrS0ViWlNuTTktNnhMQTQ5OXpfdGM3UGg3RjRJT3poQW1OMkFHTGozNnVYUDQ4Zmdaaml6T2Z5eDBuVGpxaHNuYVFpODBQRDFsT2pLS194azBuUGd1Sll4ejhFbW1iNklkNGh1cGEw?oc=5",
+      "title": "Meta secretly built a humanoid robot with a Chinese company - Interesting Engineering",
+      "summary": "Meta secretly built a humanoid robot with a Chinese company &nbsp;&nbsp; Interesting Engineering",
+      "published_at": "2026-11-07T15:52:36+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "9316d4adae3ae6b52793",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT0dtblJVLVFIZ2FNRnNVX21CcFp6cG5vUHZGR0R0emdsdUduQ184QnJ0WlgzUVJFWVZlMlMxaS1PcUNNSkdSenZpR3VjSVdnbWNiYWtQb25PYUxHM0twbUFralJSWG1UVld1Nm5OajBRc0hpNWJmQ21KV2ZxNEExV29aVmxQbXZYT2Fr?oc=5",
+      "title": "Meta secretly built a humanoid robot with a Chinese company - Yahoo",
+      "summary": "Meta secretly built a humanoid robot with a Chinese company &nbsp;&nbsp; Yahoo",
+      "published_at": "2026-11-07T15:52:36+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "b0532dbebbd084b51c37",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iWHRjV25OQWRBWjBDenZGQm1YdjdLNzRxUnFiNnAxTXZNaEVsVVBsbFZzN1U2UkpGYUo5Q3pYQkplblM5LW1fdFdpUFNKdlRXM0tHQ1lTTWNSUQ?oc=5",
+      "title": "Why AWS wants developers to stop babysitting their AI agents - The New Stack",
+      "summary": "Why AWS wants developers to stop babysitting their AI agents &nbsp;&nbsp; The New Stack",
+      "published_at": "2026-11-07T15:30:30+00:00",
+      "collected_at": "2026-11-08T08:56:35+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "818f459c427b5cb03a24",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQNDdGbHVvb0pfUFd3MzVXbFpGV0ZocFNDYjJRX2FDVkdlYVFVeU15MFh2VjlyY0NPMndPU0JESDBsVUthQzk1QzBlTTJUU3FVT0dFR0dmUmlRWUpaeTVIUVBmZXp6ZVAxR2tQSVZpTFhRN0FNdG14Tk94eDIzN3BQQnh0Sm1LeWFPTXdWeEdQNXo4Q2RyZTVNQWxTa3VGYUtLRHFERFBWVmpxcVJkU3k1M1ZLelZMaFRMY042MDBONVFuWFk3emwtaEg3eGVNdmF3cUVKTXlXSndETjBNRGVhVEd0TTZnWXNRa0xPQjd2TjMyb0sySjBfVUx3?oc=5",
+      "title": "Misrata Chamber of Commerce Reviews Regional Trade Hurdles - Libya Herald",
+      "summary": "Misrata Chamber of Commerce Reviews Regional Trade Hurdles &nbsp;&nbsp; Libya Herald",
+      "published_at": "2026-11-07T15:07:00+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "1ee8aa8bf5b2211c693b",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdHJGQ0FkSzlOY1JZeUQyZGNfRkh2aERxUXhnaXg4b1A4ZGRjZ0NqclRaUGFNbGFGczJKSGpKbko4MDd6N0NoTC1BbVE0cVZJOWphakIyTFM1d3AzeXJULTVUTExQaV9pUU1UU2E2d3UydGkzUzQ3cVJaWU9nU2NXSFM1eVVyYkRrUlZ4X0ltQXozY0JZb2NQcFpsR0s5bVU5U1E?oc=5",
+      "title": "Uber Says AI Agents Booked Only Four Rides in Its Busiest October Week - Technology Org",
+      "summary": "Uber Says AI Agents Booked Only Four Rides in Its Busiest October Week &nbsp;&nbsp; Technology Org",
+      "published_at": "2026-11-07T13:27:00+00:00",
+      "collected_at": "2026-11-08T08:56:35+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "49b31bbc655ebba64ed3",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNS1qdXBiUEtUTWd2dy1BTWUwc1ZwMF9iSDA5SnU1bWdDVzdsUFdDVXB3YjV4T3lFRWNVRVcwTDZJdW14eG55ZENnWnR4UzdZYmhkTzJuOHhOV2RIT2g3WDF5b29vODJRYi1OZzZrU2l6TFFkWnctNUw1MUZ4STVtVGpWc1dhX0p0azh5TVdZY3c4MTVXY0VmeDZkWjVwVHUteExYdHc1UE9LZnA0ekFKWDVQS25DMGNJWlh4VW1rN0tyNk1OVjFncUln?oc=5",
+      "title": "Aformic Raises $6.95 Million In Seed Funding Led By Veteran Ventures Capital For Autonomous Industrial Robotics - Pulse 2.0",
+      "summary": "Aformic Raises $6.95 Million In Seed Funding Led By Veteran Ventures Capital For Autonomous Industrial Robotics &nbsp;&nbsp; Pulse 2.0",
+      "published_at": "2026-11-07T13:08:52+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "4277862a6c57d90cd92e",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQajRJVUswYVUtcGkzcWdsUTJIRjhrYzdQXy1QR0FoVzdXTHVZdUtBNVZUX2RURXpURnJ4MkJlTG8wZEdMc2xiQTBvNlh2Mzk0Q2o0RUpKV3Q5LV9ibmpSbEVNaFF5SUM5QzhuQ1YzdVFtYTRTdW0xOXRITkZ1Y043LWF3RW5vVVFib3dpTEdZSWdpZktwZFROUjdCVTk?oc=5",
+      "title": "Logistics development tied to FTA, cross-border e-commerce - SGGP English Edition",
+      "summary": "Logistics development tied to FTA, cross-border e-commerce &nbsp;&nbsp; SGGP English Edition",
+      "published_at": "2026-11-07T13:05:08+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "05d9ed403b3e6b7c5384",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaXFuOUJSYi1iVEUzaFZ1Yk90dW9TTldVaXpyNXpoUnJqMW9OTEkzZVNOdl9yVFFMTi1Nb1RLSERwLTByY2J4SXlqWVNRY3pfZG50TnZTdzJUN3Z2ZVEzcVFuQ0VNX2pBRWdjaUJMNEJtQUI3NC1nNURiOGMzbEt1V0M1ODlRRE5iTHFVQnJUY2s5YlFhaG45MjdSdDBrR1VYSXFVWnRoWUc?oc=5",
+      "title": "Law Firms Have Malpractice Insurance. Should Their A.I. Agents? - The New York Times",
+      "summary": "Law Firms Have Malpractice Insurance. Should Their A.I. Agents? &nbsp;&nbsp; The New York Times",
+      "published_at": "2026-11-07T13:00:06+00:00",
+      "collected_at": "2026-11-08T08:56:35+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "80efb5655b8e47178057",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSXo1cGl4R3Fjd3JuU3ZuN2pmX3NQeDdYVmNjUXMtN05hTmhVdno0U1ZNY25iNEZOQ2E3aDBqSThGRGlMbE1LeERWSFVzVXRQRGItT0xBQnc4c09WTUlTMG5sRS1MYnJZMjNYRXNldjhlQ1B1RC1sQ2hMUzB3cDREd1NZM2swQ0xPMTFIUjY1WWRUblEzZE1qTUR2TVJ5V3hIc1AyVXpjdXlFVVY4ZjRmNTdraWtoTVptMnBlU3VPVWhGYU9zclE?oc=5",
+      "title": "Video | Mercedes-Benz Goes All In On AI, Electric GLC Launched In India & Meta's Humanoid Robot | Tech360 - NDTV",
+      "summary": "Video | Mercedes-Benz Goes All In On AI, Electric GLC Launched In India & Meta's Humanoid Robot | Tech360 &nbsp;&nbsp; NDTV",
+      "published_at": "2026-11-07T12:35:40+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "b9615479d247adb9b007",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYnRMajVHRnNxQnA2b2paaDZkbWlRRHR2WGZzX1JrcHphcEV1b3RibzQ3dHFYb053ZEsyZTRiekNpU2RLbUdWWXVzdWt3MzhwMUJUSjhxOVhMU2lveGhneUt1VmVfcEF0S2NiM3hYaGYyOTJvZXJPNDlOWE5tS1pZM0JSUDFKZkJNM2pJemhud0d3Y1Y2dS1tenB0R3hXdVJRQkhOTE9BUHZDOVg4?oc=5",
+      "title": "Vietnam's logistics sector is experiencing double-digit growth, but it remains grappling with the issue of cost management. - Vietnam.vn",
+      "summary": "Vietnam's logistics sector is experiencing double-digit growth, but it remains grappling with the issue of cost management. &nbsp;&nbsp; Vietnam.vn",
+      "published_at": "2026-11-07T12:20:07+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "60659fea84a288562604",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSWYwVmg5S1lnU0VGZkkyTGdoR1ZFWTNTR09nbVRPVU45azFnZTZYb3gxOHBHR0ZnbW95dmtCTTF6YlhzUzlsaGxlcUxHYTVsNHBkcHlzZl9QNzh5ZGZqYkthSFBjaHBOVkIzOG9pWlBQdERHSzlmbEZWUS1oYkdaTHpRMVNaWGhrY2NkWmNoZnNOMUR1TzJ3?oc=5",
+      "title": "Reducing logistics costs to 12-15% of GDP supports double-digit growth. - Vietnam.vn",
+      "summary": "Reducing logistics costs to 12-15% of GDP supports double-digit growth. &nbsp;&nbsp; Vietnam.vn",
+      "published_at": "2026-11-07T12:12:44+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "8f12e98519a68c45a1a5",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWGJHUFZXc2xYc0dDSHdkaHhicmpzZldYU0lua0ZzWk5mU2RpU3E0b3hpR0o0MUIybmE0ZFRZZ3M2bEtBVWV0RjhjY3dmVTloRE9OZkhPOE9vS3RJMlVvVlpVY2RCU2VRa2JZWWczVXRZeFg5QTV0SERPOTVhMk90dkFDS3hYcXFwRXRnRENqWFZrcDJDVW9ORm4yTmE5TDlGU3RBb0FOdlJXd1V2bGc?oc=5",
+      "title": "The humanoid robot race heats up after Agility Robotics begins to trade (AGLT:NASDAQ) - Seeking Alpha",
+      "summary": "The humanoid robot race heats up after Agility Robotics begins to trade (AGLT:NASDAQ) &nbsp;&nbsp; Seeking Alpha",
+      "published_at": "2026-11-07T12:00:36+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "5dd143bc606bc901c249",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5GcVpVNGk0ejVrVlVvM1FkQ0xNeDUwVFA3SUp2WDFHWld3aGVUU2oxWWc4MEtrNGdCUzZlREVod192b0I1Nm92V1JRTzNQVnF3YUpoYkI4NkRLbDJ5RmoyMnhtak54Z1B6UHVXUXRuV01WSVdrQWlr?oc=5",
+      "title": "You’re going to hate shopping in an AI economy - Vox",
+      "summary": "You’re going to hate shopping in an AI economy &nbsp;&nbsp; Vox",
+      "published_at": "2026-11-07T12:00:00+00:00",
+      "collected_at": "2026-11-08T08:56:35+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "aa636e03f0286960aee0",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSFlfeEdDYWRON3J2X0lmRHB4SmFpRWNwalMwaHlDbGZ4R0daTUxvc25oaWY4Rm9RUjRDRWVMLUIwS3BpdUJXd3lDTXYyMVZEMHZoVzQxdFRsYTg3VHpvUEV0NmRkbE96aHM3RmJzaFJtSUo1VEh2Rk1ITXB5dkpFUkozTU5SWWw2dkd5NzNHSU5WM3lHdXV1RXJPVFdDRHFpdlE5blRWOHg3eDRNV3B1Y1BRT21QOUVZWEtYMThWSnhla0x1cUVMZTJkak1ld1FNeV8w?oc=5",
+      "title": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar - The Decoder",
+      "summary": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar &nbsp;&nbsp; The Decoder",
+      "published_at": "2026-11-07T11:17:32+00:00",
+      "collected_at": "2026-11-08T08:56:35+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "61faa498494d2d2d5e61",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWnkxWmZVazE4b2R3Z3piemJLQnRPU0ZVaTFQazNhZVhzd1lBVnVQd1gzaG1CamhZLU1uSDBiR2VYV284c3hWUUQ1aTFBb2Z2elN4RE1RNVY5WVJxVk1jQlRoTzBrbnRNbGtHQ1E0ZkxDUEtWdlhHVGpvbzNHMzBTVC0xeV80NlFBcDZHYi1HZHZYZDcwSThzVE9IZjFyWFFDVlpIMFBNOEhMMWc?oc=5",
+      "title": "StarBot Spark is a three-foot humanoid robot built in the US for $7,999 - The Gadgeteer",
+      "summary": "StarBot Spark is a three-foot humanoid robot built in the US for $7,999 &nbsp;&nbsp; The Gadgeteer",
+      "published_at": "2026-11-07T11:00:00+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "5afb8eafad5abb91e89b",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeWxqd3F2TE9FdHFoQlFaWDhldkpYY2RKb19TaXRkbnpPZkh5Z05ucXF2Q3VtVl9xRnh1ZWFUYkw5TE5CdncwMjlqWmhoQTdodnlqd0dScXNNMWhBb2tVNEE2blZsbUtyRDdOXzIxbENwaUM0Vkg4bGM1MF92SUxfZTlEMWJhWU56NVB5Tk5IWU4zX2xwNVhKRzFzbGE?oc=5",
+      "title": "Nigeria, Rwanda sign three-year deal to cut export transport costs – FRCN HQ - FRCN HQ",
+      "summary": "Nigeria, Rwanda sign three-year deal to cut export transport costs – FRCN HQ &nbsp;&nbsp; FRCN HQ",
+      "published_at": "2026-11-07T10:10:21+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "782d18819676e91545cb",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNUtTRVAteEtKMVRNcm1YWUc3cDJSS3c1bEctX3A0X3ZGX25URUNUcU1teFVUcVhjdDVMa2xRMGV3aUhpel8xdnhZOTVQbEJoOEpPc1FPdW53VTRVaXNSU3hUSm9NdDQ0UVQ5Ml9jMXpobDg4bW0xc0M5cjB1U1JzczhoVmFWY0p1eHEwdldlUE1iQlVJQlEzNFVudjVCYnd2MngzSXZ2dEg?oc=5",
+      "title": "Developing logistics in conjunction with leveraging FTAs ​​and cross-border e-commerce. - Vietnam.vn",
+      "summary": "Developing logistics in conjunction with leveraging FTAs ​​and cross-border e-commerce. &nbsp;&nbsp; Vietnam.vn",
+      "published_at": "2026-11-07T09:43:46+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "5d66dc096bae92c8a530",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMmlJMC1QRkxUTHM5azFpeGZoUzhmNTBjRHI3Rk1HRkMxMzJ0bFJKbHZFSmtnbzB4dV9KZW10dTRxSnVPUzBXQlZuXzh3VmM2bk9PYVJnZ09Ld2Q4UTBhUTJRdll0X0t6eGlDZlY3Q2EySkFQZVlCZlQ0ZmZJdno5RzNR?oc=5",
+      "title": "Connecting the highlands to the sea reduces logistics costs. - Vietnam.vn",
+      "summary": "Connecting the highlands to the sea reduces logistics costs. &nbsp;&nbsp; Vietnam.vn",
+      "published_at": "2026-11-07T09:15:08+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "1b2fe5aef50778fccfb0",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNW9yOTJDNkZELUxoSWhJQ2tjTTFlNnFPQ29jbHRtUGY2THBPNTZUdGpCR0hpbXlPRGtnUm5OOWxuR0xJdnExUERMNEk5LXoyalpMYzM3VFQxUV9wQkVKendkOVdOT3hCcFV2amdBNndxX2JEcFZSUEdrUnJKdV9oLWlxWGNlOGtBZ1pnVHo1NlJLQTA?oc=5",
+      "title": "What Can Your AI Agents Access, Change and Approve? - Cybersecurity Insiders",
+      "summary": "What Can Your AI Agents Access, Change and Approve? &nbsp;&nbsp; Cybersecurity Insiders",
+      "published_at": "2026-11-07T09:03:37+00:00",
+      "collected_at": "2026-11-08T08:56:35+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
     {
       "id": "5d26c8beb0693ff6681b",
       "source_id": "google-news-crossborder",
@@ -77,6 +706,26 @@
       "summary": "Securing AI Agents: Lessons From Real-World Deployment &nbsp;&nbsp; Uber",
       "published_at": "2026-11-07T04:07:30+00:00",
       "collected_at": "2026-11-07T08:43:30+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "cfcbddab0c1f65284c9c",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SWEZYcVhDYW9ERDRqS25sLUxCcS1xRWFqaGZCTXlLaDFaaXVITWlKUEtZVmZYUjNGaGZjbjNsWHZOUDUtMkU3NUFiVjV4emw1bmxNbm5XdnBkcFdMSkIzUQ?oc=5",
+      "title": "Securing AI Agents: Lessons From Real-World Deployment - Uber",
+      "summary": "Securing AI Agents: Lessons From Real-World Deployment &nbsp;&nbsp; Uber",
+      "published_at": "2026-11-07T02:31:31+00:00",
+      "collected_at": "2026-11-08T08:56:35+00:00",
       "region": "global",
       "topic_tags": [
         "ai",
@@ -257,6 +906,26 @@
       "summary": "Measuring how AI agents handle everyday wet-lab science &nbsp;&nbsp; OpenAI",
       "published_at": "2026-11-06T19:09:23+00:00",
       "collected_at": "2026-11-07T08:43:30+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "80bc3c90153e54705e73",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4OGxPNFp0VFV4VjhEX00xRUZMLVlQWXRYQnVpZjZwb3pPWmhMcEZqZkR3MmZ5Y1FLMm9UZzFPclAwNlN5dDAyYy11RlE1TklDQzg0OTJOeVZHX2ljejZZ?oc=5",
+      "title": "These AI agents design your perfect robot-powered lab — and run it for you - Nature",
+      "summary": "These AI agents design your perfect robot-powered lab — and run it for you &nbsp;&nbsp; Nature",
+      "published_at": "2026-11-06T19:07:31+00:00",
+      "collected_at": "2026-11-08T08:56:35+00:00",
       "region": "global",
       "topic_tags": [
         "ai",
@@ -509,6 +1178,26 @@
       "verification_status": "not_reviewed"
     },
     {
+      "id": "62308fd28c8fe29f9ee6",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQUhjWmJrT1Y0ZGtqeVVxVG50X3FCT2l6TTI5Z2R3c2ZPazhMOXRhUDdXOWhnSS1LQTgyWmhNUXlwcmpkNUpjT3F0Xzg3UjZwcjdfeG53VEtqMEtwajlJV0xuTFJPc2p2TUdQcHRyT05mb01INmhkSUZOMzFWTGpVY2prZ3A0MkNJc2dFdjB3QkxqczdrSXFkTjQ0QQ?oc=5",
+      "title": "​‘World-first’ bionic humanoid robot anchors unveiled by Chinese state media - Interesting Engineering",
+      "summary": "​‘World-first’ bionic humanoid robot anchors unveiled by Chinese state media &nbsp;&nbsp; Interesting Engineering",
+      "published_at": "2026-11-06T15:07:00+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
       "id": "f8d0e8a7315f44bf61da",
       "source_id": "google-news-ai-enterprise",
       "source_name": "Google News RSS — enterprise AI adoption",
@@ -569,6 +1258,27 @@
       "verification_status": "not_reviewed"
     },
     {
+      "id": "858234751cd45c313383",
+      "source_id": "google-news-crossborder",
+      "source_name": "Google News RSS — cross-border trade and export services",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22cross-border+e-commerce%22+OR+export+compliance+OR+trade+logistics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVDl4RUdUTjJqTGNmOXl3TEJYTE53MFFTalBreGZJSS1ZSDZ1bDd2RnVpWk00SG0tQnNkQkRpbmFvNlZubE1CQXBNRHlSTXpxdUpEeXdYc2JibXNycUc3dmFYVThtS3Y0Ri0zSWkwdXZOVmVHLXAwNkxfTXMwbm5MajVZcjRSZDFLT3dxak1YRTVnZlV3WE1FX1dZblhpM2FNanc3NDA3YXY5anVyNTctNXdVZ2V6SUFpaVFR?oc=5",
+      "title": "Peru prepares export routes for potential El Niño disruptions - FreshPlaza",
+      "summary": "Peru prepares export routes for potential El Niño disruptions &nbsp;&nbsp; FreshPlaza",
+      "published_at": "2026-11-06T13:53:35+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "crossborder",
+        "trade",
+        "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
       "id": "7eaaacf11aec7b0e0d7b",
       "source_id": "google-news-ai-enterprise",
       "source_name": "Google News RSS — enterprise AI adoption",
@@ -604,6 +1314,46 @@
         "crossborder",
         "trade",
         "compliance"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "e4bcd95db39f8ab16492",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSTZkX0ZwU2NodGxBLVRrSV81ZjYwRTUxbjhnU0NSUDQ3emZGTE9GM0xrb0MtWVNVM1FHQU1GeGQ0ZElKY1Z4Y1ZGbFA4eTlvd1NuSEotNkV4RXN2d0pGVDlvSVRRUGRiOWNXUmxXX0ZHWC1rV2VLM2JkOHFOV3FkOVpqRjdxNkEzM3lBano0UUVrZElqc2hQZUhR?oc=5",
+      "title": "Chinese humanoid robots serve, dance and play football - Daily Sun",
+      "summary": "Chinese humanoid robots serve, dance and play football &nbsp;&nbsp; Daily Sun",
+      "published_at": "2026-11-06T13:04:30+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "3fb9023ba648319566dc",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNXzVOUjFIcTFWYlpLZ3hJa1FndlhacTNOTDRfNVNhYlVpeEM4ZWkzc3dZeVZHU1V3N3FrdzkxTHRVaDVHVk1iSHZNd0t4Z3J1MnRiR0V6bHlFaUNwTjMyYVU3ZzMxc3QtUExNdU5aX1Y0ekVlcHowejZGUGRiWkRXWE5CV2g?oc=5",
+      "title": "Humanoid Robot Tried to Climb a Mountain, Overheated and Had to Be Carried Down on a Stretcher - www.techtimes.co.uk",
+      "summary": "Humanoid Robot Tried to Climb a Mountain, Overheated and Had to Be Carried Down on a Stretcher &nbsp;&nbsp; www.techtimes.co.uk",
+      "published_at": "2026-11-06T12:52:57+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
       ],
       "reliability_tier": "secondary_media",
       "evidence_class": "lead_unverified",
@@ -10839,6 +11589,26 @@
       "verification_status": "not_reviewed"
     },
     {
+      "id": "70a909b78623065e11bc",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcmpvSWVwa1NzbVZTVXBYYlZ4dUU5ejdGR1M5RE1BakdZTkxRb01iR0NlZnlISTRzbUwxZWJPQ3dFeEx1cUluWFRHTVlrckpCYy1MT1pFX01SVFFJNGZnZ2tLTUl6M0pGR2U4c1BJR28yNVUwblJZekVBZjBYRHB5Z01MeGhOSjJPYllLNTBn?oc=5",
+      "title": "St. Clair College unveils Humanoid robot’s name - CTV News",
+      "summary": "St. Clair College unveils Humanoid robot’s name &nbsp;&nbsp; CTV News",
+      "published_at": "2026-11-06T00:17:00+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
       "id": "617250856d5ac4c593c3",
       "source_id": "google-news-robotics",
       "source_name": "Google News RSS — industrial robotics and humanoid robots",
@@ -11601,6 +12371,46 @@
       "verification_status": "not_reviewed"
     },
     {
+      "id": "36a240af202a89630ee9",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzZUxjRGJ5S3V3ZXpCcGpSLXdkZGU4NFE4VXRUakgtbkt6UHlnZ3lQT2k2M2VZRTEyUGZVVGc1VXlwZEJpR2tJVXF0YV9pRUtNd0M1bWN5Mi1KMVUwUXpUeGxVUWhOV041Z0FHRFl1OXVBaEt4N1I4Sw?oc=5",
+      "title": "Expedia CEO says AI agents aren't changing booking habits — yet - CNBC",
+      "summary": "Expedia CEO says AI agents aren't changing booking habits — yet &nbsp;&nbsp; CNBC",
+      "published_at": "2026-11-05T15:34:55+00:00",
+      "collected_at": "2026-11-08T08:56:35+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "18a3dd2088cd299712bb",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVHBvZm5wTHlzU1BISEIxYmM4VkhQVGZTd0FCY25kNWlfMmF1WkQwUkNZTWlpNjJOTExmNHRBZlpVNTF4NjlobkNIMXN5ZnBZYjV6Yy1wMjk0VURiVWlWaU1nNVFDNjRtNmFDcFljTFJrTGFQWWl0Q1NELTdjSzZsZU5wTHE2RTJVUlRyX3hNM1g?oc=5",
+      "title": "AI agents are banned on Tinder and Hinge, CEO says - Mashable",
+      "summary": "AI agents are banned on Tinder and Hinge, CEO says &nbsp;&nbsp; Mashable",
+      "published_at": "2026-11-05T15:14:20+00:00",
+      "collected_at": "2026-11-08T08:56:35+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
       "id": "4a8a33d08266e7a2bdf5",
       "source_id": "google-news-ai-enterprise",
       "source_name": "Google News RSS — enterprise AI adoption",
@@ -12321,6 +13131,26 @@
       "topic_tags": [
         "ai",
         "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
+      "id": "e41016ac92173ae7a65c",
+      "source_id": "google-news-robotics",
+      "source_name": "Google News RSS — industrial robotics and humanoid robots",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22industrial+robotics%22+OR+%22humanoid+robot%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ldVMwY0EtbVhpek5sbzB6X2hzV1lxVWk1TEo0NVNzdWU3SUljOGo5NHJyek5SSzlLbFdKMk1qM1ZjcG1FbmVmc3lzY2hXMk1kcXFYRlpXZFo4N3ROdzNpVFZhVWVnTXVPbmZINzBoRGZ5WXJBbWpfV1F3OA?oc=5",
+      "title": "Toyota Humanoid Robot vs Tesla and China [2026] - shattered.io",
+      "summary": "Toyota Humanoid Robot vs Tesla and China [2026] &nbsp;&nbsp; shattered.io",
+      "published_at": "2026-11-05T08:00:00+00:00",
+      "collected_at": "2026-11-08T08:56:36+00:00",
+      "region": "global",
+      "topic_tags": [
+        "robotics",
+        "manufacturing"
       ],
       "reliability_tier": "secondary_media",
       "evidence_class": "lead_unverified",
@@ -21750,6 +22580,26 @@
       "verification_status": "not_reviewed"
     },
     {
+      "id": "029b54ce68429b37eb5a",
+      "source_id": "google-news-ai-enterprise",
+      "source_name": "Google News RSS — enterprise AI adoption",
+      "source_type": "rss",
+      "source_url": "https://news.google.com/rss/search?q=%22enterprise+AI%22+OR+%22AI+agents%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdG9hSGlqRmh3ZnVHdkxYQ0JLTGpFdzV5bnBfMFFjay01M1lHNFRsNS1qQ2ozUExEQUhlQjRkYmhUZGVPOVd6VU9TX0FENUpOX0J3TmJvajB5dXZzOXR4YzVBVWtvelhBWWt1QXJURjJiT1ZwSDZwMHN2ME44WTVlR1k2ZHVwMEN4WGZBWFlmV3BXazdyblM2dUw1Q3ROS1poLU5JZk5n?oc=5",
+      "title": "GovTech looks to rebuild government work around AI agents - Computer Weekly",
+      "summary": "GovTech looks to rebuild government work around AI agents &nbsp;&nbsp; Computer Weekly",
+      "published_at": "2026-11-05T03:53:45+00:00",
+      "collected_at": "2026-11-08T08:56:35+00:00",
+      "region": "global",
+      "topic_tags": [
+        "ai",
+        "enterprise"
+      ],
+      "reliability_tier": "secondary_media",
+      "evidence_class": "lead_unverified",
+      "verification_status": "not_reviewed"
+    },
+    {
       "id": "17355873f216c8e4e835",
       "source_id": "google-news-robotics",
       "source_name": "Google News RSS — industrial robotics and humanoid robots",
@@ -24118,888 +24968,6 @@
       "url": "https://arxiv.org/abs/2611.04100",
       "title": "The Agent Board: Kanban for Machines; Durable Coordination for Agents That Outlive the Conversation",
       "summary": "arXiv:2611.04100v1 Announce Type: new Abstract: Harnesses for large language models have converged on a single-threaded shape: one agent, one history, one machine, one sitting. That shape fails work that spans many agents, outlives any one model call, or waits on systems that are not agents. We describe the Agent Board, the coordination substrate in the Corvic harness. The board is a durable, shared table of semi-semantic tasks: a few exact fields the system routes on, and a free-form body that only language models read. Agents post tasks, watch tasks, and block on them, ending their turn and holding no process until a matching post wakes them. A system agent, the Board Keeper, acts as the interrupt handler for the board: it carries events from non-agent parts of the harness onto the board, matches them to waiting tasks by reading their prose, and allocates new agents for tasks that name a kind of agent rather than an instance. Loadable coordination policy kernels give statuses and roles meaning for a given pattern of work, without the board enforcing them. The design mirrors the kanban board a human team puts on a wall. We argue it is what persistent agent products such as Meta Muse, OpenAI dots and SpaceXAI Grok Bot need once an agent must wait, hand off work, or work with agents from another vendor. We view the board as an operating-system scheduler for agents and state where the analogy breaks. We separate what the mechanism guarantees from what it leaves to convention, and report a trace from a live board and three small simulated pilots. In the pilots, the wait cost of the board was flat in wait length while naive polling grew about 165-fold, but a plain external watcher was cheaper than the board. The Board Keeper matched prose waiters with no false wakes but mis",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "3d770d3daa1650f07c4d",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04101",
-      "title": "Structured Clinical Memory as Context for Probabilistic Decision Models: A Synthetic Evaluation with Jev",
-      "summary": "arXiv:2611.04101v1 Announce Type: new Abstract: Longitudinal clinical context is often distributed across noisy, repetitive forms and narrative records. We study whether a compact structured memory can improve a probabilistic decision model's answers when the underlying patient vignette is already available. We created 30 fully synthetic cases spanning twelve clinical domains, paired each with synthetically generated structured memory, and evaluated 120 typed questions with Jev. The raw-vignette arm achieved 90.0% accuracy (95% normal-approximation confidence interval: 84.6%-95.4%); adding memory achieved 93.3% (88.9%-97.8%). Five questions changed from incorrect to correct and one changed in the opposite direction (exact McNemar $p=0.219$). Choice log loss decreased from 0.258 to 0.175 and binary Brier score from 0.054 to 0.022. Memory added 310 input tokens per call on average, while observed mean latency was unchanged at approximately 0.5 seconds. These results are directionally positive rather than clinically validating: the cases are synthetic, the labels are single-author judgments, and the memory is an oracle upper bound rather than extracted production output. The pilot supports evaluating structured clinical memory as a reusable state interface for decision models.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "e3d9ccff59ec77f92c22",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04113",
-      "title": "The Evolution Strategies Paradox: Better Models from Worse Perturbations",
-      "summary": "arXiv:2611.04113v1 Announce Type: new Abstract: How is it possible for perturbation-based methods like Evolution Strategies (ES) to optimize billion-parameter large language models (LLMs)? Classical search methods are highly dependent on finding good candidates within generated populations. However, when using ES to fine-tune LLMs, a phenomenon can occur where all offspring models consistently perform worse than the parent model, yet during training, the parent model consistently improves. This paradox occurs across models, tasks, and even modalities. This paper characterizes the paradox, then examines how the local reward landscape and properties of the ES estimator contribute to it: in high-dimensional spaces, exploration leads to worse performance, yet still highlights good directions; aggregating those directions then allows for making local improvements. The result can be seen as a new optimization paradigm where a principled interaction of noise and curvature produces the paradox as a byproduct of effective optimization. These findings provide guidance for taking advantage of perturbation-based methods in LLM fine-tuning and in high-dimensional optimization in general.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "dca9c5a7578c74323ce6",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04126",
-      "title": "GlucoAgent: Personalized Glucose Forecasting from Multimodal Personal Context",
-      "summary": "arXiv:2611.04126v1 Announce Type: new Abstract: Continuous glucose monitors, smartwatches, meal logs, and health profiles form a rich multimodal personal context that can significantly enhance glucose forecasting. However, existing methods struggle to effectively utilize these signals to improve glucose prediction because the relevance of different modalities varies drastically across individuals and time. We present GlucoAgent, an LLM-based agentic system that addresses this challenge through dynamic, case-by-case analysis at inference time. For each forecast, GlucoAgent writes and runs code over an individual's multimodal context and returns predictions with a reason and supporting evidence. The generated programs are highly diverse, ranging from retrieving similar past meals to fitting and back-testing physiological and statistical models. On CGMacros, a multimodal glucose dataset, GlucoAgent outperforms time series foundation models on every forecasting horizon, achieving an average RMSE of 22.5 mg/dL compared to 23.5 mg/dL of Chronos-2, the leading multimodal time series foundation model. Furthermore, GlucoAgent is highly effective at leveraging multimodal data. The addition of multimodal data reduces its average RMSE by 1.4 mg/dL (24.0 mg/dL to 22.5 mg/dL), compared to a marginal 0.3 mg/dL (23.8 mg/dL to 23.5 mg/dL) improvement for Chronos-2. This advantage is most pronounced in challenging post-meal windows, where GlucoAgent uses multimodal context to reduce 60-minute forecast RMSE by 4.6 mg/dL (31.0 mg/dL to 26.5 mg/dL), far exceeding the 0.8 mg/dL (31.9 mg/dL to 31.1 mg/dL) reduction achieved by Chronos-2.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "15d0ef004ef1eb90ffcd",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04142",
-      "title": "Interpretable Early Termination of Web Navigation Agents via Closed Sequential Pattern Mining",
-      "summary": "arXiv:2611.04142v1 Announce Type: new Abstract: Web navigation agents built on open-weight language models fail often and fail late, with most of the tokens spent after the trajectory has become unrecoverable. Recent work has shown that early termination is a viable cost-reduction strategy, but existing approaches produce opaque termination decisions that do not support diagnosis or human oversight. In this work we apply closed sequential pattern mining (BIDE+) to K-step prefixes of agent execution traces to produce a small, human-reviewable failure-signature library that organizes into a four-category failure taxonomy with associated repair recommendations. We use a multi-variant evaluation protocol that explicitly removes contamination artifacts (zero-step crashes and trivially separable single-step successes) so that reported detection accuracy reflects behavioral discrimination rather than trace-length distributions. We evaluate our methodology on 1,544 MiniWoB++ traces collected from three open-weight language models, achieving the best F1 at K=3 on the Exclude-errors configuration across eight methods (0.717), recovering 88% of test-set failures within three steps, and supporting an early-termination policy that saves 26.3% of tokens at 92% precision.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "392e2acf99a4561403b5",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04153",
-      "title": "Palimpsestic Accountability in the US Federal AI Inventories",
-      "summary": "arXiv:2611.04153v1 Announce Type: new Abstract: An AI inventory is a structured, often public record in which a government or organization lists and describes the AI systems it uses or plans to use. Studies of single AI inventory releases describe what systems do but say little about how they are governed over time. We linked entries across three releases of the US Federal AI Use Case Inventory (2023--2025), compared answers only where both releases required them, and analyzed governance accounts through a dual deductive-inductive approach, guided by the Algorithmic Decision-Making Adapted for the Public Sector (ADMAPS) framework. As the inventory grew from 710 to 3,611 entries from 2023 to 2025, fewer required answers were left blank, but accountability was rewritten through three mechanisms. Each release \\emph{redrew} the scope of the questions; agency-assigned classifications \\emph{gated} what was reported; and answers were also \\emph{overwritten}, with gains and losses concentrated in single agencies and little account of human oversight and judgment. These findings show that each release redraws the boundary of accountability and leaves the public to \\emph{re-stitch} the records, a condition we term \\textbf{palimpsestic accountability}. We recommend versioned records, reasons for every reclassification, public files that distinguish kinds of missing answers, and oversight documented as conditions to improve public sector AI accountability.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "39f000e73b219e5af6ea",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04180",
-      "title": "Validation-Gated ML Pipeline Synthesis with Expert-Grounded Self-Evolving Skills",
-      "summary": "arXiv:2611.04180v1 Announce Type: new Abstract: Recent advances in large language models have enabled agentic systems that automate machine learning pipeline construction from minimal user input. However, existing agentic AutoML methods either depend on rigid templates that limit adaptability, target narrow task domains, or rely on free-form code generation that lacks reliability guarantees, leaving intermediate errors to propagate silently and degrade the final model. We present EvoML, an agentic framework for end-to-end ML pipeline synthesis built on expert-grounded skills that evolve across runs, executed through a validation-gated harness. The framework decomposes pipeline construction into four phases coordinated by three agents: an Orchestrator that enforces validation gates, advancing each phase only when its outputs pass structural, execution, and semantic checks, which precludes error propagation and keeps every artifact auditable; an Executor that runs expert-grounded skills, grounded in the nnU-Net workflow and pairing reusable templates with online adaptation; and a Curator that performs post-run evolution, consolidating the scripts and guidance recovered during a run into the skill library so it improves across datasets. We evaluate EvoML on eight datasets spanning six sophisticated, real-world ML task types, against agentic AutoML systems and command-line coding tools. EvoML achieves full automation and the best final model quality on all eight, spanning segmentation (up to 0.94 Dice), classification (0.99 accuracy), reconstruction (0.95 SSIM), and denoising (0.79 normalized PSNR), while transferring to broader ML tasks.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "d1278f288cf17a31a7df",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04181",
-      "title": "Clocks all the way down: does sequence-processing AI need endogenous temporal structure?",
-      "summary": "arXiv:2611.04181v1 Announce Type: new Abstract: Mainstream sequence-processing AI is temporally reactive: each update is driven by input and learned state transitions, rather than by an independently evolving internal temporal reference. Biological brains, by contrast, continuously generate rhythmic activity that structures perception, memory, and cognition, and this rhythmicity reaches all the way to behavior. We ask whether this difference is merely implementational or genuinely computational. Four lines of evidence suggest that endogenous temporal structure supports putative functions that input-driven architectures may not readily replicate: 1) phase-dependent routing of information, 2) delay-structured combinatorial representation, 3) cross-frequency multiplexing of items, and 4) oscillation-gated offline consolidation. A proof-of-concept delay-ablation test dissociates representational capacity from memory retrieval. In recurrent and spatial spiking networks with fixed synaptic weights and connectivity, shuffling delays preserves part of the capacity but substantially impairs the sequence retrieval. The relative contrast is more pronounced for spatial networks and longer propagations. Instantaneous transmission collapses capacity itself. We then outline a cross-frequency multiplexing scheme that combines item identity and serial order with alternative mechanisms for selective memory retrieval. Finally, we state one falsifiable hypothesis, conditions for matched-resource tests, and three research directions: the components already exist; the disciplined comparison does not.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "c5481565b2425079900d",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04196",
-      "title": "DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation",
-      "summary": "arXiv:2611.04196v1 Announce Type: new Abstract: Frontier LLM agents can turn known vulnerabilities into working exploits, but are costly and often access-restricted due to their potential for malicious use. Open-weight models offer a more accessible alternative, but struggle to maintain progress across long exploitation chains. They also often fail to apply relevant security knowledge at the appropriate stage and in the right context to identify and evaluate promising attack directions. To address these limitations, we propose DoGNAVY-Exploit, a multi-agent harness built around two complementary designs: stage-aware decomposition with progressive expert knowledge disclosure, and hierarchical orchestration with parallel exploration. Specifically, DoGNAVY-Exploit uses configurable milestones to recast long-horizon exploitation as short, verifiable capability transitions and provides only the knowledge relevant to each stage. Within each milestone, a hierarchical architecture separates strategic planning from parallel execution: a planner proposes diverse attack routes, executors test them concurrently, and a controller accepts progress only when supported by runtime evidence. A shared structured memory consolidates verified facts, artifacts, replay steps, and failed routes across branches, allowing agents to build on collective progress and carry validated knowledge into subsequent milestones. In controlled benchmark environments, DoGNAVY-Exploit with GLM-5.2 achieves 97.5% Pass@1 on Cybench, and 97.5% zero-day and 100% one-day Pass@1 on CVE-Bench. On ExploitGym, it solves 79 tasks with GLM-5.2 and 157 with GLM-5.3, while the corresponding public Claude Code baselines solve 39 and 130 tasks, respectively. Ablation results further demonstrate that the stage-aware orchestra",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "3ffdeb82f298c8300765",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04203",
-      "title": "Toward User-Centered Agentic Recommendation: When Does Platform Competition Benefit Users?",
-      "summary": "arXiv:2611.04203v1 Announce Type: new Abstract: Conventional recommender systems operate within platform-specific catalogs, limiting access to potentially valuable resources across platforms. We propose user-centered agentic recommendation, a paradigm in which user agents compare recommendations from competing platform agents, and formalize their interaction as a repeated game. Platforms strategically modify descriptions without changing intrinsic item value, while each user agent assesses platform credibility using feedback from consumed items only. Our analysis shows that expanded resource access need not improve user welfare: strategic misrepresentation and limited verification can offset the benefits of platform competition. We quantify when platform credibility assessment allows users to benefit from broader access despite strategic exaggeration. Our analysis identifies resource and reporting conditions that guarantee higher average welfare than the original platform with an interaction budget linear in platform count. Experiments on synthetic and Amazon-grounded markets show that credibility assessment can improve finite-horizon utility, while its benefits depend on market size and mechanism parameters.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "5084ba8f3fb9f1af1326",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04228",
-      "title": "DualWorldBench: Can Agents Plan Deliveries across Symbolic and Grounded Worlds?",
-      "summary": "arXiv:2611.04228v1 Announce Type: new Abstract: Recent multimodal agents have shown promising progress in embodied planning and web interaction. However, existing evaluations often rely on simplified tasks with limited combinatorial structure, leaving it unclear whether current agents can robustly integrate perception and reasoning for multi-goal planning under temporal, physical, and multimodal constraints. We introduce DualWorldBench, a unified benchmark for evaluating agent planning under controlled symbolic--temporal and grounded--topological complexity. Built around a shared pickup--delivery interface, DualWorldBench consists of three complementary components: TextWorld, which isolates symbolic planning under varying task compositions and release dynamics; SimWorld, which evaluates grounded path planning under controlled topological variation with text, image, or multimodal inputs; and DualWorld-VQA, a diagnostic suite spanning perception, scene understanding, and planning. Experiments reveal a common gap between local understanding and globally consistent planning. In TextWorld, agents struggle to derive optimal task sequences under interacting temporal constraints; in SimWorld, grounded observations are not reliably converted into feasible action sequences. DualWorld-VQA further confirms that perception and topology understanding do not necessarily translate into constrained planning. Together, these results identify the central challenge as composing symbolic or grounded evidence into globally feasible and efficient multi-goal plans. These findings establish DualWorldBench as a challenging testbed for agents with tighter perception--reasoning--planning integration. All datasets and code are publicly available at our project website https://dualworld.netlify.app/",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "98f3cca8e12fa550a7ea",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04230",
-      "title": "Exact Optimality Certification of QPLIB 2096 through Complete Set Partitioning",
-      "summary": "arXiv:2611.04230v1 Announce Type: new Abstract: We present an exact computational proof that the frozen QPLIB_2096 instance has global minimum 7,025,720. The solution and certification approach was explored and refined through ZiYor, a self-evolving AI system. The authors provide the mathematical account and exact validation reported here. The original formulation has 300 binary variables, 6,900 triangle inequalities, and 25 nonconvex quadratic constraints. A coefficient-level reconstruction identifies its variables with the unordered pairs of 25 items. The triangle inequalities encode partitions, while each quadratic constraint becomes a bound on the total weight of edges incident to one partition block. This yields a set-partitioning formulation over all capacity-feasible blocks, with a separate edge-cost graph determining the objective. Exact enumeration examines 245,505 subsets of sizes one through six and finds 14,981 feasible blocks. Every six-element subset is infeasible; nonnegative capacity weights exclude all larger blocks. An integer price vector satisfies the dual inequality for every feasible block and has sum 2,229,456. Subtracting this sum from the total objective edge cost 9,255,176 gives a lower bound of 7,025,720, attained by the supplied six-block partition. Fresh solver-free checks validate the candidate against both frozen model formats and verify the certificate. The result is an instance-specific optimality proof with an exact primal and dual witness; no cross-instance performance conclusion is drawn.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "a707ee2ff7a5bc23d0fe",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04241",
-      "title": "AceAction-5M: Hierarchical Goals for Generalist Action Learning Across 3D Game Worlds",
-      "summary": "arXiv:2611.04241v1 Announce Type: new Abstract: Video games provide a practical setting for collecting vision-language-action (VLA) data, whose acquisition in physical environments is costly. Existing datasets, however, remain limited by restricted game coverage, sparse language supervision, or temporal hierarchies that do not necessarily reflect changes in task objectives. We introduce AceAction, a dataset of human gameplay across multiple 3D games for learning skill composition and subgoal transitions. AceAction organizes demonstrations around complete tasks, linking overall instructions, ordered subgoals, and local skill instructions to temporally aligned visual observations and keyboard-and-mouse actions. To construct these annotations, we develop a vision-language model pipeline that identifies subgoals from changes in objectives or interaction targets, anchors navigation goals to visually recognizable waypoints, and composes adjacent subgoals into task instructions. The resulting demonstrations cover navigation, reconnaissance, combat, interaction, and recovery, with explicit stage boundaries that connect task progression to fine-grained control. We assess annotation quality through model-based verification and human inspection. An audit of 500 trajectories yields a 95.8% pass rate across independent reviewer assessments. AceAction provides a data foundation for studying how agents execute, combine, and switch skills to follow complex instructions in dynamic game environments.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "b70635e04a6118741025",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04260",
-      "title": "Neologism Inoculation Prompting",
-      "summary": "arXiv:2611.04260v1 Announce Type: new Abstract: Inoculation prompting is a method to reduce undesired behaviours such as reward hacking in frontier models. It works by training a model on harmful examples under a prompt that specifies the undesired behaviour, which reduces the model's tendency to exhibit it unless prompted. However, the inoculation prompt is written in plain English, so any user can re-elicit the behaviour easily. We introduce neologism inoculation prompting (NIP), which replaces the English prompt with a new token that is trained on the frozen model and removed at deployment. NIP outperforms other inoculation methods, and performs competitively with gradient routing despite being simpler. It also works on reward hacking, but fails on sycophancy and harassment. Using control tokens and analyses of activations, we identify the mechanism for this as NIP hiding the harmful behaviour behind an unreachable region of model inputs, rather than deleting it. More broadly, our work suggests that neologisms can be a powerful way to carve out and shape access to behaviours that are undesired or harmful.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "d4e9dd67d8d7313baa26",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04264",
-      "title": "Reliability Stress Testing of RAG Retrieval under Query-Relevant Corpus Poisoning",
-      "summary": "arXiv:2611.04264v1 Announce Type: new Abstract: External text can affect a retrieval-augmented generation (RAG) system only after the retriever admits it to the model context. We stress this admission step while varying document content, attacker query information, per-target poison budget, and contamination scope. Across 623 Benchmarking Information Retrieval (BEIR) queries from SciFact and NFCorpus, five query-targeted documents per query reduce classical-retriever nDCG@10 by 40.2-61.5% in isolated-target stress. Full-query anchoring explains most Best Matching 25 (BM25) degradation, whereas appended text also shifts latent semantic analysis (LSA) and Hybrid rankings. A pretrained BGE-small validation reaches 100% target exposure for query-only P=5 on both datasets; adding the injection payload changes SciFact nDCG only from 0.269 to 0.271 and lowers NFCorpus exposure slightly to 98.8%, indicating that query anchoring remains the dominant retrieval-side factor for this dense model. Query length materially changes the interpretation of partial-information attacks: on 162 long SciFact queries, two random terms cover 19.9% of eligible terms and still yield 39.5% Hybrid target exposure. Multi-target contamination adds cross-target interference. Overlap-based admission can remove full-query poisons but may sharply reduce clean retrieval utility, and maximal marginal relevance (MMR) leaves exposure unchanged under the tested configuration. The study measures retrieval-layer failures, not downstream instruction following.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "8efa1aa1a4d6a006f653",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04277",
-      "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
-      "summary": "arXiv:2611.04277v1 Announce Type: new Abstract: Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness. Directional Harness Evolution develops specialized sibling harnesses along distinct repair directions, forming a reusable Sibling Harness Pool that remains fixed during policy training. Complementary Harness Rescue Training invokes this pool only when all initial attempts under the base harness fail. The same policy generates fresh rollouts under selected auxiliary harnesses, and these trajectories replace the failed group for reinforcement learning. An Adaptive Harness Router selects the Top-k variants using Harness Behavior Profiles and voting across multiple LLMs. Policy-aware profile re-anchoring refreshes this evidence as the policy learns. Across AppWorld, SWE-Gym, and DBBench, the trained policy substantially outperforms policy-only training when returned to the original base harness. Behavioral analyses and held-out cases support the transfer of harness-elicited behaviors into the policy itself. Reusing the router for Rank-1 inference provides additional gains at the same executor rollout count.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "bf40057297eeb06fd603",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04279",
-      "title": "Bidirectional Centered Score Matching for Discrete Diffusion Distillation",
-      "summary": "arXiv:2611.04279v1 Announce Type: new Abstract: Discrete diffusion models with parallel decoding are often distilled using token-wise KL objectives. Although token-wise KL exactly matches the corresponding product-form block distributions, its probability-space optimization geometry and teacher-only candidate truncation may provide insufficient supervision under aggressive few-step distillation. Concrete Score Matching (CSM) provides an alternative within-position objective by aligning relative logit geometry, but its complete pairwise form incurs $\\mathcal{O}(|\\mathcal{V}|^2)$ complexity. We propose Bidirectional Centered Score Matching (BCSM), an efficient within-position distillation objective that constructs an $\\mathcal{O}(K)$ bidirectional active set, reduces pairwise comparisons to $\\mathcal{O}(K^2)$, and factorizes them into an $\\mathcal{O}(K)$ objective. We further introduce cross-timestep transition alignment. Experiments demonstrate strong quality--efficiency trade-offs, including up to $6\\times$ NFE reduction with a 16.9\\% relative HumanEval gain and a 15.1\\% relative MMMU gain at single-step inference.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "714c11c8cf62dd719e47",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04301",
-      "title": "OSGR: Observation-Support Graph Reasoning for Earth Observation Question Answering",
-      "summary": "arXiv:2611.04301v1 Announce Type: new Abstract: Answering geographic queries over Earth observation (EO) archives requires solving a joint retrieval-and-derivation problem under strict spatiotemporal constraints. Existing LLM agents fail to ground observation items or suffer from search-space explosion. We propose OSGR, a two-stage framework that factorizes this search into offline symbolic concept deduction and online Relation-Conditioned Grounding. OSGR leverages an offline Observation-Support Graph to deduce valid target-to-result support paths at the concept level, and applies spatiotemporal compatibility kernels to instantiate grounded observation-item sets. On Earth-Bench and DisasterM3-Reason, OSGR improves GPT-4o accuracy from 49.3\\% to 63.7\\% while reducing the execution-step ratio from 2.9 to 2.5.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "066bdc738b25d1a871b7",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04315",
-      "title": "Drift No More: Spectral Locking for Long-Horizon Open-Weight Multi-Agent AI",
-      "summary": "arXiv:2611.04315v1 Announce Type: new Abstract: Long-horizon multi-agent systems suffer from three tightly coupled failures: task drift, role drift, and state staleness. We test the hypothesis that these share a common representational cause: agent hidden states move away from the directions encoding the active task, assigned role, and current shared state. A pilot study over 14,832 annotated turns supports this: drifted turns collapse near-uniformly across all three anchor subspaces (pairwise r = 0.72-0.78). Existing methods address these failures separately, operating at the surface-text level or treating control directions independently. We introduce ATLAS (Algebraic Task-role Locking with Adaptive Spectral Memory), a training-free intervention acting on hidden states before a token is generated. ATLAS builds a positive-semidefinite anchor kernel over task, role, and state subspaces and steers hidden states toward their shared high-coherence eigendirections; a low-rank Gram decomposition keeps this tractable. Across long-horizon memory, state maintenance, tool use, least-privilege coordination, and embodied stress tests, ATLAS outperforms prompting, retrieval, memory, and activation-steering baselines. Against A-MEM it improves memory macro-average accuracy by up to 5.7 points and reduces write/read failures by up to 31.7%/24.8%; against MemoryArena-Agent it gains up to 4.8 points. It gains 10.7-12.1 points under perturbation, reaches 93.5% role consistency, and transfers to a 72B backbone (macro-average 61.0 vs. 56.2). Ablating the joint task-role-state span costs 7.2 points against 0.8 for a matched-rank random span, indicating these directions are functionally implicated, not incidental; supplying them by prompt or retrieval recovers 4.3 points less. ATLAS is ther",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "dadc6336ddf08aba033e",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04320",
-      "title": "Planning-Coding Separation in LLM-Based Code Generation: An Empirical Study",
-      "summary": "arXiv:2611.04320v1 Announce Type: new Abstract: Planning has been identified as an important factor for improved code generation with Large Language Models (LLMs). However, the interaction between planning capability and coding capability remains largely underexplored, especially when the two capabilities are from different LLMs. In this paper, we conduct the first comprehensive empirical study of planning-coding interaction in LLM-based code generation, where planning and coding are assigned to different LLMs (i.e., planning-coding separation). Specifically, we explore different planner-coder combinations to investigate the effectiveness for coders to utilize planning information from various planners and the impact of further training of coders on planner-coder combinations. Our results demonstrate that almost all planner-coder combinations are as competitive as using the same LLM for planning and coding, and the combination of a stronger planner and a stronger coder typically achieves improved effectiveness. Furthermore, using a large model as the planner paired with a much smaller model as the coder can sometimes be as competitive as using the large model as both the planner and the coder, and further training of the coder can typically boost various planner-coder combinations. These findings provide empirical evidence that planning and coding can be separated to a considerable extent in LLM-based code generation, which may offer a more flexible way to construct code-generation systems.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "839297e4c27e850a2b48",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04321",
-      "title": "ATC: Agent Trajectory Control for Role-Contract Enforcement in Black-Box Multi-Agent Systems",
-      "summary": "arXiv:2611.04321v1 Announce Type: new Abstract: Multi-agent LLM systems assign different responsibilities to different agents: one plans, another retrieves evidence, another verifies, another executes. This division of labor is only meaningful if each agent stays within the functions it is authorized to perform. Over many turns, however, an agent can produce a locally reasonable message that exercises authority belonging to another role: a verifier that begins planning, a retriever that asserts unsupported conclusions, an executor that changes state no one approved. We formalize this as role drift, a turn-level breach of an agent's role contract. We introduce Agent Trajectory Control (ATC), which makes each role's authority explicit as a contract and enforces it at the point where a message would enter the shared conversation. ATC scores a proposed output for out-of-role deviation, leakage into the functions of other roles, impermissible speech acts, and logical contract breaches, then computes a leakage-regularized target that constrains regeneration; the revised message is re-checked before admission. Enforcement acts on the message rather than the generator, so ATC governs agents whose internal representations are unavailable. Across homogeneous and heterogeneous teams, ATC improves task performance and role consistency while lowering role-drift energy relative to strong baselines spanning prompting, memory, workflow control, and activation editing, with the largest gains under explicit role-confusion stress tests and in larger, more diverse teams.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "7de7d244fca9fd60abae",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04323",
-      "title": "FP4Quant: Efficient 4-Bit Communication Compression for Model-Parallel LLM Training",
-      "summary": "arXiv:2611.04323v1 Announce Type: new Abstract: The rapid scaling of large language models (LLMs) has made communication overhead a critical bottleneck in distributed model-parallel training. Although existing low-precision compression methods can effectively reduce communication costs, further reducing the communication footprint to ultra-low-bit formats such as FP4 introduces new challenges, including limited numerical range, sub-byte storage overhead, and increased computational cost from fine-grained quantization. In this paper, we present \\textbf{FP4Quant}, a micro-grouped FP4 compression framework for efficient model-parallel LLM training. FP4Quant integrates a micro-grouped dual-scale FP4 quantization mechanism to preserve local tensor distribution characteristics, a warp-cooperative FP4 packing scheme to enable efficient sub-byte data representation, and a hybrid two-level FWHT pipeline to mitigate quantization errors with GPU-aware execution optimization. Experiments on NVIDIA H100 GPUs with Qwen-7B demonstrate up to 1.56$\\times$ end-to-end throughput improvement over BF16, revealing a trade-off between throughput and model quality.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "354f5fae5b7f4cf0dbc9",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04330",
-      "title": "CORA: Teacher-Guided Causal O-RAN Adaptation for Jamming Detection",
-      "summary": "arXiv:2611.04330v1 Announce Type: new Abstract: In mission-critical networks, a missed jamming event is costlier than a false alarm, so detectors should favor recall, operate causally, and work without labeled attack data. Retrospective Key Performance Indicator (KPI) detectors meet the label-free requirement but rely on future context and cannot run in streaming operation. We present CORA, a teacher-guided reinforcement learning (RL) framework that transfers the hindsight of a retrospective detector to a causal one without labels during training or deployment. Offline, a retrospective KPI detector evaluated on unlabeled historical logs defines a recall-weighted reward for a masked controller that adapts the sensitivity, persistence, and grace of a causal KPI detector. At deployment, the teacher is removed and the frozen controller acts causally, with no ground-truth labels and no target-specific calibration. The design maps onto offline training in the Non-Real-Time RIC and causal control in the Near-Real-Time RIC of an Open Radio Access Network (O-RAN). Under leave-one-out transfer across ten 5G O-RAN testbed configurations, CORA reaches recall-oriented operating points on the deployable frontier that none of the evaluated baselines covers. A Proximal Policy Optimization (PPO) controller raises mean recall from 0.687 to 0.771 over a fixed default detector on all ten configurations, while a Deep Q-Network (DQN) achieves a comparable F2-score to the best teacher-selected static configuration, with 61% fewer false alarms. Removing the teacher lowers recall on every configuration.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "437419f64ff1351e2213",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04338",
-      "title": "Patching the Protocol: A Taxonomy of Pre-Registration Repairs in LLM-Proposer Experiments",
-      "summary": "arXiv:2611.04338v1 Announce Type: new Abstract: Pre-registration is increasingly proposed as a trust mechanism for machine-learning research involving LLM-generated content, but its canonical form assumes a frozen protocol can be executed unchanged. Software-intensive studies violate this assumption: the protocol is partly implemented, and implementations carry defects. We report a three-case study of protocol repairs (\"patches\") from a program where an LLM proposes executable rules that a programmatic verifier gates, across production scheduling, incentive design, and task assignment. Each protocol required exactly one defect-repair patch: three events in total. None modified a numbered judgment criterion, its threshold, or the scoring rule, and none altered already collected data; two changed pre-registered design parameters before any data were collected, each with a recorded rationale. We propose a two-axis taxonomy of patches (defect class: environmental / feasibility / correctness, x timing: pre-data / post-data), introduce a verifiable non-impact claim for post-data repairs, and distill a nine-item checklist; all nine items were exercised by at least one patch event -- an observation of use, not a validation of sufficiency. The credibility of verifier-bound, LLM-proposer studies depends less on whether patches occur than on whether they are auditable.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "becab9f114351d31c856",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04342",
-      "title": "Beyond Fine-Tuning: Evaluating Prompt Engineering and Prompt Tuning for Roman Urdu Hate Speech Detection",
-      "summary": "arXiv:2611.04342v1 Announce Type: new Abstract: Low Resource Languages (LRLs) pose significant challenges for hate speech detection because of a scarcity of readily available annotated data, language variation, non-standard spelling, and context-dependent ambiguity. Beyond the problem of informal conventions of writing in Roman Urdu, there is also the issue of code-mixing. After working on the previous project about zero-shot learning and parameter-efficient fine-tuning (PEFT), this research systematically compares prompt engineering and prompt tuning for Roman Urdu hate speech detection. To study the effect of in-context examples, we will compare the zero-shot and few-shot prompting approaches. To understand the advantage of structured prompting and learnable prompt representations, we will conduct studies of manual vs. mixed prompt-based adaptation strategies. Experimentations are carried out on the PURUT dataset (~72,771 social media comments) with GPT-3.5, LLaMA-3, Mistral-7B, and multilingual BERT in several settings. Experimental results show that few-shot prompting always outperforms zero-shot prompting, with the Mistral-7B model scoring 0.67 F1 compared to 0.56 of the zero-shot models. Based on this observation, prompt-based adaptation is proposed to introduce additional improvements, with the proposed mixed prompt configuration able to yield a F1-score up to 0.87 which further surpasses the performance of regular manual prompts. Despite the larger size of the model, its performance trade-off between inference-based prompting, prompt optimization, and parameter-efficient model adaptation is compared to the previously reported PEFT-based F1-score, which is ~0.93.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "cc6641dc37a87eea342c",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04369",
-      "title": "Benchmarking Unsupervised Jamming Detection in 5G Open RAN",
-      "summary": "arXiv:2611.04369v1 Announce Type: new Abstract: Radio Frequency (RF) jamming threatens fifth-generation (5G) networks. Open Radio Access Network (Open RAN) telemetry enables jamming detection without dedicated spectrum monitoring equipment, but labeled attack data are rarely available across deployments, motivating unsupervised detectors. Comparing such detectors across algorithmic families, however, remains difficult without ground-truth labels. This paper benchmarks statistical and reconstruction-based unsupervised jamming detectors using a symmetric evaluation interface that combines detection confidence and temporal interval coherence into a detector-independent composite score. We compare a Statistical Ensemble Method (SEM) detector against Vanilla, Long Short-Term Memory (LSTM), and Variational Autoencoder (VAE) baselines on Key Performance Indicator (KPI) telemetry from ten heterogeneous 5G environments with fixed and variable jamming bursts and dynamic jammer gains. Under leave-one-out (LOO) evaluation, SEM achieves a mean composite score of 0.906, compared with 0.688 for the best autoencoder (AE) per fold. Ground-truth validation yields a mean F1-score of 0.918 for SEM, compared with 0.521 for the best AE variant. The composite ranks SEM first in all environments, consistent with F1 rankings. However, in both within-trace and cross-trace evaluation, it fails for detectors that flag far fewer samples than the jamming prevalence, indicating that rankings are reliable only when detection rate matches the expected prevalence.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "29353614f30f8140be2a",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04371",
-      "title": "Embodied AI for Scientific Discovery: From Physical Action to Scientific Evidence",
-      "summary": "arXiv:2611.04371v1 Announce Type: new Abstract: Scientific experiments are increasingly selected, executed and interpreted by learned systems that act through physical interfaces. Robot learning builds physical competence, whereas AI for science chooses which experiment to run, each reporting different endpoints. This review treats their interface as one problem, embodied AI for science, where the experiment itself is partially observed: specimen state, apparatus state and measurement processes are latent, actions are costly and irreversible, and missingness depends on execution and outcome. We organize the literature by three closures operating at distinct levels: operational closure (the experiment realized is the one intended), epistemic closure (the result updates beliefs or selects subsequent experiments) and evidential closure (the record supports a claim). We analyze workflows through a record-linked evidence cycle - Record, Diagnose, Calibrate, Confirm - as analytic functions with feedback. A taxonomy crosses these closures with six delegated decisions and five embodiment classes. Our formulation separates commanded, realized and observed conditions and models diagnosis with explicit resource, risk and sample-change costs. We compare experiment-selection methods by terminal decision, review perception, protocol compilation, visuomotor policies, world models, recovery and transfer by evidence emission requirements, and compare chemistry, materials, biology, microscopy and field workflows by what their records establish. An appendix provides an evidence map of 28 workflows (26 physical, two software-boundary), characterizing validation pathways and claim confirmation requirements. We propose evaluation that separates actions, valid experiments, campaigns and confi",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "2b56633c2df555e3ab66",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04380",
-      "title": "Twice as Fast, Until It Isn't: Quantized Serving of Mid-Size Open LLMs",
-      "summary": "arXiv:2611.04380v1 Announce Type: new Abstract: A team serving a 9B-20B open-weight language model on vLLM or SGLang must choose a quantization recipe, and needs two numbers: the speedup over BF16 and the accuracy given up. We assemble every public measurement of these numbers that we could verify and find that the record supplies them only in pieces. Only two checkpoints, both INT4 builds of Gemma 3 12B, have both a vLLM timing and an accuracy score, and that score covers a single MMLU subject, one that the AWQ build was calibrated on. The batch-1 timings predate current engine releases, AMD and Intel Gaudi have no timing in this band at all, and FP4 has none against BF16. The timings that do exist follow one rule. Decoding a small batch is limited by memory bandwidth, so 4-bit weights roughly double speed (2.12x for Qwen2.5-14B on an A100), but the gain vanishes once a large batch makes the GPU compute-bound (1.02x for Gemma 3 12B at batch size 256), where FP8 is the recipe that can still help. Many published accuracy deltas, including every HumanEval delta, lie within benchmark sampling noise. We close with a seven-item reporting checklist for future measurements.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "3997e8fa5e12a6627e6b",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04391",
-      "title": "Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs",
-      "summary": "arXiv:2611.04391v1 Announce Type: new Abstract: Pretrained Vision-Language-Action (VLA) policies provide a strong starting point for deployment, but adapting them to a target robot and environment still requires costly embodiment-specific demonstrations. Human demonstrations are far easier to collect, yet directly leveraging them is challenging due to the substantial human-robot embodiment gap, particularly when the underlying VLA has been pretrained primarily on robot data. We introduce H2RB (Human-To-Robot Bridge), a human-robot co-training framework for adapting pretrained VLA policies from unpaired human and robot demonstrations. H2RB bridges the embodiment gap at both interfaces: geometry-anchored alignment grounds human and robot observations in a compatible representation, while a decoupled-decoder tokenizer shares action latents without forcing both domains through a single action mapping. This design allows human demonstrations to provide useful behavioral supervision while retaining the rich visual, semantic, and control priors of the pretrained VLA. Across real-world tasks, H2RB substantially improves object transfer performance from 8.0 to 51.8 and enables skill transfer to score 62.7, in settings where co-train baselines totally fail to transfer human-demonstrated skills. The benefit also persists under object-placement shifts, improving out-of-distribution transfer from 6.0 to 45.3. H2RB suggests a way for human demonstrations to serve as a scalable supervision source for adapting pretrained robotic policies, reducing the dependence on costly target-robot data collection.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "e880e309098c194f858b",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04395",
-      "title": "Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior",
-      "summary": "arXiv:2611.04395v1 Announce Type: new Abstract: Fine-tuning data can include metadata that predicts the correct answer, such as a reward-model score or a quality label. We ask whether a model learns to rely on this metadata even when every training label is correct. We fine-tune 7-9B open-weight models from three families on multiple-choice questions in which (Reward: 5) always marks the correct option; when this annotation is moved to a wrong option at test time, models select that option on 97-100% of CommonsenseQA items. Removing it leaves most answers correct, so evaluation without it misses the dependence. Cue-following rises sharply with training-time reliability and develops even with neutral or nonsense annotation words, although test-time wording affects its strength. A Qwen3 experiment also finds cue dependence in option-letter scores after direct preference optimization. Audits can test for this dependence by moving or removing visible annotations while holding the task and correct answer fixed.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "a9523ce4e3bbd5901600",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04399",
-      "title": "Silent Instrument Errors Reorder Agent Leaderboards",
-      "summary": "arXiv:2611.04399v1 Announce Type: new Abstract: On a public agent leaderboard, a general-purpose agent trails a scaffold built for an airline customer-service benchmark by 13 points on the tasks that touch its database, and a reader could conclude that generality costs accuracy. The gap comes from the grader. The general agent often ends its conversations in a way that never triggers grading, so only about half of its episodes were scored and the rest were stored as failures. Grading the ungraded half under the benchmark's own rule closes the pooled gap, without rerunning any agent. We audit two carefully maintained public leaderboards, HAL and tau2-bench, from their published artifacts alone and find three more instrument errors. A cost column counts nested model calls twice, unevenly across rows. Archived trajectories record grader-written actions as agent actions. Re-grading saved trajectories under a newer evaluator is itself a new measurement: a correct and announced fix reorders a leaderboard, and a mode check that misreads four files collapses their scores by 59 to 82 points while printing no error. Each produced a plausible number, and the HAL maintainers confirmed their three within five weeks. Together the cases show that the infrastructure of agent evaluation, meaning the code that grades, logs, replays and versions an evaluation, is part of the measurement and fails silently, so scores and orderings can move with no visible sign. These failure modes follow from how agent evaluation pipelines are built, and those pipelines change as fast as the agents they measure, so we expect more of them elsewhere. We propose cheap checks that expose the instrument: report the graded fraction, aggregate cost from root spans, tag the provenance of every recorded action, and",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "a66487fc0ada9ac968aa",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04413",
-      "title": "CaliSplat: Sparse Gaussian Fitting and Calibrated Rate Allocation for Image Compression",
-      "summary": "arXiv:2611.04413v1 Announce Type: new Abstract: 2D Gaussian representations provide an explicit and lightweight alternative for image representation, enabling fast deterministic decoding without a heavy neural synthesis network. However, existing per-image Gaussian codecs still require costly image-specific optimization to determine how limited Gaussian capacity should be distributed across heterogeneous regions. We introduce CaliSplat, an optimization-efficient Gaussian image codec that selectively explores candidate representations and globally allocates a constrained Gaussian budget. We exploit the closed-form reconstruction error of the single-Gaussian case as an inexpensive measure of local difficulty, fitting higher-capacity candidates only in regions where additional Gaussians are likely to be useful. To reduce selection errors caused by mismatched convergence rates across candidate sizes, a small set of longer-horizon fits is used to calibrate short-horizon distortion estimates before global budget-aware selection. The selected representation is then compressed into a bitstream. Across standard and large image datasets, CaliSplat achieves competitive or superior rate--distortion performance while reducing per-image fitting time by $3.0\\times$--$15.7\\times$ compared with representative Gaussian codecs. It further maintains high-throughput deterministic decoding at $175.9$--$478.2$~MP/s. These results demonstrate that content-adaptive Gaussian compression can substantially reduce per-image optimization cost while preserving strong reconstruction quality and efficient explicit decoding.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "8a59f3e03b5b50e32676",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04420",
-      "title": "Verifier strength does not buy discovery quality: a pre-registered two-domain test of LLM-based automated research, with post-hoc evidence pointing to proposer-pool composition",
-      "summary": "arXiv:2611.04420v1 Announce Type: new Abstract: Automated research pipelines pair an LLM proposer with a verifier on an implicit bet: discovery quality rises with verification strength. Under a pre-registered protocol we test this bet in two real-data domains -- job-shop scheduling and vehicular edge offloading on Beijing T-Drive trajectories -- across 100 matched LLM/random pairs per domain and three verifier tiers. The manipulation binds -- a 429-case mutation battery shows scores rising across tiers -- yet the paired LLM-over-random advantage does not scale with it (A, one-sided p=0.1115; D, p=0.9994), and in D shrinks under the strict tier (margin contrast -0.040, p=0.0013). The two lower gates promote identical candidates in 100/100 and 99/100 pairs, so the strict order is untestable when they coincide. Constructively, LLM proposals carry a real paired advantage over random controls, but a post-hoc union-pool analysis shows the fastest path to better discovery is widening the pool, not tightening the gate: mixing the two pools adds +1.52 holdout-value units in domain A (one-sided Wilcoxon, n=100, p=0.0002) -- evidence that pool composition, not verification strength, is the lever. Criteria, ledgers and scripts are archived on Zenodo (DOI: 10.5281/zenodo.23308866).",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "7184f157ca81a2c9a710",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04447",
-      "title": "Formalizing PTX in Lean to Prove GPU Kernel Correctness",
-      "summary": "arXiv:2611.04447v1 Announce Type: new Abstract: We present an approach to mathematically formalizing PTX, an approach that allows modeling and reasoning about patterns common in GPU kernels for Deep Learning, including acquire-release, tensor cores, proxies, async operations, multi-kernel pipelines and data-dependent control flow. We implement it in Lean and use it to prove the correctness of simple implementations of a WGMMA GEMM kernel, FlashAttention, and a 3-kernel MoE pipeline.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "580974bb55ac5ec1ba87",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04458",
-      "title": "Large Language Model-Assisted Adaptive Heuristic Search for Agile Earth Observation Satellite Scheduling",
-      "summary": "arXiv:2611.04458v1 Announce Type: new Abstract: Agile Earth observation satellites must coordinate imaging tasks within limited observation windows, while accounting for attitude maneuvering and onboard energy constraints. Competition among observation opportunities makes scheduling performance sensitive to the heuristic rules used for task selection. This letter proposes a large language model (LLM)-assisted adaptive heuristic search method for agile Earth observation satellite scheduling. The LLM generates an initial heuristic rule according to the characteristics of the scheduling instance. During the subsequent ant colony search, search performance and scheduling information are fed back to the LLM to refine the heuristic rule. The proposed modifications are evaluated through paired solution constructions before being incorporated into the search process. A unified scheduling procedure determines task selection, satellite assignment, and observation timing under the operational constraints. Experiments on six scheduling scenarios involving 50--200 imaging tasks demonstrate that the proposed method achieves 4.3\\%--9.6\\% higher mean observation benefit than the strongest baseline.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "c5f89dd9b775d6a7341a",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04473",
-      "title": "Treating the Symptom, Missing the Cause: Anatomy of a Scientific Reasoning Failure",
-      "summary": "arXiv:2611.04473v1 Announce Type: new Abstract: Scientific agents can find interventions that work without understanding why they do. We study this failure mode in controlled synthetic regulatory systems, where agents must experimentally identify a hidden fault and rescue the resulting phenotype. Across seven LLMs, every model restores the healthy phenotypes more often than it identifies the fault. Claude Opus 4.6 and Sonnet 4.6 rescue every organism while diagnosing only 55% and 35% of them. This failure is not simply due to insufficient exploration or unavailable evidence. In most cases, the cause is experimentally identifiable, and agents encounter evidence that distinguishes competing causes in 91% of relevant sessions, and still frequently misdiagnose the system. Targeted probes reveal where experimental reasoning breaks down. Models reliably interpret decisive evidence and revise hypotheses when the causal comparison is explicit, and can locate that evidence within a full experimental record. However, they struggle to predict the outcome of the experiment under each competing cause, a necessary step in using the observed result to distinguish between them. Agents can therefore gather the right evidence and still infer the wrong cause. As AI systems take on a growing role in synthesising scientific evidence, these findings highlight the need to evaluate how they use evidence to reach causal conclusions, alongside whether their interventions succeed.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "8db06e14d43e99fb121e",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04479",
-      "title": "A Parametric Linear Conic Projection for Structured Sparse Attention",
-      "summary": "arXiv:2611.04479v1 Announce Type: new Abstract: In this paper, we introduce the Cone Alignment Index (CAI), a scale-invariant sparsity measure associated with a Lorentz-cone geometry. We provide a probabilistic analysis of the distribution of the CAI score, including a general theorem and explicit corollaries for Gaussian and uniform distributions. As a consequence, we show that, in the high-sparsity regime, the probability that the samples lie within the convex cone tends to one. Building upon this formulation, we derive two complementary projections: the \\emph{Parametric Linear Conic Projection} (PLCP), an efficient closed-form approximation, and the \\emph{Parametric Euclidean Conic Projection} (PECP), the exact Euclidean projection onto the cone boundary. Our analysis establishes several fundamental theoretical properties. We prove that PLCP and PECP are collinear, differ only by a positive radial scaling factor, and induce exactly the same sparsity threshold, thereby preserving an identical active support. Furthermore, we derive a support-identification theorem showing that, for any prescribed sparsity level $l<n$, the number of coefficients discarded at each iteration is theoretically controlled. Building on this theoretical foundation, we develop a bilevel PLCP framework for structured matrix sparsification. The proposed method naturally generates hardware-friendly structured sparsity patterns, including row-wise, column-wise, and diagonal masks, making it particularly well suited for accelerating Transformer attention mechanisms.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "cb626acdbfb45f9e7bc3",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04481",
-      "title": "Goal-Driven Autonomous Optical Experimentation via a Self-Recursive Hardware-Software Harness",
-      "summary": "arXiv:2611.04481v1 Announce Type: new Abstract: We propose goal-driven self-recursive optical research in which agents use physical evidence to revise the hardware, software, models, and protocols used to pursue a scientific goal. The framework can be instantiated with different stimulus systems and measurement devices. We formalize its updates and derive a relation between physical attainability, command access, and model approximation error. We demonstrate the concept in an optical see-through color-matching case study using an iPad, RayNeo X3 glasses, and a TOP 300 probe coupled to a CAS140D spectroradiometer, both from Instrument Systems. A revised glasses application adds USB-controlled RGB holds and frame acknowledgements, keeping model-generated colors displayed during spectral acquisition. The interface passes 12 live control checks. Spectral feedback reduces one target color difference from 19.756 to 1.211 {\\Delta}E_76^*; all five targets improve in a separate comparison. These measurements demonstrate the concept in one configuration. The resulting software and protocols remain available for subsequent investigations.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "b393d73ffed78812f088",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04483",
-      "title": "CogniLife: Continuous Cognitive Distillation for Deployed Multi-Expert Agent Marketplaces",
-      "summary": "arXiv:2611.04483v1 Announce Type: new Abstract: Multi-expert agent marketplaces -- where creators publish domain-specific AI experts for end users to consult -- are an emerging deployment pattern for language technology. A published expert can receive many requests yet little evidence about its creator, who remains active elsewhere: the cold-expert problem. We frame continuous cognitive distillation as converting attributed creator observations into revisable decision rules, communication patterns, and domain procedures. CogniLife proposes a cross-expert attribution design for this problem, with Creator Profiles for transferable creator patterns and Expert Journals for listing-specific knowledge; this design is not yet implemented or evaluated. A deployed platform partially realizes the surrounding lifecycle through creator-authorized authoring, capability-owned proposal filtering, and reversible consolidation of eligible owner-scoped memory. On ProfyBench-v1, an 85-task offline benchmark built from replay seeds and controlled internal tests, the Profy Full configuration as a whole achieves a mean overall score of 4.65/5 from the primary LLM judge, compared with 4.01 for Raw LLM and 4.28 for Expert Prompt, with the largest gains in completeness, specificity, and missing-information tasks. These configuration-level scores do not test cold-expert mitigation, cross-expert transfer, or longitudinal distillation.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "eccfa2513547a520bc59",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04487",
-      "title": "Reconstruction-Based Diagnosis through G\\\"odel-Regularized Virtual Observability",
-      "summary": "arXiv:2611.04487v1 Announce Type: new Abstract: Not every component in a technical system can be equipped with sensors. Hence, when a fault occurs, available sensors often detect it only after its effects have propagated. This makes the isolation of faults difficult. We approach this problem by introducing virtual sensors. For each combination of component and fault type, we let external knowledge describe the fault-sensitive variables. We introduce a novel neural observer that is only trained on normal data. For fault isolation, it uses available sensor measurements where it is possible and reconstructs missing variables as virtual sensors to predict normal behavior. It detects deviations between current values and nominal predictions and computes local symptoms, which are then compared by onset time. The result is a set of root causes describing the faulty behavior. We use G\\\"odel logic to encode physical knowledge and guide training. We evaluate our approach on synthetic networks, the Tennessee Eastman Process, and datasets of two modular production plants.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "0b893b6da825cc7b2adf",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04494",
-      "title": "Spatial Memory for AR Glasses: Hierarchical Visual Acquisition and Source-Linked Recall",
-      "summary": "arXiv:2611.04494v1 Announce Type: new Abstract: We present a spatial-memory system that enables optical see-through AR glasses to recall earlier physical encounters. The dual-camera prototype combines hierarchical visual acquisition with source-linked storage and staged retrieval. Quality screen-ing, global and regional appearance novelty, and temporal support select monochrome observations for detailed RGB cap-ture. Semantic observations retain links to their source images, allowing retrieval to answer indexed historical questions direct-ly or inspect visual details omitted from scene descriptions. The architecture separates capture acceptance, interpretation out-come, and support for a particular question. This distinction motivates two core control mechanisms: bounded reassessment of familiar views when earlier processing leaves an evidence gap, and retention guided by source dependencies. In a 131.35 s egocentric replay, the implemented acquisition policy selected six RGB views from 648 monitoring observations, while feature extraction ran on 97.7% of observations. These results demon-strate selective RGB acquisition and identify frequent local inference as a remaining cost. Exposure duration and cross-view timing further constrain the evidence preserved from se-lected encounters. The system provides a practical acquisition-to-recall architecture for persistent AR assistance, with explicit boundaries between captured evidence, indexed interpretations, and supported historical claims.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "58aedcd3978828cc0afc",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04507",
-      "title": "Signals: Continuous Diagnostics of AI Agents",
-      "summary": "arXiv:2611.04507v1 Announce Type: new Abstract: AI agents can make incorrect decisions or waste resources even when their tools and infrastructure work normally. Their nondeterministic behavior makes these problems difficult to reproduce and diagnose. We developed Signals to identify such problems from agentic traces and suggest concrete remediations. We built the method around a taxonomy of 45 problem types across eight families, with definitions and evidence requirements for each type. The method distinguishes realized failures, risk exposures, and inefficiencies, groups related findings into engineering issues called Signals, and assesses their severity from the supporting evidence. Each Signal includes actions a developer can take and checks for evaluating the change. Further executions can add evidence to an existing Signal or reveal a new problem. We evaluated the method on public agent executions and achieved 91.43% F1 when matching Signals to reference issues, about 18 percentage points higher than a one-pass LLM control that used the same model and taxonomy.",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "collected_at": "2026-11-04T09:06:04+00:00",
-      "region": "global",
-      "topic_tags": [
-        "ai",
-        "agents",
-        "research"
-      ],
-      "reliability_tier": "primary_research",
-      "evidence_class": "lead_unverified",
-      "verification_status": "not_reviewed"
-    },
-    {
-      "id": "1a336e615caeb405cf01",
-      "source_id": "arxiv-cs-ai-rss",
-      "source_name": "arXiv RSS — Artificial Intelligence research",
-      "source_type": "rss",
-      "source_url": "https://rss.arxiv.org/rss/cs.AI",
-      "url": "https://arxiv.org/abs/2611.04510",
-      "title": "Fast, Cheap, and Fair? Evaluating Decision Models",
-      "summary": "arXiv:2611.04510v1 Announce Type: new Abstract: Industries are increasingly adopting AI-driven systems to automate a wide range of tasks, including high-stakes decisions in human resources, such as candidate screening and recruitment. This makes evaluating their fairness essential, particularly when decisions directly affect individuals' opportunities. Accordingly, the EU AI Act classifies recruitment AI systems as high-risk, imposing strict requirements on their deployment. In this context, compact ``System~1'' decision models offer a fast and cost-efficient alternative to general-purpose LLMs, yet their fairness remains largely unexplored. This article presents the first systematic bias and fairness audit of \\jev{}, a typed-decision model targeting recruitment applications. The study evaluates how explicit demographic attributes and implicit candidate cues influence screening scores, rankings, and shortlisting outcomes. These effects are compared against a noise floor derived from name substitutions and typographical variations. The evaluation also examines output validity, latency, and cost. Counterfactual CV datasets and evaluation code are released for reproducibility.",
       "published_at": "2026-11-04T05:00:00+00:00",
       "collected_at": "2026-11-04T09:06:04+00:00",
       "region": "global",
