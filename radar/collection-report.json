@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "started_at": "2026-11-14T08:55:51+00:00",
-  "finished_at": "2026-11-14T08:55:55+00:00",
+  "started_at": "2026-11-15T09:17:43+00:00",
+  "finished_at": "2026-11-15T09:18:07+00:00",
   "sources_configured": 5,
-  "sources_succeeded": 5,
-  "sources_failed": 0,
-  "items_new_this_run": 123,
+  "sources_succeeded": 2,
+  "sources_failed": 3,
+  "items_new_this_run": 0,
   "items_retained": 1200,
   "results": [
     {
@@ -14,7 +14,7 @@
       "status": "success",
       "items_seen": 0,
       "items_new": 0,
-      "duration_ms": 279
+      "duration_ms": 194
     },
     {
       "source_id": "arxiv-cs-ro-rss",
@@ -22,31 +22,34 @@
       "status": "success",
       "items_seen": 0,
       "items_new": 0,
-      "duration_ms": 69
+      "duration_ms": 15
     },
     {
       "source_id": "google-news-ai-enterprise",
       "source_name": "Google News RSS — enterprise AI adoption",
-      "status": "success",
-      "items_seen": 100,
-      "items_new": 58,
-      "duration_ms": 466
+      "status": "failed",
+      "items_seen": 0,
+      "items_new": 0,
+      "duration_ms": 7856,
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "source_id": "google-news-robotics",
       "source_name": "Google News RSS — industrial robotics and humanoid robots",
-      "status": "success",
-      "items_seen": 82,
-      "items_new": 47,
-      "duration_ms": 410
+      "status": "failed",
+      "items_seen": 0,
+      "items_new": 0,
+      "duration_ms": 9418,
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "source_id": "google-news-crossborder",
       "source_name": "Google News RSS — cross-border trade and export services",
-      "status": "success",
-      "items_seen": 27,
-      "items_new": 18,
-      "duration_ms": 310
+      "status": "failed",
+      "items_seen": 0,
+      "items_new": 0,
+      "duration_ms": 5333,
+      "error": "HTTP Error 503: Service Unavailable"
     }
   ]
 }
